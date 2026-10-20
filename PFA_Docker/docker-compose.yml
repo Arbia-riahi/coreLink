@@ -1,0 +1,88 @@
+version: '3.8'
+
+services:
+
+  database:
+    image: mysql:8.0
+    container_name: corelink-db
+    restart: always
+    environment:
+      MYSQL_DATABASE: pfa
+      MYSQL_ROOT_PASSWORD: root
+    volumes:
+      - coreLink_data:/var/lib/mysql
+    networks:
+      - corelink_app
+
+  corelink-back:
+    image: arbeya/backend
+    container_name: backend_container
+    hostname: corelink-back
+    restart: always #ken ytyh container panne , lezm y3awed restart wahdou 
+    ports:
+      - "8081:8080"
+    depends_on:
+      - database
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:mysql://database:3306/pfa?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC&createDatabaseIfNotExist=true
+      SPRING_DATASOURCE_USERNAME: root
+      SPRING_DATASOURCE_PASSWORD: root
+    volumes:
+      - ./uploads/files:/app/uploads/files
+      - ./uploads/audio:/app/uploads/audio
+    networks:
+      - corelink_app
+
+  corelink-front:
+    image: arbeya/frontend
+    container_name: frontend_container
+    hostname: corelink-front
+    restart: always
+    depends_on:
+      - corelink-back
+    ports:
+      - "58080:80"
+    networks:
+      - corelink_app
+
+  selenium-test:
+    image: arbeya/selenium
+    container_name: ui_tests_container
+    depends_on:
+      corelink-front:
+        condition: service_started
+      corelink-back:
+        condition: service_started
+    environment:
+      FRONTEND_URL: http://corelink-front:80
+      BACKEND_URL:  http://corelink-back:8080
+    volumes:
+      - ./corelinkDocker/src/test/resources/config:/app/src/test/resources/config
+    networks:
+      - corelink_app
+
+
+  phpmyadmin:
+    image: phpmyadmin
+    container_name: phpmyadmin_container
+    restart: always
+    depends_on:
+      - database
+    ports:
+      - "8071:80"
+    environment:
+      PMA_ARBITRARY: 1
+    networks:
+      - corelink_app
+
+
+
+volumes:
+  coreLink_data:
+    external: true
+
+
+
+networks:
+  corelink_app:
+    driver: bridge

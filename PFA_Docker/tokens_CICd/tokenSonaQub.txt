@@ -1,0 +1,2 @@
+type :secret text
+squ_8bb69b0d9c67aac5021f88cabf88fc86e756d611

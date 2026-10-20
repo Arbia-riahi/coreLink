@@ -1,0 +1,39 @@
+[INFO] 05-01-2026 15:40:33 [main] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (042ed39eef2b91a48406dd553f8e025a)
+[INFO] 05-01-2026 15:40:33 [main] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (042ed39eef2b91a48406dd553f8e025a)
+[DEBUG] 05-01-2026 15:40:37 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 05-01-2026 15:40:38 [main] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 05-01-2026 15:40:38 [main] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[DEBUG] 05-01-2026 15:40:38 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 05-01-2026 15:40:40 [main] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 05-01-2026 15:40:41 [main] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[DEBUG] 05-01-2026 15:40:41 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[INFO] 05-01-2026 15:40:42 [main] [com.actions.ElementActions] - Click réussi sur l'élément : Se connecter
+[DEBUG] 05-01-2026 15:40:47 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[INFO] 05-01-2026 15:40:48 [main] [com.actions.ElementActions] - Click réussi sur l'élément : Gérer les Comptes
+[DEBUG] 05-01-2026 15:40:48 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[INFO] 05-01-2026 15:40:50 [main] [com.actions.ElementActions] - Click réussi sur l'élément : Ajouter
+[DEBUG] 05-01-2026 15:40:52 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 05-01-2026 15:40:52 [main] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 05-01-2026 15:40:53 [main] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[DEBUG] 05-01-2026 15:40:53 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 05-01-2026 15:40:53 [main] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 05-01-2026 15:40:54 [main] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[DEBUG] 05-01-2026 15:40:54 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 05-01-2026 15:40:54 [main] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 05-01-2026 15:40:55 [main] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[DEBUG] 05-01-2026 15:40:55 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 05-01-2026 15:40:55 [main] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 05-01-2026 15:40:56 [main] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[DEBUG] 05-01-2026 15:40:58 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[ERROR] 05-01-2026 15:40:59 [main] [com.actions.ElementActions] - Échec du click sur WebElement : element click intercepted: Element is not clickable at point (732, 652)
+  (Session info: chrome=143.0.7499.170)
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [042ed39eef2b91a48406dd553f8e025a, clickElement {id=f.9B4929C968B7E0B9930EF55DAE22232F.d.EE148DE8C4357AA9ACF5EA858C4C495B.e.68}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 143.0.7499.170, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54991}, goog:processID: 13092, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54991/devtoo..., se:cdpVersion: 143.0.7499.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (042ed39eef2b91a48406dd553f8e025a)] -> css selector: .btn.btn-primary.w-100]
+Session ID: 042ed39eef2b91a48406dd553f8e025a
+[ERROR] 05-01-2026 15:41:03 [main] [com.hooks.TearDown] - Le scénario a échoué : Création d un nouvel utilisateur avec succès
+[INFO] 05-01-2026 15:41:04 [main] [com.hooks.TearDown] - Driver fermé correctement pour le scénario : Création d un nouvel utilisateur avec succès
+[DEBUG] 05-01-2026 15:41:04 [main] [com.hooks.TearDown] - ThreadContext nettoyé après exécution du scénario : Création d un nouvel utilisateur avec succès

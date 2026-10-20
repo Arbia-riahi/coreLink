@@ -1,0 +1,6 @@
+
+1) Télécharger Selenium Server depuis : https://www.selenium.dev/downloads/
+2) Mets-le dans un dossier, par exemple ena 7atitou fin ne5dem :C:\Users\hp\eclipse-workspace\corelink
+3)Démarrer le Hub (cerveau) -> cmd ->: java -jar selenium-server-4.38.0.jar hub
+4)Le Hub démarre sur : http://localhost:4444
+5)Démarrer un Node (un worker) :java -jar selenium-server-4.38.0.jar node --detect-drivers true

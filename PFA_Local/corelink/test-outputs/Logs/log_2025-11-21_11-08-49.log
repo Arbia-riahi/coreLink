@@ -1,0 +1,13 @@
+[INFO] 21-11-2025 11:08:50 [main] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (f5a964f3d4bc6ea8240d7927824910d7)
+[INFO] 21-11-2025 11:08:50 [main] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (f5a964f3d4bc6ea8240d7927824910d7)
+[DEBUG] 21-11-2025 11:08:52 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 21-11-2025 11:08:53 [main] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 21-11-2025 11:08:53 [main] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[DEBUG] 21-11-2025 11:08:53 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 21-11-2025 11:08:54 [main] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 21-11-2025 11:08:54 [main] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[DEBUG] 21-11-2025 11:08:54 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[INFO] 21-11-2025 11:08:55 [main] [com.actions.ElementActions] - Click réussi sur l'élément : Se connecter
+[ERROR] 21-11-2025 11:09:06 [main] [com.hooks.TearDown] - Le scénario a échoué : Modification complète de l utilisateur existant
+[INFO] 21-11-2025 11:09:09 [main] [com.hooks.TearDown] - Driver fermé correctement pour le scénario : Modification complète de l utilisateur existant
+[DEBUG] 21-11-2025 11:09:09 [main] [com.hooks.TearDown] - ThreadContext nettoyé après exécution du scénario : Modification complète de l utilisateur existant

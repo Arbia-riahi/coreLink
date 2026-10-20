@@ -1,0 +1,40 @@
+.user-container {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* espace entre le texte et l'image */
+}
+
+.user-name {
+  font-size: 20px;
+  font-weight: 700;
+  color: #292020; /* Noir */
+  white-space: nowrap; /* Empêche le texte de passer à la ligne */
+}
+
+.user-image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border: 2px solid #ccc;
+  transition: transform 0.2s;
+}
+
+
+
+/*notifications*/
+.badge-counter {
+  position: absolute;
+  transform: scale(.7);
+  transform-origin: top right;
+  top: 1.5rem;
+  right: 0.5rem;
+}
+.icon-circle {
+  width: 2rem;
+  height: 2rem;
+  text-align: center;
+  border-radius: 50%;
+  line-height: 2rem;
+}
+
+

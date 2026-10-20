@@ -1,0 +1,7 @@
+[INFO] 07-12-2025 18:05:51 [main] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (826c9e893802751e8974d98e9aa8dc7b)
+[INFO] 07-12-2025 18:05:51 [main] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (826c9e893802751e8974d98e9aa8dc7b)
+[ERROR] 07-12-2025 18:05:57 [main] [com.hooks.TearDown] - Le scénario a échoué : Accès direct à une page protégée sans authentification
+[INFO] 07-12-2025 18:05:57 [main] [com.hooks.TearDown] - Driver fermé correctement pour le scénario : Accès direct à une page protégée sans authentification
+[DEBUG] 07-12-2025 18:05:57 [main] [com.hooks.TearDown] - ThreadContext nettoyé après exécution du scénario : Accès direct à une page protégée sans authentification
+[INFO] 07-12-2025 18:06:01 [main] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (35e4db2c3a6efffe6ff426e87f5f3530)
+[INFO] 07-12-2025 18:06:01 [main] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (35e4db2c3a6efffe6ff426e87f5f3530)

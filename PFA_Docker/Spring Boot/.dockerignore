@@ -1,0 +1,36 @@
+# Maven / Gradle build folders
+target/
+build/
+
+# Maven Wrapper
+.mvn/
+mvnw
+mvnw.cmd
+
+# IDE settings
+.idea/
+*.iml
+.vscode/
+*.classpath
+*.project
+*.settings/
+
+# Git
+.git
+.gitignore
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+
+# Docker
+Dockerfile
+

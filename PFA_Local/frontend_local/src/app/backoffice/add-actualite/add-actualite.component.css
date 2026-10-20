@@ -1,0 +1,130 @@
+/* ====== Thème professionnel (clair/sombre + accessibilité) ====== */
+.actualites-page {
+  --radius-card: 16px;
+  --radius-input: 12px;
+
+  --color-bg-page: #fdf8f7;
+  --color-bg-card: #ffffff;
+  --color-border: #f1e4e0;
+  --color-text: #4a3538;
+  --color-muted: #6c757d;
+
+  --primary: #bc7d84;      /* Bootstrap primary */
+  --primary-600: #a8686f;  /* hover */
+  --ring: 0 0 0 0.25rem rgba(188, 125, 132,.25);
+
+  --success: #198754;
+  --danger: #dc3545;
+
+  --shadow-sm: 0 8px 28px rgba(16,24,40,.08);
+  background: var(--color-bg-page);
+}
+
+
+
+/* ====== En-tête ====== */
+.page-header {
+  border-bottom: 1px solid rgba(0,0,0,0.06);
+  padding-bottom: .75rem;
+
+}
+
+.page-header .h3{
+  color: var(--color-text);
+  letter-spacing: .2px;
+  
+}
+
+/* ====== Carte ====== */
+.card {
+  border-radius: var(--radius-card);
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  box-shadow: var(--shadow-sm);
+}
+
+/* ====== Typo ====== */
+.fw-600 { font-weight: 600; }
+.text-muted { color: var(--color-muted) !important; }
+
+/* ====== Champs ====== */
+.form-label { color: var(--color-text); }
+
+.form-control {
+  border-radius: var(--radius-input);
+  border: 1px solid var(--color-border);
+  background: #fff;
+  padding: 0.8rem 0.95rem;
+  min-height: 48px;
+  font-size: 0.95rem;
+  line-height: 1.35;
+  transition: border-color .15s ease, box-shadow .15s ease, background-color .15s ease;
+}
+.form-control.form-control-lg { min-height: 52px; }
+
+
+.form-control:focus {
+  border-color: var(--primary);
+  box-shadow: var(--ring);
+  outline: none;
+}
+
+/* États Angular "touched/valid/invalid" (aucune logique changée) */
+.form-control.ng-invalid.ng-touched {
+  border-color: var(--danger);
+  box-shadow: 0 0 0 0.15rem rgba(220,53,69,.18);
+}
+.form-control.ng-valid.ng-touched {
+  border-color: var(--success);
+}
+
+/* ====== Input fichier plus premium ====== */
+.form-control[type="file"] {
+  padding: 0.55rem 0.75rem;
+  min-height: 46px;
+}
+.form-control[type="file"]::file-selector-button {
+  margin-right: 12px;
+  border: 1px solid var(--color-border);
+  background: #f9efec;
+  padding: 0.45rem 0.8rem;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color .15s ease, transform .06s ease;
+}
+.form-control[type="file"]::file-selector-button:hover { background-color: #f3e6e2; }
+.form-control[type="file"]::file-selector-button:active { transform: translateY(1px); }
+
+
+/* ====== Champ avec icône ====== */
+.input-icon { position: relative; }
+.input-icon .form-control { padding-left: 2.4rem; }
+.input-icon .icon {
+  width: 18px; height: 18px;
+  position: absolute; left: 12px; top: 50%; transform: translateY(-50%);
+  opacity: .55; pointer-events: none;
+  fill: currentColor; color: #b59c9e;
+}
+
+/* ====== Bouton principal ====== */
+.btn.btn-primary {
+  border: 0;
+  border-radius: 12px;
+  font-weight: 500;
+  letter-spacing: .2px;
+  padding:1px;
+  background: linear-gradient(180deg, #bc7d84 0%, #a8686f 100%);
+  box-shadow: 0 6px 14px rgba(188, 125, 132,.28);
+  
+}
+.btn.btn-primary:hover {
+  filter: brightness(1.03);
+  box-shadow: 0 10px 20px rgba(188, 125, 132,.36);
+}
+.btn.btn-primary:active { transform: translateY(1px); }
+.btn.btn-primary:disabled {
+  filter: grayscale(.12) brightness(.95);
+  box-shadow: none;
+}
+

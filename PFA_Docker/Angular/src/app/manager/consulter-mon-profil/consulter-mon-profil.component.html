@@ -1,0 +1,111 @@
+<div class="container-xxl py-5">
+  <div class="row g-4 justify-content-center">
+
+    <!-- Col gauche -->
+    <div class="col-lg-4">
+      <aside class="panel panel-left">
+        <div class="text-center">
+
+          <!-- Avatar -->
+          <div class="avatar position-relative d-inline-block mb-3">
+  <img
+    [src]="previewImage || getUserPhoto(user.image)"
+    alt="Photo de profil"
+    class="avatar__img"
+    (click)="triggerImageUpload()"
+    (error)="onImageError($event)"
+  >
+
+  <button type="button"
+          class="avatar__btn"
+          (click)="triggerImageUpload()"
+          aria-label="Changer la photo">
+    <i class="fa-solid fa-camera-retro"></i>
+  </button>
+</div>
+
+<!-- input file caché -->
+          <input
+            type="file"
+            #imageInput
+            (change)="onFileSelected($event)"
+            accept="image/*"
+            class="d-none">
+
+          <!-- Infos -->
+          <h3 class="fw-semibold mb-1">{{ user?.prenom }} {{ user?.nom }}</h3>
+          <div class="text-muted small mb-3" style="font-size: 15px;">
+            <i class="bi bi-envelope me-1"></i>{{ user?.email }}
+          </div>
+
+          <!-- Matricule -->
+          <div class="kv">
+            <span class="kv__label">Matricule</span>
+            <span class="kv__value">{{ user?.matricule }}</span>
+          </div>
+        </div>
+      </aside>
+    </div>
+
+    <!-- Col droite -->
+    <div class="col-lg-8">
+      <section class="panel">
+        <header class="panel__header">
+          <h3 class="panel__title">
+            <i class="fa-solid fa-id-card-clip me-2"></i>Mon profil
+          </h3>
+
+          <nav class="tabs">
+            <a class="btn btn-primary" role="button">
+              <i class="fa-regular fa-pen-to-square me-1"></i>  Changer mon profil
+            </a>
+            <a class="tabs__item" [routerLink]="['/manager/updatePassword']">
+               <i class="fa-solid fa-shield-halved me-1"></i> Changer mot de passe
+            </a>
+          </nav>
+        </header>
+
+        <div class="panel__body">
+          <form (ngSubmit)="onUpdateProfile(profileForm)" #profileForm="ngForm" autocomplete="off">
+            <!-- Matricule -->
+            <div class="mb-3">
+            <label class="form-label fw-semibold">Matricule</label>
+              <input type="text" class="form-control form-control-readonly" [value]="user?.matricule" disabled>
+            </div>
+ 
+            <!-- Nom & Prénom -->
+            <div class="row g-3">
+              <div class="col-md-6">
+                <label class="form-label fw-semibold">Nom</label>
+                <input type="text" class="form-control" [(ngModel)]="user.nom" name="nom" required>
+              </div>
+              <div class="col-md-6">
+                <label class="form-label fw-semibold">Prénom</label>
+                <input type="text" class="form-control" [(ngModel)]="user.prenom" name="prenom" required>
+              </div>
+            </div>
+
+            <!-- Email -->
+            <div class="mt-3">
+              <label class="form-label fw-semibold">Email</label>
+              <input type="email" class="form-control" [(ngModel)]="user.email" name="email" required>
+            </div>
+
+            <!-- Bouton -->
+            <div class="d-grid mt-4">
+              <button type="submit" class="btn btn-primary btn-lg">
+                <i class="bi bi-save me-1"></i> Mettre à jour le profil
+              </button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </div>
+
+  </div>
+</div>
+
+
+    
+
+   

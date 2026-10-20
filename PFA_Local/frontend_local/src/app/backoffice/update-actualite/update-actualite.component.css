@@ -1,0 +1,15 @@
+.photo-container {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.photo-circle {
+  width: 60px;       /* Taille des images */
+  height: 60px;      /* Taille des images */
+  border-radius: 50%; /* Rend les images circulaires */
+  object-fit: cover;  /* Coupe l'image pour qu'elle remplisse le cercle */
+  border: 2px solid #ddd;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+

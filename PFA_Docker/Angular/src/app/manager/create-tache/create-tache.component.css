@@ -1,0 +1,63 @@
+.form-label {
+  font-weight: bold;
+}
+
+
+mat-option i {
+  margin-right: 8px;
+  font-size: 1.2em;
+}
+
+#autresAssignes {
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid #a8686f;
+  padding: 8px;
+  font-size: 15px;
+}
+
+#autresAssignes:focus {
+  outline: none;
+  border-color: #94545c;
+  box-shadow: 0 0 5px rgba(188, 125, 132, 0.4);
+}
+
+#btn-choisir-membres {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 500;
+  border-radius: 6px;
+  padding: 6px 12px;
+}
+
+.checkbox-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 8px;
+  padding: 10px;
+  border: 1px solid #a8686f;
+  border-radius: 8px;
+  background: #fdf8f7;
+  max-height: 180px;
+  overflow-y: auto;
+}
+
+.checkbox-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+}
+
+.checkbox-item input[type="checkbox"] {
+  accent-color: #a8686f;
+  transform: scale(1.1);
+}
+
+.is-invalid {
+  border-color: #dc3545;
+  box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.25);
+}
+
+

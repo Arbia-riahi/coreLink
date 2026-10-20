@@ -1,0 +1,123 @@
+[INFO] 07-12-2025 18:09:45 [main] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (3241d29425a35eee497fd2ba7a708776)
+[INFO] 07-12-2025 18:09:45 [main] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (3241d29425a35eee497fd2ba7a708776)
+[INFO] 07-12-2025 18:09:49 [main] [com.actions.BrowserActions] - Navigated to URL: http://localhost:4200/home
+[DEBUG] 07-12-2025 18:09:49 [main] [com.actions.ElementActions] - Attente de 5 secondes...
+[INFO] 07-12-2025 18:09:54 [main] [com.actions.BrowserActions] - Navigated to URL: http://localhost:4200/backoffice/tableauBoard
+[DEBUG] 07-12-2025 18:09:54 [main] [com.actions.ElementActions] - Attente de 5 secondes...
+[INFO] 07-12-2025 18:10:00 [main] [com.actions.BrowserActions] - Navigated to URL: http://localhost:4200/home
+[DEBUG] 07-12-2025 18:10:00 [main] [com.actions.ElementActions] - Attente de 5 secondes...
+[INFO] 07-12-2025 18:10:06 [main] [com.hooks.TearDown] - Scénario terminé avec succès : Accès direct à une page protégée sans authentification
+[INFO] 07-12-2025 18:10:12 [main] [com.hooks.TearDown] - Driver fermé correctement pour le scénario : Accès direct à une page protégée sans authentification
+[DEBUG] 07-12-2025 18:10:12 [main] [com.hooks.TearDown] - ThreadContext nettoyé après exécution du scénario : Accès direct à une page protégée sans authentification
+[INFO] 07-12-2025 18:10:16 [main] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (f4850e15c2e8ba29eadd8cef07442c61)
+[INFO] 07-12-2025 18:10:16 [main] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (f4850e15c2e8ba29eadd8cef07442c61)
+[INFO] 07-12-2025 18:10:18 [main] [com.actions.BrowserActions] - Navigated to URL: http://localhost:4200/home
+[DEBUG] 07-12-2025 18:10:18 [main] [com.actions.ElementActions] - Attente de 5 secondes...
+[INFO] 07-12-2025 18:10:24 [main] [com.actions.BrowserActions] - Navigated to URL: http://localhost:4200/manager/tableauBoard
+[INFO] 07-12-2025 18:10:25 [main] [com.actions.BrowserActions] - Navigated to URL: http://localhost:4200/home
+[DEBUG] 07-12-2025 18:10:25 [main] [com.actions.ElementActions] - Attente de 5 secondes...
+[INFO] 07-12-2025 18:10:30 [main] [com.hooks.TearDown] - Scénario terminé avec succès : Accès direct à une page protégée sans authentification
+[INFO] 07-12-2025 18:10:36 [main] [com.hooks.TearDown] - Driver fermé correctement pour le scénario : Accès direct à une page protégée sans authentification
+[DEBUG] 07-12-2025 18:10:36 [main] [com.hooks.TearDown] - ThreadContext nettoyé après exécution du scénario : Accès direct à une page protégée sans authentification
+[INFO] 07-12-2025 18:10:39 [main] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (6f6b1b47009ceda1d5100b79f3a10d76)
+[INFO] 07-12-2025 18:10:39 [main] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (6f6b1b47009ceda1d5100b79f3a10d76)
+[INFO] 07-12-2025 18:10:42 [main] [com.actions.BrowserActions] - Navigated to URL: http://localhost:4200/home
+[DEBUG] 07-12-2025 18:10:42 [main] [com.actions.ElementActions] - Attente de 5 secondes...
+[INFO] 07-12-2025 18:10:48 [main] [com.actions.BrowserActions] - Navigated to URL: http://localhost:4200/memeber/listProjet
+[INFO] 07-12-2025 18:10:49 [main] [com.actions.BrowserActions] - Navigated to URL: http://localhost:4200/home
+[DEBUG] 07-12-2025 18:10:49 [main] [com.actions.ElementActions] - Attente de 5 secondes...
+[INFO] 07-12-2025 18:10:54 [main] [com.hooks.TearDown] - Scénario terminé avec succès : Accès direct à une page protégée sans authentification
+[INFO] 07-12-2025 18:10:56 [main] [com.hooks.TearDown] - Driver fermé correctement pour le scénario : Accès direct à une page protégée sans authentification
+[DEBUG] 07-12-2025 18:10:56 [main] [com.hooks.TearDown] - ThreadContext nettoyé après exécution du scénario : Accès direct à une page protégée sans authentification
+[INFO] 07-12-2025 18:11:00 [main] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (f898ffd2c216ae3ec72ab9b6917cf5e4)
+[INFO] 07-12-2025 18:11:00 [main] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (f898ffd2c216ae3ec72ab9b6917cf5e4)
+[DEBUG] 07-12-2025 18:11:03 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 07-12-2025 18:11:04 [main] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 07-12-2025 18:11:05 [main] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[DEBUG] 07-12-2025 18:11:05 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 07-12-2025 18:11:06 [main] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 07-12-2025 18:11:07 [main] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[DEBUG] 07-12-2025 18:11:07 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[INFO] 07-12-2025 18:11:08 [main] [com.actions.ElementActions] - Click réussi sur l'élément : Se connecter
+[INFO] 07-12-2025 18:11:16 [main] [com.actions.BrowserActions] - Navigated to URL: http://localhost:4200/manager/
+[DEBUG] 07-12-2025 18:11:16 [main] [com.actions.ElementActions] - Attente de 5 secondes...
+[INFO] 07-12-2025 18:11:22 [main] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (f898ffd2c216ae3ec72ab9b6917cf5e4)
+[WARN] 07-12-2025 18:11:23 [main] [com.hooks.TearDown] - [BROWSER LOG] WARNING http://localhost:4200/@fs/C:/Users/hp/Desktop/PFA_Local/frontend_local/.angular/cache/17.2.1/vite/deps/sockjs-client.js?v=1ed9078f 1116 WebSocket connection to 'ws://localhost:8080/chat-websocket/300/hhn1bx2u/websocket' failed: WebSocket is closed before the connection is established.
+[WARN] 07-12-2025 18:11:23 [main] [com.hooks.TearDown] - [BROWSER LOG] WARNING http://localhost:4200/@fs/C:/Users/hp/Desktop/PFA_Local/frontend_local/.angular/cache/17.2.1/vite/deps/sockjs-client.js?v=1ed9078f 1116 WebSocket connection to 'ws://localhost:8080/chat-websocket/032/2bvkdl1a/websocket' failed: WebSocket is closed before the connection is established.
+[WARN] 07-12-2025 18:11:23 [main] [com.hooks.TearDown] - [BROWSER LOG] WARNING http://localhost:4200/@fs/C:/Users/hp/Desktop/PFA_Local/frontend_local/.angular/cache/17.2.1/vite/deps/chunk-7JLFITJK.js?v=1ed9078f 1288:16 "NG0912: Component ID generation collision detected. Components '_ChatComponent' and '_ChatComponent' with selector 'app-chat' generated the same component ID. To fix this, you can change the selector of one of those components or add an extra host attribute to force a different ID. Find more at https://angular.io/errors/NG0912"
+[WARN] 07-12-2025 18:11:23 [main] [com.hooks.TearDown] - [BROWSER LOG] WARNING http://localhost:4200/@fs/C:/Users/hp/Desktop/PFA_Local/frontend_local/.angular/cache/17.2.1/vite/deps/chunk-7JLFITJK.js?v=1ed9078f 1288:16 "NG0912: Component ID generation collision detected. Components '_UpdatePasswordComponent' and '_UpdatePasswordComponent' with selector 'app-update-password' generated the same component ID. To fix this, you can change the selector of one of those components or add an extra host attribute to force a different ID. Find more at https://angular.io/errors/NG0912"
+[INFO] 07-12-2025 18:11:23 [main] [com.hooks.TearDown] - Scénario terminé avec succès : Contrôles d’autorisation par rôle
+[INFO] 07-12-2025 18:11:29 [main] [com.hooks.TearDown] - Driver fermé correctement pour le scénario : Contrôles d’autorisation par rôle
+[DEBUG] 07-12-2025 18:11:29 [main] [com.hooks.TearDown] - ThreadContext nettoyé après exécution du scénario : Contrôles d’autorisation par rôle
+[INFO] 07-12-2025 18:11:32 [main] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (e9f18905ccb97ae1ee10c511f7c1d1e0)
+[INFO] 07-12-2025 18:11:32 [main] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (e9f18905ccb97ae1ee10c511f7c1d1e0)
+[DEBUG] 07-12-2025 18:11:35 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 07-12-2025 18:11:36 [main] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 07-12-2025 18:11:36 [main] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[DEBUG] 07-12-2025 18:11:36 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 07-12-2025 18:11:37 [main] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 07-12-2025 18:11:37 [main] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[DEBUG] 07-12-2025 18:11:37 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[INFO] 07-12-2025 18:11:38 [main] [com.actions.ElementActions] - Click réussi sur l'élément : Se connecter
+[INFO] 07-12-2025 18:11:44 [main] [com.actions.BrowserActions] - Navigated to URL: http://localhost:4200/memeber/
+[DEBUG] 07-12-2025 18:11:44 [main] [com.actions.ElementActions] - Attente de 5 secondes...
+[INFO] 07-12-2025 18:11:51 [main] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (e9f18905ccb97ae1ee10c511f7c1d1e0)
+[WARN] 07-12-2025 18:11:51 [main] [com.hooks.TearDown] - [BROWSER LOG] WARNING http://localhost:4200/@fs/C:/Users/hp/Desktop/PFA_Local/frontend_local/.angular/cache/17.2.1/vite/deps/chunk-7JLFITJK.js?v=1ed9078f 1288:16 "NG0912: Component ID generation collision detected. Components '_UpdatePasswordComponent' and '_UpdatePasswordComponent' with selector 'app-update-password' generated the same component ID. To fix this, you can change the selector of one of those components or add an extra host attribute to force a different ID. Find more at https://angular.io/errors/NG0912"
+[INFO] 07-12-2025 18:11:51 [main] [com.hooks.TearDown] - Scénario terminé avec succès : Contrôles d’autorisation par rôle
+[INFO] 07-12-2025 18:11:54 [main] [com.hooks.TearDown] - Driver fermé correctement pour le scénario : Contrôles d’autorisation par rôle
+[DEBUG] 07-12-2025 18:11:54 [main] [com.hooks.TearDown] - ThreadContext nettoyé après exécution du scénario : Contrôles d’autorisation par rôle
+[INFO] 07-12-2025 18:11:58 [main] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (193fc9f4af59fbadb4518c6595a791a4)
+[INFO] 07-12-2025 18:11:58 [main] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (193fc9f4af59fbadb4518c6595a791a4)
+[DEBUG] 07-12-2025 18:12:00 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 07-12-2025 18:12:01 [main] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 07-12-2025 18:12:01 [main] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[DEBUG] 07-12-2025 18:12:01 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 07-12-2025 18:12:02 [main] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 07-12-2025 18:12:02 [main] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[DEBUG] 07-12-2025 18:12:02 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[INFO] 07-12-2025 18:12:03 [main] [com.actions.ElementActions] - Click réussi sur l'élément : Se connecter
+[INFO] 07-12-2025 18:12:09 [main] [com.actions.BrowserActions] - Navigated to URL: http://localhost:4200/backoffice/
+[DEBUG] 07-12-2025 18:12:09 [main] [com.actions.ElementActions] - Attente de 5 secondes...
+[INFO] 07-12-2025 18:12:15 [main] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (193fc9f4af59fbadb4518c6595a791a4)
+[WARN] 07-12-2025 18:12:15 [main] [com.hooks.TearDown] - [BROWSER LOG] WARNING http://localhost:4200/@fs/C:/Users/hp/Desktop/PFA_Local/frontend_local/.angular/cache/17.2.1/vite/deps/chunk-7JLFITJK.js?v=1ed9078f 1288:16 "NG0912: Component ID generation collision detected. Components '_ChatComponent' and '_ChatComponent' with selector 'app-chat' generated the same component ID. To fix this, you can change the selector of one of those components or add an extra host attribute to force a different ID. Find more at https://angular.io/errors/NG0912"
+[WARN] 07-12-2025 18:12:15 [main] [com.hooks.TearDown] - [BROWSER LOG] WARNING http://localhost:4200/@fs/C:/Users/hp/Desktop/PFA_Local/frontend_local/.angular/cache/17.2.1/vite/deps/chunk-7JLFITJK.js?v=1ed9078f 1288:16 "NG0912: Component ID generation collision detected. Components '_UpdatePasswordComponent' and '_UpdatePasswordComponent' with selector 'app-update-password' generated the same component ID. To fix this, you can change the selector of one of those components or add an extra host attribute to force a different ID. Find more at https://angular.io/errors/NG0912"
+[INFO] 07-12-2025 18:12:15 [main] [com.hooks.TearDown] - Scénario terminé avec succès : Contrôles d’autorisation par rôle
+[INFO] 07-12-2025 18:12:17 [main] [com.hooks.TearDown] - Driver fermé correctement pour le scénario : Contrôles d’autorisation par rôle
+[DEBUG] 07-12-2025 18:12:17 [main] [com.hooks.TearDown] - ThreadContext nettoyé après exécution du scénario : Contrôles d’autorisation par rôle
+[INFO] 07-12-2025 18:12:20 [main] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (db68c3cce5888a5d72ca1741bc720fde)
+[INFO] 07-12-2025 18:12:20 [main] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (db68c3cce5888a5d72ca1741bc720fde)
+[DEBUG] 07-12-2025 18:12:22 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 07-12-2025 18:12:23 [main] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 07-12-2025 18:12:23 [main] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[DEBUG] 07-12-2025 18:12:23 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 07-12-2025 18:12:24 [main] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 07-12-2025 18:12:24 [main] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[DEBUG] 07-12-2025 18:12:24 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[INFO] 07-12-2025 18:12:25 [main] [com.actions.ElementActions] - Click réussi sur l'élément : Se connecter
+[INFO] 07-12-2025 18:12:30 [main] [com.actions.BrowserActions] - Navigated to URL: http://localhost:4200/memeber/
+[DEBUG] 07-12-2025 18:12:30 [main] [com.actions.ElementActions] - Attente de 5 secondes...
+[INFO] 07-12-2025 18:12:37 [main] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (db68c3cce5888a5d72ca1741bc720fde)
+[WARN] 07-12-2025 18:12:37 [main] [com.hooks.TearDown] - [BROWSER LOG] WARNING http://localhost:4200/@fs/C:/Users/hp/Desktop/PFA_Local/frontend_local/.angular/cache/17.2.1/vite/deps/chunk-7JLFITJK.js?v=1ed9078f 1288:16 "NG0912: Component ID generation collision detected. Components '_ConsulterMonProfilComponent' and '_ConsulterMonProfilComponent' with selector 'app-consulter-mon-profil' generated the same component ID. To fix this, you can change the selector of one of those components or add an extra host attribute to force a different ID. Find more at https://angular.io/errors/NG0912"
+[WARN] 07-12-2025 18:12:37 [main] [com.hooks.TearDown] - [BROWSER LOG] WARNING http://localhost:4200/@fs/C:/Users/hp/Desktop/PFA_Local/frontend_local/.angular/cache/17.2.1/vite/deps/chunk-7JLFITJK.js?v=1ed9078f 1288:16 "NG0912: Component ID generation collision detected. Components '_UpdatePasswordComponent' and '_UpdatePasswordComponent' with selector 'app-update-password' generated the same component ID. To fix this, you can change the selector of one of those components or add an extra host attribute to force a different ID. Find more at https://angular.io/errors/NG0912"
+[INFO] 07-12-2025 18:12:37 [main] [com.hooks.TearDown] - Scénario terminé avec succès : Contrôles d’autorisation par rôle
+[INFO] 07-12-2025 18:12:40 [main] [com.hooks.TearDown] - Driver fermé correctement pour le scénario : Contrôles d’autorisation par rôle
+[DEBUG] 07-12-2025 18:12:40 [main] [com.hooks.TearDown] - ThreadContext nettoyé après exécution du scénario : Contrôles d’autorisation par rôle
+[INFO] 07-12-2025 18:12:43 [main] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (1e8ff2b8a0f69cbb23e318b60a79afaa)
+[INFO] 07-12-2025 18:12:43 [main] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (1e8ff2b8a0f69cbb23e318b60a79afaa)
+[DEBUG] 07-12-2025 18:12:46 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 07-12-2025 18:12:47 [main] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 07-12-2025 18:12:47 [main] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[DEBUG] 07-12-2025 18:12:47 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 07-12-2025 18:12:48 [main] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 07-12-2025 18:12:49 [main] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[DEBUG] 07-12-2025 18:12:49 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[INFO] 07-12-2025 18:12:50 [main] [com.actions.ElementActions] - Click réussi sur l'élément : Se connecter
+[INFO] 07-12-2025 18:12:57 [main] [com.actions.BrowserActions] - Navigated to URL: http://localhost:4200/backoffice/
+[DEBUG] 07-12-2025 18:12:57 [main] [com.actions.ElementActions] - Attente de 5 secondes...
+[INFO] 07-12-2025 18:13:04 [main] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (1e8ff2b8a0f69cbb23e318b60a79afaa)
+[WARN] 07-12-2025 18:13:04 [main] [com.hooks.TearDown] - [BROWSER LOG] WARNING http://localhost:4200/@fs/C:/Users/hp/Desktop/PFA_Local/frontend_local/.angular/cache/17.2.1/vite/deps/chunk-7JLFITJK.js?v=1ed9078f 1288:16 "NG0912: Component ID generation collision detected. Components '_UpdatePasswordComponent' and '_UpdatePasswordComponent' with selector 'app-update-password' generated the same component ID. To fix this, you can change the selector of one of those components or add an extra host attribute to force a different ID. Find more at https://angular.io/errors/NG0912"
+[INFO] 07-12-2025 18:13:04 [main] [com.hooks.TearDown] - Scénario terminé avec succès : Contrôles d’autorisation par rôle
+[INFO] 07-12-2025 18:13:11 [main] [com.hooks.TearDown] - Driver fermé correctement pour le scénario : Contrôles d’autorisation par rôle
+[DEBUG] 07-12-2025 18:13:11 [main] [com.hooks.TearDown] - ThreadContext nettoyé après exécution du scénario : Contrôles d’autorisation par rôle
+[INFO] 07-12-2025 18:13:15 [main] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (cc57f2e5811458f64816b2004dbe3e09)
+[INFO] 07-12-2025 18:13:15 [main] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (cc57f2e5811458f64816b2004dbe3e09)

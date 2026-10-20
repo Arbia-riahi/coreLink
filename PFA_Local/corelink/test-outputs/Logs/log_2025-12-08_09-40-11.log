@@ -1,0 +1,18 @@
+[INFO] 08-12-2025 09:40:12 [main] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (3fb366d758bbd37a1b34e8a4487fb537)
+[INFO] 08-12-2025 09:40:13 [main] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (3fb366d758bbd37a1b34e8a4487fb537)
+[DEBUG] 08-12-2025 09:40:17 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 08-12-2025 09:40:19 [main] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 08-12-2025 09:40:20 [main] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[DEBUG] 08-12-2025 09:40:20 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 08-12-2025 09:40:22 [main] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 08-12-2025 09:40:25 [main] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[DEBUG] 08-12-2025 09:40:25 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[INFO] 08-12-2025 09:40:27 [main] [com.actions.ElementActions] - Click réussi sur l'élément : Se connecter
+[DEBUG] 08-12-2025 09:40:33 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[INFO] 08-12-2025 09:40:35 [main] [com.actions.ElementActions] - Click réussi sur l'élément : Petit Sacha
+[DEBUG] 08-12-2025 09:40:35 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[INFO] 08-12-2025 09:40:37 [main] [com.actions.ElementActions] - Click réussi sur l'élément : <unreadable>
+[INFO] 08-12-2025 09:40:38 [main] [com.actions.BrowserActions] - Navigated to URL: http://localhost:4200/backoffice/tableauBoard
+[INFO] 08-12-2025 09:40:43 [main] [com.hooks.TearDown] - Scénario terminé avec succès : Déconnexion valide
+[INFO] 08-12-2025 09:40:45 [main] [com.hooks.TearDown] - Driver fermé correctement pour le scénario : Déconnexion valide
+[DEBUG] 08-12-2025 09:40:45 [main] [com.hooks.TearDown] - ThreadContext nettoyé après exécution du scénario : Déconnexion valide

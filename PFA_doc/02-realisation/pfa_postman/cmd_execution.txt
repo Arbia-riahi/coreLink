@@ -1,0 +1,6 @@
+newman run CoreLink.postman_collection.json -e manager_env.postman_environment.json
+newman run CoreLink.postman_collection.json -e admin_env.postman_environment.json
+newman run CoreLink.postman_collection.json -e member_env.postman_environment.json
+
+//avec rapport html
+newman run CoreLink.postman_collection.json -e manager_env.postman_environment.json -r html

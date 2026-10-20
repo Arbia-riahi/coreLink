@@ -1,0 +1,124 @@
+@module.taches @update_tache
+Feature: Gestion des tâches — Modification
+  En tant que manager, je veux pouvoir modifier les tâches existantes d’un projet de manière fiable,
+  afin de piloter le projet en toute sécurité.
+
+  Background: 
+    Given je suis connecté en tant que manager
+    And je souhaite cliquer sur la fonctionnalité "Pilotage des projets"
+    And je souhaite cliquer sur la fonctionnalité "Liste"
+    And je filtre le projet dont le nom est "Project Management"
+    And je clique sur l’icône de gestion des tâches
+
+  @TC-01 @modification_complete_via_formulaire @Succès @p1 @ui @functional @smoke
+  Scenario Outline: Modification complète d’une tâche existante via le formulaire avec succès
+    When je clique sur le bouton "Vue tableau"
+    And je sélectionne la première tâche existante dans le tableau pour la modifier
+    And un formulaire prérempli s’ouvre
+    And je modifie toutes les informations existantes :
+      | Titre                | <auto>             |
+      | Priorité             | Basse              |
+      | État                 | <etat>             |
+      | Date et heure de fin | 2025-10-20 14:20   |
+      | Membres              | Sami Sami, sss sss |
+    And je clique sur le bouton "Enregistrer"
+    Then une alerte de succès contenant le titre "Tâche mise à jour" et le texte "Les modifications ont été enregistrées avec succès." est affichée
+    And je consulte la "Vue tableau"
+    Then je vois la tâche mise à jour avec :
+      | Titre                | <auto>             |
+      | Priorité             | Basse              |
+      | État                 | <etat>             |
+      | Date et heure de fin | 2025-10-20 14:20   |
+      | Membres              | Sami Sami, sss sss |
+    And je consulte la "Vue Kanban"
+    Then je vois la même tâche affichée dans la colonne "<etat>"
+
+    Examples: 
+      | etat        |
+      | A_FAIRE     |
+      | EN_COURS    |
+      | EN_REVISION |
+      | TERMINE     |
+      | BLOQUE      |
+      | ANNULE      |
+
+  @TC-02 @modification_partielle_via_tableau @Succès @p1 @ui @functional
+  Scenario Outline: Modification partielle d’une tâche existante via le tableau avec succès
+    When je clique sur le bouton "Vue tableau"
+    And je sélectionne la première tâche existante dans le tableau pour la modifier
+    And un formulaire prérempli s’ouvre
+    And je modifie les informations suivantes :
+      | Titre | <auto> |
+      | État  | <etat> |
+    And je clique sur le bouton "Enregistrer"
+    Then une alerte de succès contenant le titre "Tâche mise à jour" et le texte "Les modifications ont été enregistrées avec succès." est affichée
+    And je consulte la "Vue tableau"
+    Then je vois la tâche mise à jour avec :
+      | Titre | <auto> |
+      | État  | <etat> |
+    And je consulte la "Vue Kanban"
+    Then je vois la même tâche affichée dans la colonne "<etat>"
+
+    Examples: 
+      | etat        |
+      | A_FAIRE     |
+      | EN_COURS    |
+      | EN_REVISION |
+      | TERMINE     |
+      | BLOQUE      |
+      | ANNULE      |
+
+  @TC-03 @modification_etat_via_kanban @Succès @p1 @ui @functional
+  Scenario Outline: Modification de l’état d’une tâche via la vue Kanban
+  And je filtre une tache qui existe dans la colonne "<etat_initial>"
+  When je fais un glisser-déposer de cette tâche vers la colonne "<nouvel_etat>"
+  Then la tâche déplacée apparaît dans la colonne "<nouvel_etat>"
+  And la tâche a le même titre et les mêmes membres qu’avant
+
+Examples:
+  | etat_initial | nouvel_etat  |
+  | A_FAIRE      | EN_COURS     |
+  | EN_COURS     | EN_REVISION  |
+  | EN_REVISION  | TERMINE      |
+  | EN_COURS     | BLOQUE       |
+  | BLOQUE       | EN_COURS     |
+
+
+  @TC-04 @rejet_si_date_invalide @p1 @ui @functional @negative @validation @creation_error_dateFin
+  Scenario Outline: Rejet d’une date de fin antérieure ou égale à la date du jour
+    When je clique sur le bouton "Nouvelle tâche"
+    And je saisis une date de fin antérieure ou égale à aujourd’hui "<dateFin>"
+    Then un message d’erreur "<message>" est affiché
+
+    Examples: 
+      | dateFin   | message                                                 |
+      | today     | La date de fin doit être postérieure à la date actuelle |
+      | yesterday | La date de fin doit être postérieure à la date actuelle |
+      | today-1d  | La date de fin doit être postérieure à la date actuelle |
+      | today-7d  | La date de fin doit être postérieure à la date actuelle |
+      | lastWeek  | La date de fin doit être postérieure à la date actuelle |
+      | lastYear  | La date de fin doit être postérieure à la date actuelle |
+
+  @TC-05 @rejet_si_date_supérieure_a_date_projet @p1 @ui @functional @negative @validation @creation_error_dateFinProjet
+  Scenario Outline: Rejet d’une date de fin de tâche postérieure à la date de fin du projet
+    When je clique sur le bouton "Nouvelle tâche"
+    And je saisis une date de fin de tâche supérieure à la date de fin du projet "<dateFinTache>"
+    Then un message d’erreur "<message>" est affiché
+
+    Examples: 
+      | dateFinProjet | dateFinTache | message                                                            |
+      | today+20d     | today+30d    | La date de fin ne peut pas dépasser celle du projet (today+20d)    |
+      | today+1month  | today+2month | La date de fin ne peut pas dépasser celle du projet (today+1month) |
+      | today+1d      | today+7d     | La date de fin ne peut pas dépasser celle du projet (today+1d)     |
+
+  @TC-06 @aucune_modification_effectuée @p2 @ui @functional @negative @validation
+  Scenario: Vérification du bouton Enregistrer désactivé lorsque aucune modification n’est effectuée
+    Given un formulaire de tâche est ouvert sans modification
+    Then le bouton "Enregistrer" est désactivé
+
+  @TC-07 @annulation_modification @p2 @ui @functional @neutral @navigation
+  Scenario: Annulation de la création d’une tâche
+    When je clique sur le bouton "Nouvelle tâche"
+    And je clique sur le bouton "Annuler"
+    Then je suis redirigé vers la vue Kanban des tâches
+    And aucune tâche n’est créée

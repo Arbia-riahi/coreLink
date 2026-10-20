@@ -1,0 +1,422 @@
+[INFO] 15-11-2025 12:58:54 [main] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (556dc41c6b3641bd9adf199b5d4a4ed4)
+[INFO] 15-11-2025 12:58:54 [main] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (556dc41c6b3641bd9adf199b5d4a4ed4)
+[DEBUG] 15-11-2025 12:58:57 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 15-11-2025 12:58:58 [main] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 15-11-2025 12:58:58 [main] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[DEBUG] 15-11-2025 12:58:58 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 15-11-2025 12:58:59 [main] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 15-11-2025 12:58:59 [main] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[DEBUG] 15-11-2025 12:58:59 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[INFO] 15-11-2025 12:59:00 [main] [com.actions.ElementActions] - Click réussi sur l'élément : Se connecter
+[DEBUG] 15-11-2025 12:59:06 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[INFO] 15-11-2025 12:59:08 [main] [com.actions.ElementActions] - Click réussi sur l'élément : Pilotage des projets
+[DEBUG] 15-11-2025 12:59:08 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[INFO] 15-11-2025 12:59:09 [main] [com.actions.ElementActions] - Click réussi sur l'élément : Ajouter
+[DEBUG] 15-11-2025 12:59:11 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 15-11-2025 12:59:11 [main] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 15-11-2025 12:59:13 [main] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[DEBUG] 15-11-2025 12:59:13 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 15-11-2025 12:59:13 [main] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 15-11-2025 12:59:14 [main] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[DEBUG] 15-11-2025 12:59:14 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 15-11-2025 12:59:15 [main] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 15-11-2025 12:59:15 [main] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[DEBUG] 15-11-2025 12:59:15 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 15-11-2025 12:59:16 [main] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 15-11-2025 12:59:16 [main] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[DEBUG] 15-11-2025 12:59:16 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[INFO] 15-11-2025 12:59:17 [main] [com.actions.ElementActions] - Click réussi sur l'élément : En cours
+[INFO] 15-11-2025 12:59:17 [main] [com.actions.ElementActions] - Élément trouvé : By.xpath: //div[@class='mb-1' and normalize-space(.)='riahi salma']/input[@type='checkbox']
+[INFO] 15-11-2025 12:59:18 [main] [com.actions.ElementActions] - Élément trouvé : By.xpath: //div[@class='mb-1' and normalize-space(.)='mtiri chiraz']/input[@type='checkbox']
+[INFO] 15-11-2025 12:59:18 [main] [com.actions.ElementActions] - Élément trouvé : By.xpath: //div[@class='mb-1' and normalize-space(.)='mtiri fahed']/input[@type='checkbox']
+[INFO] 15-11-2025 12:59:18 [main] [com.actions.ElementActions] - Élément trouvé : By.xpath: //div[@class='mb-1' and normalize-space(.)='riahi pouka']/input[@type='checkbox']
+[INFO] 15-11-2025 12:59:19 [main] [com.actions.ElementActions] - Élément trouvé : By.xpath: //div[@class='mb-1' and normalize-space(.)='riahi sameh']/input[@type='checkbox']
+[DEBUG] 15-11-2025 12:59:19 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[INFO] 15-11-2025 12:59:20 [main] [com.actions.ElementActions] - Click réussi sur l'élément : Créer Projet
+[DEBUG] 15-11-2025 12:59:23 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 15-11-2025 12:59:23 [main] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 15-11-2025 12:59:24 [main] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[DEBUG] 15-11-2025 12:59:25 [main] [com.actions.ElementActions] - Attente de 7 secondes...
+[INFO] 15-11-2025 12:59:32 [main] [com.actions.ElementActions] - Élément trouvé : By.xpath: //tr[td[text()='Le Désir des femmes fortes#57eeecd5-80d2-453b-8732-3c385694c101']]//button[contains(@class,'btn btn-outline-info btn-sm rounded-circle')]
+[INFO] 15-11-2025 12:59:33 [main] [com.actions.ElementActions] - ScrollIntoView exécuté avec succès.
+[INFO] 15-11-2025 12:59:34 [main] [com.hooks.TearDown] - Scénario terminé avec succès : Création d un nouveau projet avec succès
+[INFO] 15-11-2025 12:59:35 [main] [com.hooks.TearDown] - Driver fermé correctement pour le scénario : Création d un nouveau projet avec succès
+[DEBUG] 15-11-2025 12:59:35 [main] [com.hooks.TearDown] - ThreadContext nettoyé après exécution du scénario : Création d un nouveau projet avec succès
+[INFO] 15-11-2025 12:59:39 [main] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (b406f0d65f9b2aa11d87fc48b2819fe3)
+[INFO] 15-11-2025 12:59:39 [main] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (b406f0d65f9b2aa11d87fc48b2819fe3)
+[DEBUG] 15-11-2025 12:59:42 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 15-11-2025 12:59:42 [main] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 15-11-2025 12:59:43 [main] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[DEBUG] 15-11-2025 12:59:43 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 15-11-2025 12:59:43 [main] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 15-11-2025 12:59:44 [main] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[DEBUG] 15-11-2025 12:59:44 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[INFO] 15-11-2025 12:59:44 [main] [com.actions.ElementActions] - Click réussi sur l'élément : Se connecter
+[DEBUG] 15-11-2025 12:59:49 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[INFO] 15-11-2025 12:59:51 [main] [com.actions.ElementActions] - Click réussi sur l'élément : Pilotage des projets
+[DEBUG] 15-11-2025 12:59:51 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[INFO] 15-11-2025 12:59:52 [main] [com.actions.ElementActions] - Click réussi sur l'élément : Ajouter
+[DEBUG] 15-11-2025 12:59:53 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 15-11-2025 12:59:53 [main] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 15-11-2025 12:59:54 [main] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[INFO] 15-11-2025 12:59:54 [main] [com.hooks.TearDown] - Scénario terminé avec succès : Rejeter une date de début antérieure à aujourd’hui
+[INFO] 15-11-2025 12:59:57 [main] [com.hooks.TearDown] - Driver fermé correctement pour le scénario : Rejeter une date de début antérieure à aujourd’hui
+[DEBUG] 15-11-2025 12:59:57 [main] [com.hooks.TearDown] - ThreadContext nettoyé après exécution du scénario : Rejeter une date de début antérieure à aujourd’hui
+[INFO] 15-11-2025 13:00:00 [main] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (82fdcf6339118332e99429e2396194cc)
+[INFO] 15-11-2025 13:00:00 [main] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (82fdcf6339118332e99429e2396194cc)
+[DEBUG] 15-11-2025 13:00:02 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 15-11-2025 13:00:03 [main] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 15-11-2025 13:00:03 [main] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[DEBUG] 15-11-2025 13:00:03 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 15-11-2025 13:00:04 [main] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 15-11-2025 13:00:04 [main] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[DEBUG] 15-11-2025 13:00:04 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[INFO] 15-11-2025 13:00:05 [main] [com.actions.ElementActions] - Click réussi sur l'élément : Se connecter
+[DEBUG] 15-11-2025 13:00:10 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[INFO] 15-11-2025 13:00:11 [main] [com.actions.ElementActions] - Click réussi sur l'élément : Pilotage des projets
+[DEBUG] 15-11-2025 13:00:11 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[INFO] 15-11-2025 13:00:12 [main] [com.actions.ElementActions] - Click réussi sur l'élément : Ajouter
+[DEBUG] 15-11-2025 13:00:13 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 15-11-2025 13:00:14 [main] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 15-11-2025 13:00:14 [main] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[INFO] 15-11-2025 13:00:15 [main] [com.hooks.TearDown] - Scénario terminé avec succès : Rejeter une date de début antérieure à aujourd’hui
+[INFO] 15-11-2025 13:00:16 [main] [com.hooks.TearDown] - Driver fermé correctement pour le scénario : Rejeter une date de début antérieure à aujourd’hui
+[DEBUG] 15-11-2025 13:00:16 [main] [com.hooks.TearDown] - ThreadContext nettoyé après exécution du scénario : Rejeter une date de début antérieure à aujourd’hui
+[INFO] 15-11-2025 13:00:20 [main] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (7153958dc7db193927c9d92365ee1067)
+[INFO] 15-11-2025 13:00:20 [main] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (7153958dc7db193927c9d92365ee1067)
+[DEBUG] 15-11-2025 13:00:23 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 15-11-2025 13:00:23 [main] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 15-11-2025 13:00:24 [main] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[DEBUG] 15-11-2025 13:00:24 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 15-11-2025 13:00:24 [main] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 15-11-2025 13:00:25 [main] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[DEBUG] 15-11-2025 13:00:25 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[INFO] 15-11-2025 13:00:26 [main] [com.actions.ElementActions] - Click réussi sur l'élément : Se connecter
+[DEBUG] 15-11-2025 13:00:31 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[INFO] 15-11-2025 13:00:32 [main] [com.actions.ElementActions] - Click réussi sur l'élément : Pilotage des projets
+[DEBUG] 15-11-2025 13:00:32 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[INFO] 15-11-2025 13:00:34 [main] [com.actions.ElementActions] - Click réussi sur l'élément : Ajouter
+[DEBUG] 15-11-2025 13:00:35 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 15-11-2025 13:00:35 [main] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 15-11-2025 13:00:36 [main] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[INFO] 15-11-2025 13:00:37 [main] [com.hooks.TearDown] - Scénario terminé avec succès : Rejeter une date de début antérieure à aujourd’hui
+[INFO] 15-11-2025 13:00:39 [main] [com.hooks.TearDown] - Driver fermé correctement pour le scénario : Rejeter une date de début antérieure à aujourd’hui
+[DEBUG] 15-11-2025 13:00:39 [main] [com.hooks.TearDown] - ThreadContext nettoyé après exécution du scénario : Rejeter une date de début antérieure à aujourd’hui
+[INFO] 15-11-2025 13:00:42 [main] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (beb382d98001a2ac119a4e3728f048c0)
+[INFO] 15-11-2025 13:00:42 [main] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (beb382d98001a2ac119a4e3728f048c0)
+[DEBUG] 15-11-2025 13:00:45 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 15-11-2025 13:00:45 [main] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 15-11-2025 13:00:46 [main] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[DEBUG] 15-11-2025 13:00:46 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 15-11-2025 13:00:46 [main] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 15-11-2025 13:00:47 [main] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[DEBUG] 15-11-2025 13:00:47 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[INFO] 15-11-2025 13:00:47 [main] [com.actions.ElementActions] - Click réussi sur l'élément : Se connecter
+[DEBUG] 15-11-2025 13:00:52 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[INFO] 15-11-2025 13:00:54 [main] [com.actions.ElementActions] - Click réussi sur l'élément : Pilotage des projets
+[DEBUG] 15-11-2025 13:00:54 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[INFO] 15-11-2025 13:00:55 [main] [com.actions.ElementActions] - Click réussi sur l'élément : Ajouter
+[DEBUG] 15-11-2025 13:00:56 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 15-11-2025 13:00:56 [main] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 15-11-2025 13:00:57 [main] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[INFO] 15-11-2025 13:00:57 [main] [com.hooks.TearDown] - Scénario terminé avec succès : Rejeter une date de début antérieure à aujourd’hui
+[INFO] 15-11-2025 13:00:58 [main] [com.hooks.TearDown] - Driver fermé correctement pour le scénario : Rejeter une date de début antérieure à aujourd’hui
+[DEBUG] 15-11-2025 13:00:58 [main] [com.hooks.TearDown] - ThreadContext nettoyé après exécution du scénario : Rejeter une date de début antérieure à aujourd’hui
+[INFO] 15-11-2025 13:01:01 [main] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (36ea952ed0ee430094facd15c5391c63)
+[INFO] 15-11-2025 13:01:01 [main] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (36ea952ed0ee430094facd15c5391c63)
+[DEBUG] 15-11-2025 13:01:03 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 15-11-2025 13:01:04 [main] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 15-11-2025 13:01:04 [main] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[DEBUG] 15-11-2025 13:01:04 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 15-11-2025 13:01:05 [main] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 15-11-2025 13:01:05 [main] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[DEBUG] 15-11-2025 13:01:05 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[INFO] 15-11-2025 13:01:06 [main] [com.actions.ElementActions] - Click réussi sur l'élément : Se connecter
+[DEBUG] 15-11-2025 13:01:11 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[INFO] 15-11-2025 13:01:12 [main] [com.actions.ElementActions] - Click réussi sur l'élément : Pilotage des projets
+[DEBUG] 15-11-2025 13:01:12 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[INFO] 15-11-2025 13:01:14 [main] [com.actions.ElementActions] - Click réussi sur l'élément : Ajouter
+[DEBUG] 15-11-2025 13:01:14 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 15-11-2025 13:01:15 [main] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 15-11-2025 13:01:15 [main] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[INFO] 15-11-2025 13:01:16 [main] [com.hooks.TearDown] - Scénario terminé avec succès : Rejeter une date de début antérieure à aujourd’hui
+[INFO] 15-11-2025 13:01:17 [main] [com.hooks.TearDown] - Driver fermé correctement pour le scénario : Rejeter une date de début antérieure à aujourd’hui
+[DEBUG] 15-11-2025 13:01:17 [main] [com.hooks.TearDown] - ThreadContext nettoyé après exécution du scénario : Rejeter une date de début antérieure à aujourd’hui
+[INFO] 15-11-2025 13:01:20 [main] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (62a570ffd05a83f2824b50aefc343136)
+[INFO] 15-11-2025 13:01:20 [main] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (62a570ffd05a83f2824b50aefc343136)
+[DEBUG] 15-11-2025 13:01:23 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 15-11-2025 13:01:23 [main] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 15-11-2025 13:01:24 [main] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[DEBUG] 15-11-2025 13:01:24 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 15-11-2025 13:01:24 [main] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 15-11-2025 13:01:25 [main] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[DEBUG] 15-11-2025 13:01:25 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[INFO] 15-11-2025 13:01:26 [main] [com.actions.ElementActions] - Click réussi sur l'élément : Se connecter
+[DEBUG] 15-11-2025 13:01:30 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[INFO] 15-11-2025 13:01:32 [main] [com.actions.ElementActions] - Click réussi sur l'élément : Pilotage des projets
+[DEBUG] 15-11-2025 13:01:32 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[INFO] 15-11-2025 13:01:33 [main] [com.actions.ElementActions] - Click réussi sur l'élément : Ajouter
+[DEBUG] 15-11-2025 13:01:34 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 15-11-2025 13:01:35 [main] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 15-11-2025 13:01:35 [main] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[DEBUG] 15-11-2025 13:01:35 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 15-11-2025 13:01:36 [main] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 15-11-2025 13:01:37 [main] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[INFO] 15-11-2025 13:01:37 [main] [com.hooks.TearDown] - Scénario terminé avec succès : Rejeter une date de fin antérieure à date de debut
+[INFO] 15-11-2025 13:01:39 [main] [com.hooks.TearDown] - Driver fermé correctement pour le scénario : Rejeter une date de fin antérieure à date de debut
+[DEBUG] 15-11-2025 13:01:39 [main] [com.hooks.TearDown] - ThreadContext nettoyé après exécution du scénario : Rejeter une date de fin antérieure à date de debut
+[INFO] 15-11-2025 13:01:42 [main] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (6087185040981209b4cadda3662c62c1)
+[INFO] 15-11-2025 13:01:42 [main] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (6087185040981209b4cadda3662c62c1)
+[DEBUG] 15-11-2025 13:01:44 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 15-11-2025 13:01:45 [main] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 15-11-2025 13:01:45 [main] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[DEBUG] 15-11-2025 13:01:45 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 15-11-2025 13:01:46 [main] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 15-11-2025 13:01:46 [main] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[DEBUG] 15-11-2025 13:01:46 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[INFO] 15-11-2025 13:01:47 [main] [com.actions.ElementActions] - Click réussi sur l'élément : Se connecter
+[DEBUG] 15-11-2025 13:01:52 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[INFO] 15-11-2025 13:01:53 [main] [com.actions.ElementActions] - Click réussi sur l'élément : Pilotage des projets
+[DEBUG] 15-11-2025 13:01:53 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[INFO] 15-11-2025 13:01:55 [main] [com.actions.ElementActions] - Click réussi sur l'élément : Ajouter
+[DEBUG] 15-11-2025 13:01:55 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 15-11-2025 13:01:56 [main] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 15-11-2025 13:01:57 [main] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[DEBUG] 15-11-2025 13:01:57 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 15-11-2025 13:01:57 [main] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 15-11-2025 13:01:58 [main] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[INFO] 15-11-2025 13:01:58 [main] [com.hooks.TearDown] - Scénario terminé avec succès : Rejeter une date de fin antérieure à date de debut
+[INFO] 15-11-2025 13:01:59 [main] [com.hooks.TearDown] - Driver fermé correctement pour le scénario : Rejeter une date de fin antérieure à date de debut
+[DEBUG] 15-11-2025 13:01:59 [main] [com.hooks.TearDown] - ThreadContext nettoyé après exécution du scénario : Rejeter une date de fin antérieure à date de debut
+[INFO] 15-11-2025 13:02:02 [main] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (cf6746d134d86d581dd1273deb8d4076)
+[INFO] 15-11-2025 13:02:02 [main] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (cf6746d134d86d581dd1273deb8d4076)
+[DEBUG] 15-11-2025 13:02:04 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 15-11-2025 13:02:05 [main] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 15-11-2025 13:02:05 [main] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[DEBUG] 15-11-2025 13:02:05 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 15-11-2025 13:02:06 [main] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 15-11-2025 13:02:06 [main] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[DEBUG] 15-11-2025 13:02:06 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[INFO] 15-11-2025 13:02:07 [main] [com.actions.ElementActions] - Click réussi sur l'élément : Se connecter
+[DEBUG] 15-11-2025 13:02:12 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[INFO] 15-11-2025 13:02:13 [main] [com.actions.ElementActions] - Click réussi sur l'élément : Pilotage des projets
+[DEBUG] 15-11-2025 13:02:13 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[INFO] 15-11-2025 13:02:15 [main] [com.actions.ElementActions] - Click réussi sur l'élément : Ajouter
+[DEBUG] 15-11-2025 13:02:15 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 15-11-2025 13:02:16 [main] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 15-11-2025 13:02:17 [main] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[DEBUG] 15-11-2025 13:02:17 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 15-11-2025 13:02:17 [main] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 15-11-2025 13:02:18 [main] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[INFO] 15-11-2025 13:02:18 [main] [com.hooks.TearDown] - Scénario terminé avec succès : Rejeter une date de fin antérieure à date de debut
+[INFO] 15-11-2025 13:02:19 [main] [com.hooks.TearDown] - Driver fermé correctement pour le scénario : Rejeter une date de fin antérieure à date de debut
+[DEBUG] 15-11-2025 13:02:19 [main] [com.hooks.TearDown] - ThreadContext nettoyé après exécution du scénario : Rejeter une date de fin antérieure à date de debut
+[INFO] 15-11-2025 13:02:22 [main] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (e61efc35ff9c5d5c53ccafe71121d341)
+[INFO] 15-11-2025 13:02:22 [main] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (e61efc35ff9c5d5c53ccafe71121d341)
+[DEBUG] 15-11-2025 13:02:25 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 15-11-2025 13:02:25 [main] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 15-11-2025 13:02:26 [main] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[DEBUG] 15-11-2025 13:02:26 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 15-11-2025 13:02:26 [main] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 15-11-2025 13:02:26 [main] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[DEBUG] 15-11-2025 13:02:26 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[INFO] 15-11-2025 13:02:27 [main] [com.actions.ElementActions] - Click réussi sur l'élément : Se connecter
+[DEBUG] 15-11-2025 13:02:32 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[INFO] 15-11-2025 13:02:34 [main] [com.actions.ElementActions] - Click réussi sur l'élément : Pilotage des projets
+[DEBUG] 15-11-2025 13:02:34 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[INFO] 15-11-2025 13:02:35 [main] [com.actions.ElementActions] - Click réussi sur l'élément : Ajouter
+[DEBUG] 15-11-2025 13:02:36 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 15-11-2025 13:02:37 [main] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 15-11-2025 13:02:38 [main] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[DEBUG] 15-11-2025 13:02:38 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 15-11-2025 13:02:39 [main] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 15-11-2025 13:02:39 [main] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[DEBUG] 15-11-2025 13:02:39 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 15-11-2025 13:02:40 [main] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 15-11-2025 13:02:40 [main] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[DEBUG] 15-11-2025 13:02:40 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 15-11-2025 13:02:41 [main] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 15-11-2025 13:02:41 [main] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[DEBUG] 15-11-2025 13:02:41 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[INFO] 15-11-2025 13:02:42 [main] [com.actions.ElementActions] - Click réussi sur l'élément : En cours
+[INFO] 15-11-2025 13:02:42 [main] [com.actions.ElementActions] - Élément trouvé : By.xpath: //div[@class='mb-1' and normalize-space(.)='riahi salma']/input[@type='checkbox']
+[INFO] 15-11-2025 13:02:42 [main] [com.actions.ElementActions] - Élément trouvé : By.xpath: //div[@class='mb-1' and normalize-space(.)='mtiri chiraz']/input[@type='checkbox']
+[INFO] 15-11-2025 13:02:43 [main] [com.actions.ElementActions] - Élément trouvé : By.xpath: //div[@class='mb-1' and normalize-space(.)='mtiri fahed']/input[@type='checkbox']
+[INFO] 15-11-2025 13:02:43 [main] [com.actions.ElementActions] - Élément trouvé : By.xpath: //div[@class='mb-1' and normalize-space(.)='riahi pouka']/input[@type='checkbox']
+[INFO] 15-11-2025 13:02:44 [main] [com.actions.ElementActions] - Élément trouvé : By.xpath: //div[@class='mb-1' and normalize-space(.)='riahi sameh']/input[@type='checkbox']
+[INFO] 15-11-2025 13:02:44 [main] [com.hooks.TearDown] - Scénario terminé avec succès : champs obligatoires lors de la creation
+[INFO] 15-11-2025 13:02:46 [main] [com.hooks.TearDown] - Driver fermé correctement pour le scénario : champs obligatoires lors de la creation
+[DEBUG] 15-11-2025 13:02:46 [main] [com.hooks.TearDown] - ThreadContext nettoyé après exécution du scénario : champs obligatoires lors de la creation
+[INFO] 15-11-2025 13:02:49 [main] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (2a44fb532d80d14dce8cbbc1f353ac20)
+[INFO] 15-11-2025 13:02:49 [main] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (2a44fb532d80d14dce8cbbc1f353ac20)
+[DEBUG] 15-11-2025 13:02:51 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 15-11-2025 13:02:51 [main] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 15-11-2025 13:02:52 [main] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[DEBUG] 15-11-2025 13:02:52 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 15-11-2025 13:02:52 [main] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 15-11-2025 13:02:53 [main] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[DEBUG] 15-11-2025 13:02:53 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[INFO] 15-11-2025 13:02:53 [main] [com.actions.ElementActions] - Click réussi sur l'élément : Se connecter
+[DEBUG] 15-11-2025 13:02:58 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[INFO] 15-11-2025 13:03:00 [main] [com.actions.ElementActions] - Click réussi sur l'élément : Pilotage des projets
+[DEBUG] 15-11-2025 13:03:00 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[INFO] 15-11-2025 13:03:01 [main] [com.actions.ElementActions] - Click réussi sur l'élément : Ajouter
+[DEBUG] 15-11-2025 13:03:02 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 15-11-2025 13:03:02 [main] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 15-11-2025 13:03:03 [main] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[DEBUG] 15-11-2025 13:03:03 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 15-11-2025 13:03:03 [main] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 15-11-2025 13:03:04 [main] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[DEBUG] 15-11-2025 13:03:04 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 15-11-2025 13:03:04 [main] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 15-11-2025 13:03:05 [main] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[DEBUG] 15-11-2025 13:03:05 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 15-11-2025 13:03:05 [main] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 15-11-2025 13:03:05 [main] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[DEBUG] 15-11-2025 13:03:05 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[INFO] 15-11-2025 13:03:06 [main] [com.actions.ElementActions] - Click réussi sur l'élément : En cours
+[INFO] 15-11-2025 13:03:06 [main] [com.actions.ElementActions] - Élément trouvé : By.xpath: //div[@class='mb-1' and normalize-space(.)='riahi salma']/input[@type='checkbox']
+[INFO] 15-11-2025 13:03:07 [main] [com.actions.ElementActions] - Élément trouvé : By.xpath: //div[@class='mb-1' and normalize-space(.)='mtiri chiraz']/input[@type='checkbox']
+[INFO] 15-11-2025 13:03:07 [main] [com.actions.ElementActions] - Élément trouvé : By.xpath: //div[@class='mb-1' and normalize-space(.)='mtiri fahed']/input[@type='checkbox']
+[INFO] 15-11-2025 13:03:07 [main] [com.actions.ElementActions] - Élément trouvé : By.xpath: //div[@class='mb-1' and normalize-space(.)='riahi pouka']/input[@type='checkbox']
+[INFO] 15-11-2025 13:03:08 [main] [com.actions.ElementActions] - Élément trouvé : By.xpath: //div[@class='mb-1' and normalize-space(.)='riahi sameh']/input[@type='checkbox']
+[INFO] 15-11-2025 13:03:09 [main] [com.hooks.TearDown] - Scénario terminé avec succès : champs obligatoires lors de la creation
+[INFO] 15-11-2025 13:03:10 [main] [com.hooks.TearDown] - Driver fermé correctement pour le scénario : champs obligatoires lors de la creation
+[DEBUG] 15-11-2025 13:03:10 [main] [com.hooks.TearDown] - ThreadContext nettoyé après exécution du scénario : champs obligatoires lors de la creation
+[INFO] 15-11-2025 13:03:13 [main] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (c01298fbd3cb433c7040491a71c71585)
+[INFO] 15-11-2025 13:03:13 [main] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (c01298fbd3cb433c7040491a71c71585)
+[DEBUG] 15-11-2025 13:03:15 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 15-11-2025 13:03:16 [main] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 15-11-2025 13:03:16 [main] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[DEBUG] 15-11-2025 13:03:16 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 15-11-2025 13:03:17 [main] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 15-11-2025 13:03:17 [main] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[DEBUG] 15-11-2025 13:03:17 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[INFO] 15-11-2025 13:03:18 [main] [com.actions.ElementActions] - Click réussi sur l'élément : Se connecter
+[DEBUG] 15-11-2025 13:03:22 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[INFO] 15-11-2025 13:03:24 [main] [com.actions.ElementActions] - Click réussi sur l'élément : Pilotage des projets
+[DEBUG] 15-11-2025 13:03:24 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[INFO] 15-11-2025 13:03:25 [main] [com.actions.ElementActions] - Click réussi sur l'élément : Ajouter
+[DEBUG] 15-11-2025 13:03:26 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 15-11-2025 13:03:27 [main] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 15-11-2025 13:03:27 [main] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[DEBUG] 15-11-2025 13:03:27 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 15-11-2025 13:03:28 [main] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 15-11-2025 13:03:29 [main] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[DEBUG] 15-11-2025 13:03:29 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 15-11-2025 13:03:29 [main] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 15-11-2025 13:03:30 [main] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[DEBUG] 15-11-2025 13:03:30 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 15-11-2025 13:03:30 [main] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 15-11-2025 13:03:30 [main] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[DEBUG] 15-11-2025 13:03:30 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[INFO] 15-11-2025 13:03:31 [main] [com.actions.ElementActions] - Click réussi sur l'élément : En cours
+[INFO] 15-11-2025 13:03:31 [main] [com.actions.ElementActions] - Élément trouvé : By.xpath: //div[@class='mb-1' and normalize-space(.)='riahi salma']/input[@type='checkbox']
+[INFO] 15-11-2025 13:03:32 [main] [com.actions.ElementActions] - Élément trouvé : By.xpath: //div[@class='mb-1' and normalize-space(.)='mtiri chiraz']/input[@type='checkbox']
+[INFO] 15-11-2025 13:03:32 [main] [com.actions.ElementActions] - Élément trouvé : By.xpath: //div[@class='mb-1' and normalize-space(.)='mtiri fahed']/input[@type='checkbox']
+[INFO] 15-11-2025 13:03:33 [main] [com.actions.ElementActions] - Élément trouvé : By.xpath: //div[@class='mb-1' and normalize-space(.)='riahi pouka']/input[@type='checkbox']
+[INFO] 15-11-2025 13:03:33 [main] [com.actions.ElementActions] - Élément trouvé : By.xpath: //div[@class='mb-1' and normalize-space(.)='riahi sameh']/input[@type='checkbox']
+[INFO] 15-11-2025 13:03:34 [main] [com.hooks.TearDown] - Scénario terminé avec succès : champs obligatoires lors de la creation
+[INFO] 15-11-2025 13:03:35 [main] [com.hooks.TearDown] - Driver fermé correctement pour le scénario : champs obligatoires lors de la creation
+[DEBUG] 15-11-2025 13:03:35 [main] [com.hooks.TearDown] - ThreadContext nettoyé après exécution du scénario : champs obligatoires lors de la creation
+[INFO] 15-11-2025 13:03:38 [main] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (d7bf1675598f6467f30abc5640eab37e)
+[INFO] 15-11-2025 13:03:38 [main] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (d7bf1675598f6467f30abc5640eab37e)
+[DEBUG] 15-11-2025 13:03:41 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 15-11-2025 13:03:42 [main] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 15-11-2025 13:03:42 [main] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[DEBUG] 15-11-2025 13:03:42 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 15-11-2025 13:03:43 [main] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 15-11-2025 13:03:43 [main] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[DEBUG] 15-11-2025 13:03:43 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[INFO] 15-11-2025 13:03:44 [main] [com.actions.ElementActions] - Click réussi sur l'élément : Se connecter
+[DEBUG] 15-11-2025 13:03:49 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[INFO] 15-11-2025 13:03:52 [main] [com.actions.ElementActions] - Click réussi sur l'élément : Pilotage des projets
+[DEBUG] 15-11-2025 13:03:52 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[INFO] 15-11-2025 13:03:54 [main] [com.actions.ElementActions] - Click réussi sur l'élément : Ajouter
+[DEBUG] 15-11-2025 13:03:56 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 15-11-2025 13:03:58 [main] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 15-11-2025 13:04:00 [main] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[DEBUG] 15-11-2025 13:04:00 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 15-11-2025 13:04:01 [main] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 15-11-2025 13:04:01 [main] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[DEBUG] 15-11-2025 13:04:01 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 15-11-2025 13:04:02 [main] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 15-11-2025 13:04:02 [main] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[DEBUG] 15-11-2025 13:04:02 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 15-11-2025 13:04:03 [main] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 15-11-2025 13:04:03 [main] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[DEBUG] 15-11-2025 13:04:03 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[INFO] 15-11-2025 13:04:04 [main] [com.actions.ElementActions] - Click réussi sur l'élément : En cours
+[INFO] 15-11-2025 13:04:04 [main] [com.actions.ElementActions] - Élément trouvé : By.xpath: //div[@class='mb-1' and normalize-space(.)='riahi salma']/input[@type='checkbox']
+[INFO] 15-11-2025 13:04:04 [main] [com.actions.ElementActions] - Élément trouvé : By.xpath: //div[@class='mb-1' and normalize-space(.)='mtiri chiraz']/input[@type='checkbox']
+[INFO] 15-11-2025 13:04:05 [main] [com.actions.ElementActions] - Élément trouvé : By.xpath: //div[@class='mb-1' and normalize-space(.)='mtiri fahed']/input[@type='checkbox']
+[INFO] 15-11-2025 13:04:05 [main] [com.actions.ElementActions] - Élément trouvé : By.xpath: //div[@class='mb-1' and normalize-space(.)='riahi pouka']/input[@type='checkbox']
+[INFO] 15-11-2025 13:04:06 [main] [com.actions.ElementActions] - Élément trouvé : By.xpath: //div[@class='mb-1' and normalize-space(.)='riahi sameh']/input[@type='checkbox']
+[INFO] 15-11-2025 13:04:06 [main] [com.hooks.TearDown] - Scénario terminé avec succès : champs obligatoires lors de la creation
+[INFO] 15-11-2025 13:04:07 [main] [com.hooks.TearDown] - Driver fermé correctement pour le scénario : champs obligatoires lors de la creation
+[DEBUG] 15-11-2025 13:04:07 [main] [com.hooks.TearDown] - ThreadContext nettoyé après exécution du scénario : champs obligatoires lors de la creation
+[INFO] 15-11-2025 13:04:11 [main] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (897d8d8f068e1f4def2351a0564646c8)
+[INFO] 15-11-2025 13:04:11 [main] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (897d8d8f068e1f4def2351a0564646c8)
+[DEBUG] 15-11-2025 13:04:13 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 15-11-2025 13:04:13 [main] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 15-11-2025 13:04:14 [main] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[DEBUG] 15-11-2025 13:04:14 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 15-11-2025 13:04:14 [main] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 15-11-2025 13:04:15 [main] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[DEBUG] 15-11-2025 13:04:15 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[INFO] 15-11-2025 13:04:16 [main] [com.actions.ElementActions] - Click réussi sur l'élément : Se connecter
+[DEBUG] 15-11-2025 13:04:21 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[INFO] 15-11-2025 13:04:22 [main] [com.actions.ElementActions] - Click réussi sur l'élément : Pilotage des projets
+[DEBUG] 15-11-2025 13:04:22 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[INFO] 15-11-2025 13:04:24 [main] [com.actions.ElementActions] - Click réussi sur l'élément : Ajouter
+[DEBUG] 15-11-2025 13:04:25 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 15-11-2025 13:04:25 [main] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 15-11-2025 13:04:27 [main] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[DEBUG] 15-11-2025 13:04:27 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 15-11-2025 13:04:28 [main] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 15-11-2025 13:04:30 [main] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[DEBUG] 15-11-2025 13:04:30 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 15-11-2025 13:04:31 [main] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 15-11-2025 13:04:31 [main] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[DEBUG] 15-11-2025 13:04:31 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 15-11-2025 13:04:31 [main] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 15-11-2025 13:04:32 [main] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[INFO] 15-11-2025 13:04:32 [main] [com.actions.ElementActions] - Élément trouvé : By.xpath: //div[@class='mb-1' and normalize-space(.)='riahi salma']/input[@type='checkbox']
+[INFO] 15-11-2025 13:04:33 [main] [com.actions.ElementActions] - Élément trouvé : By.xpath: //div[@class='mb-1' and normalize-space(.)='mtiri chiraz']/input[@type='checkbox']
+[INFO] 15-11-2025 13:04:33 [main] [com.actions.ElementActions] - Élément trouvé : By.xpath: //div[@class='mb-1' and normalize-space(.)='mtiri fahed']/input[@type='checkbox']
+[INFO] 15-11-2025 13:04:33 [main] [com.actions.ElementActions] - Élément trouvé : By.xpath: //div[@class='mb-1' and normalize-space(.)='riahi pouka']/input[@type='checkbox']
+[INFO] 15-11-2025 13:04:34 [main] [com.actions.ElementActions] - Élément trouvé : By.xpath: //div[@class='mb-1' and normalize-space(.)='riahi sameh']/input[@type='checkbox']
+[INFO] 15-11-2025 13:04:34 [main] [com.hooks.TearDown] - Scénario terminé avec succès : champs obligatoires lors de la creation
+[INFO] 15-11-2025 13:04:36 [main] [com.hooks.TearDown] - Driver fermé correctement pour le scénario : champs obligatoires lors de la creation
+[DEBUG] 15-11-2025 13:04:36 [main] [com.hooks.TearDown] - ThreadContext nettoyé après exécution du scénario : champs obligatoires lors de la creation
+[INFO] 15-11-2025 13:04:40 [main] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (e18dbf340ae9d0af0c42d81dedb3e033)
+[INFO] 15-11-2025 13:04:40 [main] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (e18dbf340ae9d0af0c42d81dedb3e033)
+[DEBUG] 15-11-2025 13:04:43 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 15-11-2025 13:04:43 [main] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 15-11-2025 13:04:44 [main] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[DEBUG] 15-11-2025 13:04:44 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 15-11-2025 13:04:44 [main] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 15-11-2025 13:04:44 [main] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[DEBUG] 15-11-2025 13:04:44 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[INFO] 15-11-2025 13:04:45 [main] [com.actions.ElementActions] - Click réussi sur l'élément : Se connecter
+[DEBUG] 15-11-2025 13:04:50 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[INFO] 15-11-2025 13:04:52 [main] [com.actions.ElementActions] - Click réussi sur l'élément : Pilotage des projets
+[DEBUG] 15-11-2025 13:04:52 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[INFO] 15-11-2025 13:04:53 [main] [com.actions.ElementActions] - Click réussi sur l'élément : Ajouter
+[DEBUG] 15-11-2025 13:04:54 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 15-11-2025 13:04:54 [main] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 15-11-2025 13:04:55 [main] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[DEBUG] 15-11-2025 13:04:55 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 15-11-2025 13:04:55 [main] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 15-11-2025 13:04:56 [main] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[DEBUG] 15-11-2025 13:04:56 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 15-11-2025 13:04:56 [main] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 15-11-2025 13:04:57 [main] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[DEBUG] 15-11-2025 13:04:57 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 15-11-2025 13:04:57 [main] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 15-11-2025 13:04:58 [main] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[DEBUG] 15-11-2025 13:04:58 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[INFO] 15-11-2025 13:04:58 [main] [com.actions.ElementActions] - Click réussi sur l'élément : En cours
+[INFO] 15-11-2025 13:04:59 [main] [com.hooks.TearDown] - Scénario terminé avec succès : champs obligatoires lors de la creation
+[INFO] 15-11-2025 13:05:00 [main] [com.hooks.TearDown] - Driver fermé correctement pour le scénario : champs obligatoires lors de la creation
+[DEBUG] 15-11-2025 13:05:00 [main] [com.hooks.TearDown] - ThreadContext nettoyé après exécution du scénario : champs obligatoires lors de la creation

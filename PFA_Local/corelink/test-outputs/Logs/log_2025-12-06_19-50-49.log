@@ -1,0 +1,5 @@
+[INFO] 06-12-2025 19:50:52 [main] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (b6059ddad00e9aa46b3b2f695715c47e)
+[INFO] 06-12-2025 19:50:52 [main] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (b6059ddad00e9aa46b3b2f695715c47e)
+[ERROR] 06-12-2025 19:51:02 [main] [com.hooks.TearDown] - Le scénario a échoué : Modification complète d une actualite
+[INFO] 06-12-2025 19:51:17 [main] [com.hooks.TearDown] - Driver fermé correctement pour le scénario : Modification complète d une actualite
+[DEBUG] 06-12-2025 19:51:17 [main] [com.hooks.TearDown] - ThreadContext nettoyé après exécution du scénario : Modification complète d une actualite

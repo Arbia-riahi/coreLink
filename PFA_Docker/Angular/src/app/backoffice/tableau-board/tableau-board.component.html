@@ -1,0 +1,69 @@
+<div class="dashboard-wrapper container-fluid py-4">
+  <!-- Titre principal -->
+  <h2 class="dashboard-title mb-4">
+    <i class="fas fa-chart-line me-2"></i> Indicateurs Clés
+  </h2>
+
+  <!-- Ligne des graphiques principaux -->
+  <div class="row g-4">
+
+    <!-- Comparaison des projets -->
+    <div class="col-lg-6 col-md-12">
+      <div class="dashboard-card shadow-sm p-4 rounded-4 h-100">
+        <h5 class="card-title mb-3 text-primary">
+          <i class="fas fa-project-diagram me-2"></i> Comparaison des Projets
+        </h5>
+        <canvas id="projectsChart" style="width: 100%; height: 300px;"></canvas>
+      </div>
+    </div>
+
+    
+  
+<!-- Répartition des rôles -->
+<div class="col-lg-6 col-md-12">
+  <div class="dashboard-card shadow-sm p-4 rounded-4 h-100">
+    <h5 class="card-title mb-3 text-primary">
+      <i class="fas fa-users me-2"></i> Répartition des Rôles
+    </h5>
+    <div style="width: 260px; height: 300px; margin: auto;">
+      <canvas id="roleDistributionChart"></canvas>
+    </div>
+  </div>
+</div>
+
+
+
+  <!-- Projets proches de la deadline -->
+  <div class="row g-4 mt-4">
+    <div class="col-12">
+      <div class="dashboard-card shadow-sm p-4 rounded-4">
+        <h5 class="card-title mb-4 text-primary">
+          <i class="fas fa-clock me-2"></i> Projets Proches de la Deadline (7 jours)
+        </h5>
+        <div class="cards-container d-flex flex-wrap gap-3">
+          <div *ngFor="let proj of upcomingDeadlines" 
+               class="deadline-card p-3 rounded-3 text-white flex-fill"
+               [ngClass]="getCardColor(proj.joursRestants)">
+            <h6 class="mb-2 fw-bold">{{ proj.titre }}</h6>
+            <p class="mb-1"><strong>Deadline :</strong> {{ proj.dateFin | date:'dd/MM/yyyy' }}</p>
+            <p class="mb-0"><strong>Jours restants :</strong> 
+              {{ proj.joursRestants === 0 ? "Aujourd'hui !" : proj.joursRestants + ' jours' }}
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Répartition des projets par Chef -->
+  <div class="row g-4 mt-4">
+    <div class="col-12">
+      <div class="dashboard-card shadow-sm p-4 rounded-4">
+        <h5 class="card-title mb-3 text-primary">
+          <i class="fas fa-user-tie me-2"></i> Répartition des Projets par Chef & État
+        </h5>
+        <canvas id="projectsByChefChart" style="width: 100%; height: 350px;"></canvas>
+      </div>
+    </div>
+  </div>
+</div>

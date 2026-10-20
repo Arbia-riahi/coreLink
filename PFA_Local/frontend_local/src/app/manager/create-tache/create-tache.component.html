@@ -1,0 +1,132 @@
+<div class="card shadow mb-4" data-testid="section-creation-tache">
+  <div class="card-header">
+    <h1 class="mb-0 text-primary" data-testid="titre-formulaire">Créer une Nouvelle Tâche</h1>
+  </div>
+
+  <div class="card-body">
+    <form [formGroup]="tacheForm" (ngSubmit)="onSubmit()" data-testid="form-creation-tache">
+
+      <!-- Titre -->
+      <div class="mb-3" data-testid="champ-titre-wrapper">
+        <label for="titre" class="form-label">Titre</label>
+        <input
+          id="titre"
+          type="text"
+          formControlName="titre"
+          class="form-control"
+          placeholder="Titre de la tâche"
+          data-testid="tache-titre"
+        />
+      </div>
+
+      <!-- Priorité -->
+       <div class="mb-3">
+        <label for="priorite" class="form-label">Priorité</label>
+        <mat-form-field appearance="fill" class="w-100">
+          <mat-select formControlName="priorite" placeholder="Sélectionner une priorité">
+            <mat-option *ngFor="let p of priorites" [value]="p">
+              <i [ngClass]="getFlagIconClass(p)"></i> {{ getPriorityLabel(p) }}
+            </mat-option>
+          </mat-select>
+        </mat-form-field>
+      </div>
+
+      <!-- État -->
+ <div class="mb-3" data-testid="champ-etat-wrapper">
+  <label for="etat" class="form-label">État</label>
+  <select
+    id="etat"
+    formControlName="etat"
+    class="form-select"
+    data-testid="tache-etat"
+  >
+    <!-- Option placeholder -->
+    <option value="" disabled selected hidden>Sélectionner un état</option>
+
+    <!-- Boucle sur les états -->
+    <option *ngFor="let e of etats" [value]="e" data-testid="option-etat">
+      {{ e }}
+    </option>
+  </select>
+</div>
+
+
+    <!-- Date de fin -->
+      <div class="mb-3" data-testid="champ-datefin-wrapper">
+        <label for="dateFin" class="form-label">Date et Heure de Fin</label>
+        <input
+          id="dateFin"
+          type="datetime-local"
+          formControlName="dateFin"
+          class="form-control"
+          data-testid="tache-datefin"
+        />
+
+        <div
+          class="text-danger mt-1"
+          *ngIf="tacheForm.get('dateFin')?.hasError('dateAvantCreation') && tacheForm.get('dateFin')?.touched"
+          data-testid="erreur-date-avant"
+        >
+        
+        </div>
+
+        <div
+          class="text-danger mt-1"
+          *ngIf="tacheForm.get('dateFin')?.hasError('dateDepasseProjet') && tacheForm.get('dateFin')?.touched"
+          data-testid="erreur-date-projet"
+        >
+         
+        </div>
+      </div>
+
+
+
+ <!-- Membres assignés -->
+<div class="mb-3" [formGroup]="tacheForm">
+  <label class="form-label fw-bold">Membres assignés</label>
+
+  <div id="membres-container" class="checkbox-list">
+    <div *ngFor="let member of members" class="checkbox-item">
+      <input
+        type="checkbox"
+        [value]="member.matricule"
+        (change)="onCheckboxChange($event)"
+        [checked]="tacheForm.value.autresAssignes.includes(member.matricule)"
+        id="membre-{{ member.matricule }}" />
+      <label for="membre-{{ member.matricule }}">
+        {{ member.nom }} {{ member.prenom }}
+      </label>
+    </div>
+  </div>
+
+  <div *ngIf="tacheForm.get('autresAssignes')?.touched && tacheForm.get('autresAssignes')?.invalid"
+       class="text-danger mt-1">
+    Veuillez sélectionner au moins un membre.
+  </div>
+</div>
+
+
+
+
+      <!-- Boutons -->
+      <div class="text-end" data-testid="section-boutons">
+        <button
+          class="btn btn-secondary me-2"
+          [routerLink]="['/manager/listTaches', projetId]"
+          data-testid="btn-annuler"
+        >
+          Annuler
+        </button>
+<button
+  class="btn btn-success"
+  type="submit"
+  [disabled]="loading"
+  data-testid="btn-creer"
+>
+  <i class="fas fa-save"></i> Créer
+</button>
+
+      </div>
+    </form>
+  </div>
+</div>

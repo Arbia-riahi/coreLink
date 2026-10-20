@@ -1,0 +1,84 @@
+<div class="container-fluid">
+  <h1 class="h3 mb-2 text-gray-800">Gestion des Actualités</h1>
+  <p>Cette interface vous permet de modifier une actualité existante.</p>
+  <div class="card o-hidden border-0 shadow-lg my-12">
+    <div class="card-body p-0">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="p-5">
+            <div class="text-center">
+              <h1 class="h4 text-gray-900 mb-12">Modifier une actualité !</h1>
+            </div>
+
+            <!-- Formulaire de mise à jour -->
+            <form #data="ngForm" (ngSubmit)="persistActualite(data)" class="user" enctype="multipart/form-data">
+              
+              <!-- Titre -->
+              <div class="form-group row">
+                <div class="col-12">
+                  Titre :
+                  <input type="text" [(ngModel)]="actualite.titre" name="titre"  id="titre"
+                         class="form-control form-control-user"
+                         placeholder="Titre actualité" required />
+                </div>
+              </div>
+
+              <!-- Description -->
+              <div class="form-group row">
+                <div class="col-12">
+                  Description :
+                  <input type="text" [(ngModel)]="actualite.description" name="description"  id="description"
+                         class="form-control form-control-user"
+                         placeholder="Description actualité" required />
+                </div>
+              </div>
+
+              <!-- Photos actuelles -->
+              <div class="form-group row">
+                <div class="col-12">
+                 <p>Photos actuelles :</p>
+<div class="photo-container">
+  <img *ngFor="let img of actualite?.photos"
+       [src]="img" 
+       alt="Photo actuelle"
+       class="photo-circle" />
+</div>
+
+
+
+                </div>
+              </div>
+
+              <!-- Nouvelles photos -->
+              <div class="form-group row">
+                <div class="col-12">
+                  Nouvelles photos :
+                  <input type="file" id="photos" (change)="onFileChange($event)"  
+                  accept="image/png,image/jpeg,image/jpg,image/gif,image/webp"
+                  multiple
+                   class="form-control form-control-lg"
+                   required
+                   aria-describedby="photosHelp"
+                  />
+                </div>
+              </div>
+           
+        
+
+       
+              
+            
+              
+            
+<button type="submit" class="btn btn-primary btn-user btn-block">
+  Mettre à jour l'actualité
+</button>
+
+             
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

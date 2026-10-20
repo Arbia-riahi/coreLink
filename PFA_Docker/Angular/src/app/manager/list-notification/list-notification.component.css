@@ -1,0 +1,10 @@
+.notifications-container {
+  padding: 1rem;
+}
+.unread {
+  font-weight: bold;
+  background-color: #fdf8f7;
+}
+.actions button {
+  margin-left: 5px;
+}

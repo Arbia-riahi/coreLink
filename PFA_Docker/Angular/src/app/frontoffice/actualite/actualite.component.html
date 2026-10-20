@@ -1,0 +1,52 @@
+<section class="site-section modern-news" id="blog-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center" data-aos="fade">
+      <h1 class="section-heading">Nos <span>Actualités</span></h1>
+     <h3 class="section-subtitle">Découvrez nos dernières nouvelles et événements</h3>
+      </div>
+    </div>
+
+   <div class="row cards-carousel flex-nowrap overflow-auto">
+  <div *ngFor="let actualite of actualites; let i = index" 
+       class="card-slide" data-aos="fade-up">
+    <div class="card news-card shadow-lg">
+
+      <!-- ton carousel d’images par actualité (inchangé) -->
+      <div id="carousel{{i}}" class="carousel slide" data-bs-ride="carousel" *ngIf="getPhotosList(actualite.photos).length > 0">
+        <div class="carousel-inner">
+          <div *ngFor="let img of getPhotosList(actualite.photos); let first = first"
+               class="carousel-item" [class.active]="first">
+            <img [src]="getPhotoUrl(img)" class="d-block w-100 card-img-top" alt="Image actualité">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" [attr.data-bs-target]="'#carousel' + i" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </button>
+        <button class="carousel-control-next" type="button" [attr.data-bs-target]="'#carousel' + i" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </button>
+      </div>
+
+      <!-- contenu de l’actualité (inchangé) -->
+      <div class="card-body news-content">
+        <h5 class="card-title news-title">
+          <a href="#">{{ actualite.titre }}</a>
+        </h5>
+        <p class="text-muted small mb-2">
+          <span class="mx-2">&bullet;</span>{{ actualite.dateCreation | date:'yyyy-MM-dd' }}
+        </p>
+        <p class="card-text news-description">
+          {{ getShortDescription(actualite.description, i) }}
+          <span *ngIf="!isFullDescription[i]" class="read-more text-primary" (click)="toggleDescription(i)">... Lire Plus</span>
+          <span *ngIf="isFullDescription[i]">{{ getFullDescription(actualite.description) }}</span>
+          <span *ngIf="isFullDescription[i]" class="read-less text-danger" (click)="toggleDescription(i)">Voir Moins</span>
+        </p>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+  </div>
+</section>

@@ -1,0 +1,32 @@
+[INFO] 30-11-2025 12:47:13 [main] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (52e921850130b599111772ff2301c267)
+[DEBUG] 30-11-2025 12:47:17 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[INFO] 30-11-2025 12:47:21 [main] [com.actions.ElementActions] - Click réussi sur l'élément : <unreadable>
+[DEBUG] 30-11-2025 12:47:22 [main] [com.actions.ElementActions] - Champ effacé : 
+[DEBUG] 30-11-2025 12:47:22 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 30-11-2025 12:47:22 [main] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 30-11-2025 12:47:22 [main] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[DEBUG] 30-11-2025 12:47:23 [main] [com.actions.ElementActions] - Champ effacé : 
+[DEBUG] 30-11-2025 12:47:23 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 30-11-2025 12:47:23 [main] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 30-11-2025 12:47:24 [main] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[DEBUG] 30-11-2025 12:47:24 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[INFO] 30-11-2025 12:47:25 [main] [com.actions.ElementActions] - Click réussi sur l'élément : Se connecter
+[ERROR] 30-11-2025 12:47:27 [main] [com.hooks.TearDown] - Le scénario a échoué : Connexion réussie avec des identifiants valides selon le rôle de l’utilisateur
+[INFO] 30-11-2025 12:47:28 [main] [com.hooks.TearDown] - Driver fermé correctement pour le scénario : Connexion réussie avec des identifiants valides selon le rôle de l’utilisateur
+[DEBUG] 30-11-2025 12:47:28 [main] [com.hooks.TearDown] - ThreadContext nettoyé après exécution du scénario : Connexion réussie avec des identifiants valides selon le rôle de l’utilisateur
+[INFO] 30-11-2025 12:47:31 [main] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (64e4f83c3c02434a2af229f671de814c)
+[DEBUG] 30-11-2025 12:47:35 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[INFO] 30-11-2025 12:47:37 [main] [com.actions.ElementActions] - Click réussi sur l'élément : <unreadable>
+[DEBUG] 30-11-2025 12:47:37 [main] [com.actions.ElementActions] - Champ effacé : 
+[DEBUG] 30-11-2025 12:47:37 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 30-11-2025 12:47:37 [main] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 30-11-2025 12:47:38 [main] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[DEBUG] 30-11-2025 12:47:38 [main] [com.actions.ElementActions] - Champ effacé : 
+[DEBUG] 30-11-2025 12:47:38 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 30-11-2025 12:47:38 [main] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 30-11-2025 12:47:39 [main] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[DEBUG] 30-11-2025 12:47:39 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[INFO] 30-11-2025 12:47:39 [main] [com.actions.ElementActions] - Click réussi sur l'élément : Se connecter
+[ERROR] 30-11-2025 12:47:41 [main] [com.hooks.TearDown] - Le scénario a échoué : Connexion réussie avec des identifiants valides selon le rôle de l’utilisateur
+[INFO] 30-11-2025 12:47:42 [main] [com.hooks.TearDown] - Driver fermé correctement pour le scénario : Connexion réussie avec des identifiants valides selon le rôle de l’utilisateur
+[DEBUG] 30-11-2025 12:47:42 [main] [com.hooks.TearDown] - ThreadContext nettoyé après exécution du scénario : Connexion réussie avec des identifiants valides selon le rôle de l’utilisateur

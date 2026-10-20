@@ -1,0 +1,130 @@
+.upload-dropzone {
+  border: 1px dashed #ecc9c3;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+
+  background-color: #f9f9f9;
+  color: #333;
+  cursor: pointer;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.upload-dropzone:hover {
+  background-color: #fcf3f1;
+  border-color: #c98a8f;
+}
+
+.upload-dropzone.drag-over {
+  background-color: #f6e2de;
+  border-color: #bc7d84;
+}
+
+.hidden-input {
+  display: none;
+}
+
+
+
+
+/* Style des boutons */
+.badge {
+  font-size: 0.9rem;
+  padding: 0.4rem 1rem;
+  border-radius: 25px;
+  border: 1px solid #ccc;
+  background-color: transparent;
+  color: #000;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+/* Hover */
+.badge:hover {
+  background-color: #f8f8f8;
+}
+
+/* Couleur par défaut (bordure + texte) */
+.chip-waiting {
+  color: #ffc107;
+  border-color: #ffc107;
+}
+
+.chip-progress {
+  color: #bc7d84;
+  border-color: #bc7d84;
+}
+
+.chip-done {
+  color: #28a745;
+  border-color: #28a745;
+}
+
+.chip-cancel {
+  color: #868181;;
+  border-color: #868181;;
+}
+
+/* Quand actif (clic) */
+.active-chip {
+  color: #fff !important;
+}
+.active-chip.chip-waiting {
+  background-color: #ffc107;
+  border-color: #ffc107;
+}
+
+
+.active-chip.chip-progress {
+  background-color: #bc7d84;
+  border-color: #bc7d84;
+}
+
+.active-chip.chip-done {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.active-chip.chip-cancel {
+  background-color: #868181;
+  border-color: #868181;
+}
+
+.custom-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+.status-badge {
+  font-size: 0.9rem;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.status-badge:hover {
+  opacity: 0.8;
+}
+
+.upload-dropzone {
+  border: 2px dashed #ecc9c3;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  color: #333;
+  cursor: pointer;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.upload-dropzone:hover {
+  background-color: #fcf3f1;
+  border-color: #c98a8f;
+}
+
+.upload-dropzone.drag-over {
+  background-color: #f6e2de;
+  border-color: #bc7d84;
+}
+
+.hidden-input {
+  display: none;
+}

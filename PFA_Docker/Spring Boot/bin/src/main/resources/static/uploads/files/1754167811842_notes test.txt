@@ -1,0 +1,14 @@
+les critères d’acceptation houma les conditions globales pour valider une fonctionnalité
+w les résultats attendus houma des observations précises fi kol étape de test (dans le cas de test)  qui confirment que ces critères sont bien respectés
+
+****************
+Azure devops aussi
+elm ceed : ca dépend de la stratégie de test  et de la stratégie globale du projet, et a mon avis akid chaque user story lazmeha un ticket de test dédié pour assurer une bonne traçabilité et couverture
+**********
+La revue des cas de test peut être réalisée par un testeur junior, un testeur senior, et même par le Product Owner (PO), afin de s'assurer que tous les critères d’acceptation sont bien couverts
+*************
+Voici un exepmle :
+*Critical (bloquant/critique): ** Une fonctionnalité critique n’est pas assurée ou elle est non conforme à l’exigence. Le logiciel ou le système est inutilisable. Il y a généralement un blocage.
+*High (Majeure): ** Une fonctionnalité majeure n’est pas assurée ou elle n’est pas exactement conforme à l’exigence. Le produit n'est pas complètement exploitable ou il est instable. Il n’y a pas de blocage mais le problème doit être levé.
+*Minor (Mineure): ** La fonctionnalité n’est pas tout à fait conforme à ce qui est attendu. Le produit est utilisable mais il nécessite une amélioration pour correspondre aux attentes.
+Et mm fama des projets yestaammlou la sévérités Medium (bin el binin hhhh lehou mineur lehou majeur)

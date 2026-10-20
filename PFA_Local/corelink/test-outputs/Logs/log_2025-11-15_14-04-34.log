@@ -1,0 +1,37 @@
+[INFO] 15-11-2025 14:04:35 [main] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (9b9fd6d5d66d041f41b2f336138437c6)
+[INFO] 15-11-2025 14:04:35 [main] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (9b9fd6d5d66d041f41b2f336138437c6)
+[DEBUG] 15-11-2025 14:04:38 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 15-11-2025 14:04:41 [main] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 15-11-2025 14:04:42 [main] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[DEBUG] 15-11-2025 14:04:42 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 15-11-2025 14:04:43 [main] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 15-11-2025 14:04:44 [main] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[DEBUG] 15-11-2025 14:04:44 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[INFO] 15-11-2025 14:04:45 [main] [com.actions.ElementActions] - Click réussi sur l'élément : Se connecter
+[DEBUG] 15-11-2025 14:04:52 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[ERROR] 15-11-2025 14:04:53 [main] [com.actions.ElementActions] - Échec du click sur WebElement : element click intercepted: Element <span _ngcontent-ng-c2942584864="">...</span> is not clickable at point (95, 217). Other element would receive the click: <div class="swal2-container swal2-center swal2-backdrop-hide" style="overflow-y: hidden;">...</div>
+  (Session info: chrome=142.0.7444.163)
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9b9fd6d5d66d041f41b2f336138437c6, clickElement {id=f.FDBA5EFAF32DEDD71B6E823F036A1F66.d.6A2287B1C49B97AFC10FABCB8075E8BB.e.17}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 142.0.7444.163, chrome: {chromedriverVersion: 142.0.7444.162 (c076baf266c..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49167}, goog:processID: 10436, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49167/devtoo..., se:cdpVersion: 142.0.7444.163, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (9b9fd6d5d66d041f41b2f336138437c6)] -> xpath: //span[contains(text(),'Pilotage des projets')]]
+Session ID: 9b9fd6d5d66d041f41b2f336138437c6
+[DEBUG] 15-11-2025 14:04:53 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[ERROR] 15-11-2025 14:05:04 [main] [com.actions.ElementActions] - Échec du click sur WebElement : Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on windows (9b9fd6d5d66d041f41b2f336138437c6)] -> xpath: //a[contains(text(),'Ajouter')]] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 142.0.7444.163, chrome: {chromedriverVersion: 142.0.7444.162 (c076baf266c..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49167}, goog:processID: 10436, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49167/devtoo..., se:cdpVersion: 142.0.7444.163, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9b9fd6d5d66d041f41b2f336138437c6
+[DEBUG] 15-11-2025 14:05:04 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[ERROR] 15-11-2025 14:05:14 [main] [com.actions.ElementActions] - Échec du click sur WebElement : Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on windows (9b9fd6d5d66d041f41b2f336138437c6)] -> xpath: //a[contains(text(),'Ajouter')]] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 142.0.7444.163, chrome: {chromedriverVersion: 142.0.7444.162 (c076baf266c..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49167}, goog:processID: 10436, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49167/devtoo..., se:cdpVersion: 142.0.7444.163, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9b9fd6d5d66d041f41b2f336138437c6
+[ERROR] 15-11-2025 14:05:46 [main] [com.hooks.TearDown] - Le scénario a échoué : modifier un projet avec sucées
+[INFO] 15-11-2025 14:05:48 [main] [com.hooks.TearDown] - Driver fermé correctement pour le scénario : modifier un projet avec sucées
+[DEBUG] 15-11-2025 14:05:48 [main] [com.hooks.TearDown] - ThreadContext nettoyé après exécution du scénario : modifier un projet avec sucées

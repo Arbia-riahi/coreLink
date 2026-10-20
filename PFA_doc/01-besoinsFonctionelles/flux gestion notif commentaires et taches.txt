@@ -1,0 +1,109 @@
+1. Flux Global — Gestion des Tâches et Notifications
+Création d'une Tâche
+Acteur : Chef de projet.
+
+Envoie une requête POST /api/taches avec les informations de la tâche (titre, description, assigneeA, etc.).
+
+Backend : TacheController → TacheService.
+
+createTache() enregistre la tâche dans la base via TacheRepository.
+
+Si un utilisateur est assigné (assigneeA), NotificationService.creerNotification() est appelé pour créer une notification TACHE_ASSIGNATION.
+
+Résultat :
+
+La notification est stockée dans la base (NotificationRepository) et sera visible par l’assignee via GET /api/notifications/{matricule}.
+
+Mise à jour d'une Tâche
+Acteur : Chef de projet.
+
+Envoie PUT /api/taches/{id} pour modifier une tâche (titre, description, priorité, état, etc.).
+
+Backend : updateTache().
+
+Met à jour la tâche et incrémente nombreModifications.
+
+Aucune notification n’est envoyée (pour éviter la surcharge).
+
+Suppression d'une Tâche
+Acteur : Chef de projet.
+
+Envoie DELETE /api/taches/{id}.
+
+Backend :
+
+deleteTache() supprime la tâche.
+
+Si la tâche avait un assigneeA, NotificationService.creerNotification() envoie une notification AUTRE : "La tâche 'XYZ' a été supprimée."
+
+2. Flux — Gestion des Commentaires et Notifications
+Ajout d'un Commentaire
+Acteur : Membre A.
+
+Envoie POST /api/commentaires/tache/{tacheId}/add avec contenu et matriculeAuteur.
+
+Backend : CommentaireService.ajouterCommentaire().
+
+Crée et sauvegarde le commentaire.
+
+Génère un extrait du contenu (max 50 caractères).
+
+NotificationService.creerNotificationPourMembres() envoie une notification NOUVEAU_COMMENTAIRE à tous les membres assignés à la tâche sauf l’auteur.
+
+Incrémente nombreCommentaires de la tâche.
+
+Résultat :
+
+Les membres reçoivent un message du type :
+"Nouveau commentaire sur 'Tâche X' par Alice : Voici un résumé..."
+
+Modification d'un Commentaire
+Acteur : Auteur du commentaire.
+
+Envoie PUT /api/commentaires/{id}.
+
+Backend :
+
+Le commentaire est modifié et marqué modifie = true.
+
+Pas de notification envoyée.
+
+Suppression d'un Commentaire
+Acteur : Auteur du commentaire ou Chef de projet.
+
+Envoie DELETE /api/commentaires/{id}.
+
+Backend :
+
+Supprime le commentaire.
+
+Met à jour le compteur nombreCommentaires.
+
+Pas de notification envoyée.
+
+3. Flux — Consultation et Gestion des Notifications
+Un membre consulte ses notifications via :
+
+GET /api/notifications/{matricule} (toutes).
+
+GET /api/notifications/{matricule}/unread (uniquement non lues).
+
+Un membre marque une notification comme lue via PATCH /api/notifications/{id}/read.
+
+Un membre peut tout marquer comme lu via PATCH /api/notifications/{matricule}/read-all.
+
+Suppression de notification possible via DELETE /api/notifications/{id}.
+
+4. Points Améliorés avec le Refactoring
+Centralisation :
+Toute la logique de création de notifications est maintenant dans NotificationService.
+
+Réduction du code dupliqué :
+TacheService et CommentaireService appellent directement NotificationService.
+
+Logique claire :
+
+Tâches : Notification uniquement lors de la création ou suppression.
+
+Commentaires : Notification à l’ajout (pas aux modifications ou suppressions).
+

@@ -1,0 +1,36 @@
+[INFO] 07-12-2025 18:03:24 [ForkJoinPool-2-worker-1] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (8b8a22b24a16271e838358e92e6abc4a)
+[INFO] 07-12-2025 18:03:24 [ForkJoinPool-2-worker-2] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (546607a2fbd95f5d041a104daeead3ea)
+[INFO] 07-12-2025 18:03:24 [ForkJoinPool-2-worker-1] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (8b8a22b24a16271e838358e92e6abc4a)
+[INFO] 07-12-2025 18:03:24 [ForkJoinPool-2-worker-2] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (546607a2fbd95f5d041a104daeead3ea)
+[ERROR] 07-12-2025 18:03:31 [ForkJoinPool-2-worker-2] [com.hooks.TearDown] - Le scénario a échoué : URL inconnue avec authentification (utilisateur authentifié)
+[INFO] 07-12-2025 18:03:32 [ForkJoinPool-2-worker-3] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (4b099b434810f9d57165e206fb54acdd)
+[INFO] 07-12-2025 18:03:34 [ForkJoinPool-2-worker-4] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (e20cf15c5005aa72c540c7634db5bcdf)
+[INFO] 07-12-2025 18:03:34 [ForkJoinPool-2-worker-4] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (e20cf15c5005aa72c540c7634db5bcdf)
+[INFO] 07-12-2025 18:03:39 [ForkJoinPool-2-worker-5] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (59e5f0ed442568825fee3dacf268ec36)
+[INFO] 07-12-2025 18:03:39 [ForkJoinPool-2-worker-5] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (59e5f0ed442568825fee3dacf268ec36)
+[ERROR] 07-12-2025 18:03:42 [ForkJoinPool-2-worker-4] [com.hooks.TearDown] - Le scénario a échoué : Déconnexion valide
+[INFO] 07-12-2025 18:03:45 [ForkJoinPool-2-worker-6] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (369980fddce65ef1b2ff2a4fcfff91e1)
+[INFO] 07-12-2025 18:03:45 [ForkJoinPool-2-worker-6] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (369980fddce65ef1b2ff2a4fcfff91e1)
+[ERROR] 07-12-2025 18:03:47 [ForkJoinPool-2-worker-5] [com.hooks.TearDown] - Le scénario a échoué : Déconnexion valide
+[INFO] 07-12-2025 18:03:52 [ForkJoinPool-2-worker-7] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (c2acca919b4bc49912269fe977835bee)
+[ERROR] 07-12-2025 18:03:54 [ForkJoinPool-2-worker-6] [com.hooks.TearDown] - Le scénario a échoué : Déconnexion valide
+[INFO] 07-12-2025 18:03:56 [ForkJoinPool-2-worker-8] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (70b6ab6f509f6e8e99f6c3e4a4c08bf7)
+[ERROR] 07-12-2025 18:03:59 [ForkJoinPool-2-worker-7] [com.hooks.TearDown] - Le scénario a échoué : Connexion réussie avec des identifiants valides selon le rôle de l’utilisateur
+[ERROR] 07-12-2025 18:04:01 [ForkJoinPool-2-worker-1] [com.hooks.TearDown] - Le scénario a échoué : Annulation de la modification (retour à la liste)
+[INFO] 07-12-2025 18:04:02 [ForkJoinPool-2-worker-2] [com.hooks.TearDown] - Driver fermé correctement pour le scénario : URL inconnue avec authentification (utilisateur authentifié)
+[DEBUG] 07-12-2025 18:04:02 [ForkJoinPool-2-worker-2] [com.hooks.TearDown] - ThreadContext nettoyé après exécution du scénario : URL inconnue avec authentification (utilisateur authentifié)
+[ERROR] 07-12-2025 18:04:03 [ForkJoinPool-2-worker-8] [com.hooks.TearDown] - Le scénario a échoué : Afficher et masquer le mot de passe sur la page de connexion
+[INFO] 07-12-2025 18:04:06 [ForkJoinPool-2-worker-2] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (63587bae54f7fe8d10445d6a88e65e1c)
+[INFO] 07-12-2025 18:04:06 [ForkJoinPool-2-worker-2] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (63587bae54f7fe8d10445d6a88e65e1c)
+[INFO] 07-12-2025 18:04:10 [ForkJoinPool-2-worker-6] [com.hooks.TearDown] - Driver fermé correctement pour le scénario : Déconnexion valide
+[DEBUG] 07-12-2025 18:04:10 [ForkJoinPool-2-worker-6] [com.hooks.TearDown] - ThreadContext nettoyé après exécution du scénario : Déconnexion valide
+[ERROR] 07-12-2025 18:04:11 [ForkJoinPool-2-worker-3] [com.hooks.TearDown] - Le scénario a échoué : Connexion échouée — cas d’erreur variés
+[ERROR] 07-12-2025 18:04:12 [ForkJoinPool-2-worker-2] [com.hooks.TearDown] - Le scénario a échoué : URL inconnue avec authentification (utilisateur authentifié)
+[INFO] 07-12-2025 18:04:13 [ForkJoinPool-2-worker-4] [com.hooks.TearDown] - Driver fermé correctement pour le scénario : Déconnexion valide
+[DEBUG] 07-12-2025 18:04:13 [ForkJoinPool-2-worker-4] [com.hooks.TearDown] - ThreadContext nettoyé après exécution du scénario : Déconnexion valide
+[INFO] 07-12-2025 18:04:14 [ForkJoinPool-2-worker-6] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (5f052187384bb9c7f88ad5d66f399f08)
+[INFO] 07-12-2025 18:04:14 [ForkJoinPool-2-worker-6] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (5f052187384bb9c7f88ad5d66f399f08)
+[INFO] 07-12-2025 18:04:18 [ForkJoinPool-2-worker-5] [com.hooks.TearDown] - Driver fermé correctement pour le scénario : Déconnexion valide
+[DEBUG] 07-12-2025 18:04:18 [ForkJoinPool-2-worker-5] [com.hooks.TearDown] - ThreadContext nettoyé après exécution du scénario : Déconnexion valide
+[INFO] 07-12-2025 18:04:20 [ForkJoinPool-2-worker-2] [com.hooks.TearDown] - Driver fermé correctement pour le scénario : URL inconnue avec authentification (utilisateur authentifié)
+[DEBUG] 07-12-2025 18:04:20 [ForkJoinPool-2-worker-2] [com.hooks.TearDown] - ThreadContext nettoyé après exécution du scénario : URL inconnue avec authentification (utilisateur authentifié)

@@ -1,0 +1,36 @@
+[INFO] 14-11-2025 15:33:56 [main] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (3325e427f707613b29d3b74ee328bc1a)
+[INFO] 14-11-2025 15:33:56 [main] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (3325e427f707613b29d3b74ee328bc1a)
+[INFO] 14-11-2025 15:33:56 [main] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (3325e427f707613b29d3b74ee328bc1a)
+[ERROR] 14-11-2025 15:34:06 [main] [com.hooks.TearDown] - Le scénario a échoué : Création d’une Nouvelle tâche via la vue Kanban avec succès
+[INFO] 14-11-2025 15:34:07 [main] [com.hooks.TearDown] - Driver fermé correctement pour le scénario : Création d’une Nouvelle tâche via la vue Kanban avec succès
+[DEBUG] 14-11-2025 15:34:07 [main] [com.hooks.TearDown] - ThreadContext nettoyé après exécution du scénario : Création d’une Nouvelle tâche via la vue Kanban avec succès
+[INFO] 14-11-2025 15:34:09 [main] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (ef3ec6263d023ac6987d27131f7594ad)
+[INFO] 14-11-2025 15:34:09 [main] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (ef3ec6263d023ac6987d27131f7594ad)
+[INFO] 14-11-2025 15:34:09 [main] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (ef3ec6263d023ac6987d27131f7594ad)
+[ERROR] 14-11-2025 15:34:19 [main] [com.hooks.TearDown] - Le scénario a échoué : Création d’une Nouvelle tâche via la vue Kanban avec succès
+[INFO] 14-11-2025 15:34:19 [main] [com.hooks.TearDown] - Driver fermé correctement pour le scénario : Création d’une Nouvelle tâche via la vue Kanban avec succès
+[DEBUG] 14-11-2025 15:34:19 [main] [com.hooks.TearDown] - ThreadContext nettoyé après exécution du scénario : Création d’une Nouvelle tâche via la vue Kanban avec succès
+[INFO] 14-11-2025 15:34:22 [main] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (1fc27221b436db8326761d19795393eb)
+[INFO] 14-11-2025 15:34:22 [main] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (1fc27221b436db8326761d19795393eb)
+[INFO] 14-11-2025 15:34:22 [main] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (1fc27221b436db8326761d19795393eb)
+[ERROR] 14-11-2025 15:34:31 [main] [com.hooks.TearDown] - Le scénario a échoué : Création d’une Nouvelle tâche via la vue Kanban avec succès
+[INFO] 14-11-2025 15:34:32 [main] [com.hooks.TearDown] - Driver fermé correctement pour le scénario : Création d’une Nouvelle tâche via la vue Kanban avec succès
+[DEBUG] 14-11-2025 15:34:32 [main] [com.hooks.TearDown] - ThreadContext nettoyé après exécution du scénario : Création d’une Nouvelle tâche via la vue Kanban avec succès
+[INFO] 14-11-2025 15:34:35 [main] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (4f981583034542ba4207d404d1deed98)
+[INFO] 14-11-2025 15:34:35 [main] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (4f981583034542ba4207d404d1deed98)
+[INFO] 14-11-2025 15:34:35 [main] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (4f981583034542ba4207d404d1deed98)
+[ERROR] 14-11-2025 15:34:44 [main] [com.hooks.TearDown] - Le scénario a échoué : Création d’une Nouvelle tâche via la vue Kanban avec succès
+[INFO] 14-11-2025 15:34:45 [main] [com.hooks.TearDown] - Driver fermé correctement pour le scénario : Création d’une Nouvelle tâche via la vue Kanban avec succès
+[DEBUG] 14-11-2025 15:34:45 [main] [com.hooks.TearDown] - ThreadContext nettoyé après exécution du scénario : Création d’une Nouvelle tâche via la vue Kanban avec succès
+[INFO] 14-11-2025 15:34:48 [main] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (e282702e6a2f5715cd680519832f8706)
+[INFO] 14-11-2025 15:34:48 [main] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (e282702e6a2f5715cd680519832f8706)
+[INFO] 14-11-2025 15:34:48 [main] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (e282702e6a2f5715cd680519832f8706)
+[ERROR] 14-11-2025 15:34:57 [main] [com.hooks.TearDown] - Le scénario a échoué : Création d’une Nouvelle tâche via la vue Kanban avec succès
+[INFO] 14-11-2025 15:34:57 [main] [com.hooks.TearDown] - Driver fermé correctement pour le scénario : Création d’une Nouvelle tâche via la vue Kanban avec succès
+[DEBUG] 14-11-2025 15:34:57 [main] [com.hooks.TearDown] - ThreadContext nettoyé après exécution du scénario : Création d’une Nouvelle tâche via la vue Kanban avec succès
+[INFO] 14-11-2025 15:35:00 [main] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (67fc3c5d3f5ab4ef4ef4b8c6c9ed5c9f)
+[INFO] 14-11-2025 15:35:00 [main] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (67fc3c5d3f5ab4ef4ef4b8c6c9ed5c9f)
+[INFO] 14-11-2025 15:35:00 [main] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (67fc3c5d3f5ab4ef4ef4b8c6c9ed5c9f)
+[ERROR] 14-11-2025 15:35:09 [main] [com.hooks.TearDown] - Le scénario a échoué : Création d’une Nouvelle tâche via la vue Kanban avec succès
+[INFO] 14-11-2025 15:35:10 [main] [com.hooks.TearDown] - Driver fermé correctement pour le scénario : Création d’une Nouvelle tâche via la vue Kanban avec succès
+[DEBUG] 14-11-2025 15:35:10 [main] [com.hooks.TearDown] - ThreadContext nettoyé après exécution du scénario : Création d’une Nouvelle tâche via la vue Kanban avec succès

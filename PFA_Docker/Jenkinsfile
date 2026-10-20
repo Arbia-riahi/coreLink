@@ -1,0 +1,357 @@
+pipeline {
+    agent any
+
+    triggers {
+        cron('0 0 * * *') // nightly
+    }
+
+    environment {
+        springF   = "Spring Boot"
+        angularF  = "Angular"
+        seleniumF = "corelinkDocker"
+    }
+
+    tools {
+        jdk 'jdk-17'
+    }
+
+    stages {
+
+        /* ===========================================================
+                           CHECKOUT PROJECT
+        ============================================================ */
+        stage('CI - Checkout Source Code') {
+             steps {
+               git credentialsId: 'Arbia-riahi',
+               branch: 'master',
+               url: 'https://github.com/Arbia-riahi/PFA_Docker.git'
+             }
+        }
+
+ /* =======================================================================
+                              UNIT TESTS - SPRING (H2) + JACOCO BACKEND
+======================================================================= */
+         stage('CI - Unit Tests (Backend)') {
+            steps {
+                dir("${springF}") {
+                    bat """
+                        mvn clean test ^
+                        -Dspring.profiles.active=test
+                    """
+                }
+            }
+        }
+
+stage('CI - SonarQube Analysis (backend)') {
+    steps {
+        withSonarQubeEnv('SonarQubeLocal') {
+            withCredentials([string(credentialsId: 'sonarqueb_corelink', variable: 'SONAR_TOKEN')]) {
+                dir("${springF}") {
+                    bat """
+                        mvn clean verify -DskipTests ^
+                        sonar:sonar ^
+                        -Dsonar.projectKey=spring-backend ^
+                        -Dsonar.projectName=SpringBackend ^
+                        -Dsonar.host.url=http://localhost:9000 ^
+                        -Dsonar.login=%SONAR_TOKEN%
+                    """
+                }
+            }
+        }
+    }
+}
+
+        /* =======================================================================
+                               SONARQUBE - ANGULAR
+        ======================================================================= */
+ stage('CI - SonarQube Analysis (Angular)') {
+    steps {
+        withSonarQubeEnv('SonarQubeLocal') {
+            withCredentials([string(credentialsId: 'sonarqueb_corelink', variable: 'SONAR_TOKEN')]) {
+                dir("${angularF}") {
+                 bat """
+                        call npm install
+
+                        call "${tool 'sonar-scanner'}\\bin\\sonar-scanner.bat" ^
+                          -Dsonar.projectKey=angular-app ^
+                          -Dsonar.projectName=Angular ^
+                          -Dsonar.sources=src ^
+                          -Dsonar.host.url=http://localhost:9000 ^
+                          -Dsonar.login=%SONAR_TOKEN%
+                    """
+                }
+            }
+        }
+    }
+}
+
+
+
+        /* =======================================================================
+                               SONARQUBE - SELENIUM
+        ======================================================================= */
+      stage('SonarQube - Selenium') {
+    steps {
+        withSonarQubeEnv('SonarQubeLocal') {
+            withCredentials([string(credentialsId: 'sonarqueb_corelink', variable: 'SONAR_TOKEN')]) {
+                dir("${seleniumF}") {
+                    bat """
+                        mvn clean install -DskipTests ^
+                        sonar:sonar ^
+                        -Dsonar.projectKey=selenium-tests ^
+                        -Dsonar.projectName=SeleniumTests ^
+                        -Dsonar.host.url=http://localhost:9000 ^
+                        -Dsonar.login=%SONAR_TOKEN%
+                    """
+                }
+            }
+        }
+    }
+}
+
+        /* ===========================================================
+                     SNYK - BACKEND (SCA + SAST + MONITOR)
+        ============================================================ */
+        stage('CI - Snyk - Spring (Deps + Code + Monitor)') {
+            steps {
+                dir("${springF}") {
+                    withCredentials([string(credentialsId: 'snyk_token_corelink', variable: 'SNYK_TOKEN')]) {
+                        bat """
+                            echo === SCA BACKEND ===
+                            cmd /c "snyk test --file=pom.xml --maven-args=-DskipTests --project-name=corelink-backend --org=riahiarbia840" || ver > nul
+
+                            echo === SAST BACKEND ===
+                            cmd /c "snyk code test --project-name=corelink-backend-code --org=riahiarbia840" || ver > nul
+
+                            echo === MONITOR BACKEND ===
+                            cmd /c "snyk monitor --file=pom.xml --maven-args=-DskipTests --project-name=corelink-backend --org=riahiarbia840" || ver > nul
+                        """
+                    }
+                }
+            }
+        }
+
+ 
+
+        /* ===========================================================
+                     SNYK - FRONTEND (SCA + SAST + MONITOR)
+        ============================================================ */
+        stage('Snyk - Angular (Deps + Code + Monitor)') {
+            steps {
+                dir("${angularF}") {
+                    withCredentials([string(credentialsId: 'snyk_token_corelink', variable: 'SNYK_TOKEN')]) {
+
+                        bat """
+                            echo === NPM INSTALL ===
+                            cmd /c "npm install" || ver > nul
+
+                            echo === SCA FRONTEND ===
+                            cmd /c "snyk test --file=package.json --project-name=corelink-frontend --org=riahiarbia840" || ver > nul
+
+                            echo === SAST FRONTEND ===
+                            cmd /c "snyk code test --project-name=corelink-frontend-code --org=riahiarbia840" || ver > nul
+
+                            echo === MONITOR FRONTEND ===
+                            cmd /c "snyk monitor --file=package.json --project-name=corelink-frontend --org=riahiarbia840" || ver > nul
+                        """
+                    }
+                }
+            }
+        }
+
+
+        /* ===========================================================
+                       DOCKER BACKEND - BUILD + SNYK
+        ============================================================ */
+        stage('Docker Backend - Build, Scan & Push') {
+            steps {
+                script {
+                    withCredentials([
+                        usernamePassword(credentialsId: 'arbeya', usernameVariable: 'USER', passwordVariable: 'PASS'),
+                        string(credentialsId: 'snyk_token_corelink', variable: 'SNYK_TOKEN')
+                    ]) {
+
+                        bat """
+                            docker build --no-cache -t %USER%/backend "${springF}"/
+
+                            echo === DOCKER BACKEND SCAN ===
+                            cmd /c "snyk container test %USER%/backend --project-name=corelink-backend-container --org=riahiarbia840" || ver > nul
+
+                            echo === DOCKER BACKEND MONITOR ===
+                            cmd /c "snyk container monitor %USER%/backend --project-name=corelink-backend-container --org=riahiarbia840" || ver > nul
+
+                            echo %PASS% | docker login -u %USER% --password-stdin
+                            docker push %USER%/backend
+                        """
+                    }
+                }
+            }
+            post { always { bat "docker logout" } }
+        }
+
+        /* ===========================================================
+                       DOCKER FRONTEND - BUILD + SNYK
+        ============================================================ */
+        stage('Docker Frontend - Build, Scan & Push') {
+            steps {
+                script {
+                    withCredentials([
+                        usernamePassword(credentialsId: 'arbeya', usernameVariable: 'USER', passwordVariable: 'PASS'),
+                        string(credentialsId: 'snyk_token_corelink', variable: 'SNYK_TOKEN')
+                    ]) {
+
+                        bat """
+                            docker build --no-cache -t %USER%/frontend ${angularF}/
+
+                            echo === DOCKER FRONTEND SCAN ===
+                            cmd /c "snyk container test %USER%/frontend --project-name=corelink-frontend-container --org=riahiarbia840" || ver > nul
+
+                            echo === DOCKER FRONTEND MONITOR ===
+                            cmd /c "snyk container monitor %USER%/frontend --project-name=corelink-frontend-container --org=riahiarbia840" || ver > nul
+
+                            echo %PASS% | docker login -u %USER% --password-stdin
+                            docker push %USER%/frontend
+                        """
+                    }
+                }
+            }
+            post { always { bat "docker logout" } }
+        }
+
+        /* ===========================================================
+                       DOCKER SELENIUM - BUILD + SNYK
+        ============================================================ */
+        stage('Docker Selenium - Build, Scan & Push') {
+            steps {
+                script {
+                    withCredentials([
+                        usernamePassword(credentialsId: 'arbeya', usernameVariable: 'USER', passwordVariable: 'PASS'),
+                        string(credentialsId: 'snyk_token_corelink', variable: 'SNYK_TOKEN')
+                    ]) {
+
+                        bat """
+                            docker build --no-cache -t %USER%/selenium ${seleniumF}/
+
+                            echo === DOCKER SELENIUM SCAN ===
+                            cmd /c "snyk container test %USER%/selenium --project-name=corelink-selenium-container --org=riahiarbia840" || ver > nul
+
+                            echo === DOCKER SELENIUM MONITOR ===
+                            cmd /c "snyk container monitor %USER%/selenium --project-name=corelink-selenium-container --org=riahiarbia840" || ver > nul
+
+                            echo %PASS% | docker login -u %USER% --password-stdin
+                            docker push %USER%/selenium
+                        """
+                    }
+                }
+            }
+            post { always { bat "docker logout" } }
+        }
+
+
+
+         /* ===========================================================
+                     CHECK DOCKER VOLUME BEFORE START ENV
+        ============================================================ */
+        stage('Check Docker Volume') {
+            steps {
+                bat """
+                    echo === Vérification du volume coreLink_data ===
+
+                    docker volume inspect coreLink_data >nul 2>&1
+                    IF %ERRORLEVEL% NEQ 0 (
+                        echo Volume coreLink_data introuvable. Création...
+                        docker volume create coreLink_data
+                    ) ELSE (
+                        echo Volume coreLink_data existe déjà. :)
+                    )
+                """
+            }
+        }
+
+        /* ===========================================================
+                       START & LOG ENVIRONMENT
+        ============================================================ */
+        stage('Start Environment') {
+            steps {
+                bat """
+                    docker compose -f docker-compose.yml down
+                    docker compose -f docker-compose.yml up -d --build
+                """
+            }
+        }
+
+        stage('Stream Selenium Logs') {
+            steps {
+                bat "docker logs -f ui_tests_container"
+            }
+        }
+
+        /* ===========================================================
+                      COPY EXTENT REPORT FROM DOCKER
+        ============================================================ */
+        stage('Copy Extent Report') {
+            steps {
+                bat """
+                    mkdir corelinkDocker\\target\\reports
+                    docker cp ui_tests_container:/app/index.html corelinkDocker/target/reports/index.html
+                """
+            }
+        }
+    }
+
+    /* ===========================================================
+                          POST BUILD
+    ============================================================ */
+    post {
+        success {
+            publishHTML(target: [
+                allowMissing: true,
+                alwaysLinkToLastBuild: true,
+                keepAll: true,
+                reportDir: 'corelinkDocker/target/reports',
+                reportFiles: 'index.html',
+                reportName: 'Extent Report UI Tests'
+            ])
+
+            bat """
+                if exist corelinkDocker\\target\\reports\\index.html (
+                    powershell Compress-Archive -Path corelinkDocker/target/reports/index.html -DestinationPath extent_report.zip -Force
+                )
+            """
+
+            emailext(
+                to: "riahiarbia840@gmail.com",
+                subject: "Jenkins - Build #${BUILD_NUMBER} - ${JOB_NAME} : SUCCESS",
+                mimeType: 'text/html',
+                body: """
+                    <p>Bonjour,</p>
+                    <p>Le pipeline <b>${JOB_NAME}</b> s'est exécuté avec succès.</p>
+                    <p>Résultat : <b style='color: green;'>SUCCESS</b></p>
+                    <ul>
+                        <li><a href="${BUILD_URL}">Logs Jenkins</a></li>
+                        <li><a href="${BUILD_URL}HTML_Report/">Rapport ExtentReport</a></li>
+                    </ul>
+                """,
+                attachmentsPattern: 'extent_report.zip'
+            )
+
+          cleanWs()
+        }
+
+        failure {
+            emailext(
+                to: "riahiarbia840@gmail.com",
+                subject: "Jenkins - Build #${BUILD_NUMBER} - ${JOB_NAME} : FAILURE",
+                mimeType: 'text/html',
+                body: """
+                    <p>Bonjour,</p>
+                    <p>Le pipeline <b>${JOB_NAME}</b> a échoué.</p>
+                    <p>Résultat : <b style='color: red;'>FAILURE</b></p>
+                    <ul>
+                        <li><a href="${BUILD_URL}">Logs Jenkins</a></li>
+                    </ul>
+                """
+            )
+        }
+    }
+}

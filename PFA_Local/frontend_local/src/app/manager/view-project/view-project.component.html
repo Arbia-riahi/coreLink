@@ -1,0 +1,192 @@
+
+
+  <div class="project-details-container" *ngIf="project">
+    
+ <!-- Bouton Générer PDF -->
+<div class="d-flex justify-content-between align-items-center mb-3 border-bottom pb-2">
+  <h1 class="project-title m-0">Détails projet</h1>
+  <button class="btn btn-pastel shadow-sm" (click)="generateAndSecurePDF()">
+    <i class="fas fa-lock me-2"></i> Générer le Rapport
+  </button>
+</div>
+
+
+
+
+<!-- Carte principale -->
+<div class="card shadow-lg border-0 rounded-3 p-4 mb-4">
+
+  <!-- Bloc Infos principales (Titre, Chef, Dates) -->
+  <div class="card shadow-sm border-0 p-3 mb-4">
+    <div class="row align-items-center g-3">
+
+      <!-- Colonne Titre + Statut -->
+      <div class="col-md-4">
+        <h2 class="fw-bold text-primary mb-2">
+          {{ project.titre }}
+          <span class="badge bg-info text-white ms-2">{{ project.status }}</span>
+        </h2>
+      </div>
+
+      <!-- Colonne Chef de Projet -->
+      <div class="col-md-4 text-md-center">
+        <p class="text-muted mb-0" style="font-size:17px">
+          <strong class="text-primary">Chef de Projet :</strong> {{ project.chefNomComplet }}
+        </p>
+      </div>
+
+      <!-- Colonne Dates -->
+      <div class="col-md-4 d-flex flex-column flex-md-row justify-content-md-end gap-3">
+        <div class="date-item d-flex align-items-center">
+          <i class="fas fa-calendar-alt text-primary fs-5 me-2"></i>
+          <div>
+            <h6 class="text-muted mb-0" style="font-size:16px">Début</h6>
+            <p class="fw-bold mb-0">{{ project.dateDebut }}</p>
+          </div>
+        </div>
+        <div class="date-item d-flex align-items-center">
+          <i class="fas fa-calendar-check text-success fs-5 me-2"></i>
+          <div>
+            <h6 class="text-muted mb-0"  style="font-size:16px">Clôture</h6>
+            <p class="fw-bold mb-0">{{ project.dateFin }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+   <!-- Bloc Description & Progression dans le même row -->
+  <div class="row g-4 mb-4" >
+    <!-- Description -->
+    <div class="col-md-6">
+      <div class="card shadow-sm border-0 p-3 h-100">
+        <h5 class="section-title text-primary fw-bold mb-2" style="font-size:16px">
+          <i class="fas fa-info-circle me-2"  ></i> Description
+        </h5>
+        <p class="mb-0">{{ project.description || 'Aucune description disponible.' }}</p>
+      </div>
+    </div>
+
+    <!-- Progression -->
+    <div class="col-md-6">
+      <div class="card shadow-sm border-0 p-3 h-100">
+        <h5 class="section-title text-primary fw-bold mb-3" style="font-size:16px">
+          <i class="fas fa-chart-line me-2"></i> Progression
+        </h5>
+        <div class="progress" style="height: 20px;">
+          <div class="progress-bar bg-success fw-bold text-white" [style.width]="projectStats.progression + '%'">
+            {{ projectStats.progression | number:'1.0-0' }}%
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Bloc Fichiers & Membres -->
+  <div class="row g-4 mb-4">
+    <!-- Colonne Fichiers -->
+    <div class="col-md-6">
+      <div class="card shadow-sm border-0 p-3 h-100">
+        <h5 class="section-title text-primary fw-bold mb-3" style="font-size:16px">
+          <i class="fas fa-paperclip me-2"></i> Fichiers Attachés
+        </h5>
+        <div class="files-list">
+          <div *ngFor="let file of project.fichiers" 
+               class="file-item d-flex align-items-center p-2 mb-2 rounded hover-card bg-light">
+            <i class="fas fa-file-alt text-secondary fs-5 me-2"></i>
+            <span class="flex-grow-1">{{ getFileName(file) }}</span>
+            <a [href]="'http://localhost:8080/api/projets/download/' + (file.substring(file.lastIndexOf('/') + 1))" 
+               target="_blank" class="text-primary ms-2">
+              <i class="fas fa-download"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Colonne Membres -->
+    <div class="col-md-6">
+      <div class="card shadow-sm border-0 p-3 h-100">
+        <h5 class="section-title text-primary fw-bold mb-3" style="font-size:16px">
+          <i class="fas fa-users me-2"></i> Équipe du Projet
+        </h5>
+        <div class="team-members d-flex flex-wrap">
+          <div *ngFor="let membre of project.membres" 
+               class="team-member text-center p-2 mb-3 me-3 rounded hover-card bg-light">
+            <img [src]="urlUpload + '/' + membre.image" 
+                 class="rounded-circle shadow mb-2" width="40" height="40" alt="membre">
+            <h6 class="fw-bold mb-0">{{ membre.nom }} {{ membre.prenom }}</h6>
+            <small class="text-muted">Membre</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+ 
+
+</div>
+</div>
+
+  
+ 
+
+  <hr class="my-4">
+<!-- Titre principal -->
+<div class="mb-4 text-center">
+  <h1 class="fw-bold text-primary" style="font-size: 1.5rem; letter-spacing: 0.5px;">
+    <i class="fas fa-chart-line me-2"></i> Indicateurs de Suivi & Performances
+  </h1>
+  <hr class="mx-auto" style="width: 60px; height: 3px; background-color: #0d6efd; border: none;">
+</div>
+
+<!-- PROGRESSION ET GRAPHIQUES -->
+<div class="row g-4 mb-4">
+
+  <!-- Répartition des Tâches -->
+  <div class="col-md-6">
+    <div class="card shadow-sm border-0 p-4 h-100">
+      <h5 class="section-title text-primary fw-bold mb-3" style="font-size: 1.1rem;">
+        <i class="fas fa-chart-pie me-2"></i> Répartition des Tâches
+      </h5>
+      <canvas id="taskChart" style="width: 100%; height: 300px;"></canvas>
+    </div>
+  </div>
+
+  <!-- Burn-down -->
+  <div class="col-md-6">
+    <div class="card shadow-sm border-0 p-4 h-100">
+      <h5 class="section-title text-danger fw-bold mb-3" style="font-size: 1.1rem;">
+        <i class="fas fa-fire me-2"></i> Burn-down (Tâches Restantes)
+      </h5>
+      <canvas id="burnDownChart" style="width: 100%; height: 300px;"></canvas>
+    </div>
+  </div>
+</div>
+
+<!-- VELOCITY & BLOCAGE -->
+<div class="row g-4 mb-4">
+
+  <!-- Velocity -->
+  <div class="col-md-6">
+    <div class="card shadow-sm border-0 p-4 h-100">
+      <h5 class="section-title text-primary fw-bold mb-3" style="font-size: 1.1rem;">
+        <i class="fas fa-bolt me-2"></i> Velocity (Tâches par Semaine)
+      </h5>
+      <canvas id="velocityChart" style="width: 100%; height: 300px;"></canvas>
+    </div>
+  </div>
+
+  <!-- Taux de Blocage -->
+  <div class="col-md-6">
+    <div class="card shadow-sm border-0 p-4 h-100">
+      <h5 class="section-title fw-bold mb-3" style="font-size: 1.1rem; color:#FF6B6B;">
+        <i class="fas fa-ban me-2"></i> Taux de Blocage
+      </h5>
+      <canvas id="blockageChart" style="width: 100%; height: 250px;"></canvas>
+    </div>
+  </div>
+</div>
+
+
+

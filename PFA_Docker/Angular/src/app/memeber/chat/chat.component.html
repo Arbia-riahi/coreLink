@@ -1,0 +1,173 @@
+<!-- ✅ Chat Toggle Button -->
+<div class="chat-toggle-btn" (click)="toggleChat()">
+  <i class="fas" [class.fa-comments]="!isOpen" [class.fa-times]="isOpen"></i>
+  <span class="notification-badge" *ngIf="unreadCount > 0">{{ unreadCount }}</span>
+</div>
+
+
+<div *ngIf="messages.length === 0" class="no-messages">
+  Aucun message pour le moment.
+</div>
+
+<!-- ✅ Chat Widget -->
+<div class="chat-widget" [class.open]="isOpen">
+  <!-- ✅ Header -->
+  <div class="chat-header">
+    <img src="../../../assets/logo.jpg" class="chat-logo" alt="Logo">
+    <span class="chat-title">TeamConnect</span>
+    <button class="close-btn" (click)="toggleChat()">×</button>
+  </div>
+
+  <!-- ✅ Chat Body -->
+  <div class="chat-body" #messagesContainer>
+    <div *ngFor="let msg of messages; trackBy: trackByMessage"
+         class="chat-message-wrapper"
+         (mouseenter)="onMouseEnterMessage(msg)"
+         (mouseleave)="onMouseLeaveMessage()">
+
+      <div class="chat-message"
+           [ngClass]="{
+             'my-message': msg.sender?.matricule === userData?.matricule,
+             'other-message': msg.sender?.matricule !== userData?.matricule
+           }"
+          (click)="onMessageClick(msg)"
+>
+
+        <!-- Avatar -->
+        <ng-container *ngIf="msg.sender?.matricule !== userData?.matricule">
+          <img [src]="msg.sender?.image" class="chat-avatar" alt="Avatar">
+        </ng-container>
+
+        <div class="chat-info-wrapper">
+          <!-- Expéditeur -->
+          <div class="chat-sender-above">
+            {{ msg.sender?.matricule === userData?.matricule ? 'Moi' : (msg.sender?.nom + ' ' + msg.sender?.prenom) }}
+          </div>
+
+          <!-- Message Bulle -->
+          <div class="chat-bubble-wrapper">
+            <div class="chat-bubble">
+              <div class="chat-text" *ngIf="msg.content">{{ msg.content }}</div>
+
+              <!-- Fichier joint -->
+              <div *ngIf="msg.fileUrl" class="file-message">
+                <a *ngIf="isImage(msg.fileUrl)" [href]="getDownloadUrl(msg.fileUrl)" target="_blank">
+                  <img [src]="getDownloadUrl(msg.fileUrl)" class="chat-image" alt="Image">
+                </a>
+                <div *ngIf="isVideo(msg.fileUrl)">
+                  <video controls class="chat-video">
+                    <source [src]="getDownloadUrl(msg.fileUrl)" type="video/mp4">
+                  </video>
+                </div>
+                <a *ngIf="!isImage(msg.fileUrl) && !isVideo(msg.fileUrl)"
+                   [href]="getDownloadUrl(msg.fileUrl)" target="_blank">
+                  {{ getFileName(msg.fileUrl) }}
+                </a>
+              </div>
+
+              <!-- Message vocal -->
+              <div *ngIf="msg.audioUrl">
+                <audio [src]="getDownloadUrl(msg.audioUrl)" controls></audio>
+              </div>
+            </div>
+
+            <!-- ✅ Réactions -->
+            <div class="reaction-bar" *ngIf="msg.reactions?.length > 0">
+              <span *ngFor="let r of getUniqueReactions(msg)"
+                    class="reaction-item"
+                    (click)="showReactionUsers(msg, r)">
+                {{ r }} <small>{{ countReactions(msg, r) }}</small>
+              </span>
+            </div>
+          </div>
+
+          <!-- ✅ Status: Heure + qui a vu -->
+       <div class="chat-status" *ngIf="msg.showInfo">
+
+  <!-- Heure visible pour tout le monde -->
+  <span class="chat-time">{{ msg.timestamp | date:'shortTime' }}</span>
+
+  <!-- ✅ Checkmarks visibles seulement si l'utilisateur est l'expéditeur -->
+  <ng-container *ngIf="msg.sender?.matricule === userData?.matricule">
+    <span class="checkmarks">
+      <i class="fas fa-check" [ngClass]="{ 'read': msg.seenBy?.length > 0 }"></i>
+      <i class="fas fa-check" [ngClass]="{ 'read': msg.seenBy?.length > 0 }"></i>
+    </span>
+
+    <div class="view-status">
+      <ng-container *ngIf="msg.seenBy?.length === 0">aucun vue</ng-container>
+      <ng-container *ngIf="msg.seenBy?.length > 0">
+        vu par 
+        <span *ngFor="let user of msg.seenBy; let last = last">
+          {{ user.nom }} {{ user.prenom }}<span *ngIf="!last">, </span>
+        </span>
+      </ng-container>
+    </div>
+  </ng-container>
+</div>
+
+
+        </div>
+      </div>
+
+      <!-- ✅ Réactions flottantes au survol -->
+     <div class="reaction-menu-hover"
+     *ngIf="hoveredMessage === msg"
+     (mouseenter)="onMouseEnterMessage(msg)"
+     (mouseleave)="onMouseLeaveMessage()">
+  <span (click)="addReaction(msg, '👍')">👍</span>
+  <span (click)="addReaction(msg, '✅')">✅</span>
+  <span (click)="addReaction(msg, '💯')">💯</span>
+  <span (click)="addReaction(msg, '👏')">👏</span>
+</div>
+
+
+    </div>
+  </div>
+  <!-- Aperçu fichier -->
+  <div class="file-preview" *ngIf="selectedFile">
+    <div *ngIf="isImage(selectedFile.name)">
+      <img [src]="filePreviewUrl" alt="Preview" class="preview-img">
+    </div>
+    <div *ngIf="!isImage(selectedFile.name)">
+      <span class="preview-file">{{ selectedFile.name }}</span>
+    </div>
+    <button class="cancel-btn" (click)="cancelSelectedFile()">×</button>
+  </div>
+
+  <!-- Emoji Picker -->
+  <div class="emoji-picker-container" #emojiPickerContainer></div>
+
+  <!-- Zone d'entrée -->
+  <div class="chat-input-area">
+    <button type="button" class="emoji-btn" (click)="toggleEmojiPicker()">😊</button>
+    <label class="file-btn">
+      📎
+      <input type="file" (change)="onFileSelected($event)" hidden>
+    </label>
+    <input type="text"
+           [(ngModel)]="newMessage"
+           placeholder="Écrire un message..."
+           (keyup.enter)="sendMessage()">
+
+    <div class="voice-container">
+      <button class="mic-btn" (click)="isRecording ? stopRecording() : startRecording()">
+        <i class="fas fa-microphone"></i>
+      </button>
+      <div *ngIf="isRecording" class="recording-status">
+        <span class="dot"></span> Enregistrement...
+      </div>
+    </div>
+
+    <button type="button" (click)="sendMessage()">
+      <i class="fas fa-paper-plane"></i>
+    </button>
+  </div>
+
+  <!-- Aperçu audio avant envoi -->
+  <div *ngIf="audioUrl" class="audio-preview">
+    <audio [src]="audioUrl" controls></audio>
+    <button (click)="sendVoiceMessage()">Envoyer</button>
+  </div>
+
+</div>

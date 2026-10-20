@@ -1,0 +1,46 @@
+<div class="container-fluid">
+  <h1 class="h3 mb-2 text-gray-800">Gestion des Certifications</h1>
+  <button class="btn btn-primary" [routerLink]="['/backoffice/addCertification']">Ajouter</button>
+  <p>Liste des certifications disponibles :</p>
+
+  <div class="card shadow mb-4">
+    <div class="card-header py-3">
+      <h6 class="m-0 font-weight-bold text-primary">Liste des certifications</h6>
+    </div>
+    <div class="card-body">
+      <div class="table-responsive">
+        <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+          <thead>
+            <tr>
+             
+              <th>Nom</th>
+              <th>Description</th>
+              <th>Date de création</th>
+              <th>Logo</th>
+              <th>Options</th>
+              
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let certif of certifications">
+             
+              <td>{{ certif.nom }}</td>
+              <td>{{ certif.description }}</td>
+              <td>{{ certif.dateCreation | date:'dd/MM/yyyy' }}</td>
+        <td><div class="photo-container"><img [src]="getLogoUrl(getImageName(certif.logo))" class="photo-circle" width="60" height="60"></div></td>
+<td>
+                <button class="btn btn-warning" [routerLink]="['/backoffice/updateCertification', certif.id]">
+                  <i class="fas fa-edit"></i>
+                </button>
+            
+                <button class="btn btn-danger" (click)="deleteCertification(certif.id)">
+                  <i class="fas fa-trash-alt"></i>
+                </button>
+ </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>

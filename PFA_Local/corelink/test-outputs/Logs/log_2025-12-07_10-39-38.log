@@ -1,0 +1,397 @@
+[INFO] 07-12-2025 10:39:39 [ForkJoinPool-2-worker-3] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (8ba9737d0320e409090ac93fbb1f3ca2)
+[INFO] 07-12-2025 10:39:39 [ForkJoinPool-2-worker-1] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (09da74da9cae1ff1ecdbeaa2bce94695)
+[INFO] 07-12-2025 10:39:39 [ForkJoinPool-2-worker-2] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (91e0ec46a526f1d0ac4a633a88cec0cc)
+[INFO] 07-12-2025 10:39:39 [ForkJoinPool-2-worker-8] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (c90456961f45a8f3e9b86b645a2be402)
+[INFO] 07-12-2025 10:39:39 [ForkJoinPool-2-worker-4] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (36be1c034363be844fe14f3e081e4533)
+[INFO] 07-12-2025 10:39:39 [ForkJoinPool-2-worker-7] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (8ce78f4f54042922176bff5acf0aa76a)
+[INFO] 07-12-2025 10:39:39 [ForkJoinPool-2-worker-1] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (09da74da9cae1ff1ecdbeaa2bce94695)
+[INFO] 07-12-2025 10:39:39 [ForkJoinPool-2-worker-6] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (b2b5dabcecf6b1c95f22d47f733dc9ea)
+[INFO] 07-12-2025 10:39:39 [ForkJoinPool-2-worker-5] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (81b443faf9bfcdf92d89c7e134619ce3)
+[INFO] 07-12-2025 10:39:39 [ForkJoinPool-2-worker-2] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (91e0ec46a526f1d0ac4a633a88cec0cc)
+[INFO] 07-12-2025 10:39:39 [ForkJoinPool-2-worker-4] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (36be1c034363be844fe14f3e081e4533)
+[INFO] 07-12-2025 10:39:39 [ForkJoinPool-2-worker-5] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (81b443faf9bfcdf92d89c7e134619ce3)
+[INFO] 07-12-2025 10:39:39 [ForkJoinPool-2-worker-8] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (c90456961f45a8f3e9b86b645a2be402)
+[INFO] 07-12-2025 10:39:39 [ForkJoinPool-2-worker-6] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (b2b5dabcecf6b1c95f22d47f733dc9ea)
+[INFO] 07-12-2025 10:39:41 [ForkJoinPool-2-worker-7] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (8ce78f4f54042922176bff5acf0aa76a)
+[INFO] 07-12-2025 10:39:44 [ForkJoinPool-2-worker-9] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (614c453f173e13a4433bae698bc2b41a)
+[INFO] 07-12-2025 10:39:46 [ForkJoinPool-2-worker-9] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (614c453f173e13a4433bae698bc2b41a)
+[INFO] 07-12-2025 10:39:53 [ForkJoinPool-2-worker-10] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (b5c4b7c860147c4ae86ebdaa083daf63)
+[INFO] 07-12-2025 10:39:53 [ForkJoinPool-2-worker-10] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (b5c4b7c860147c4ae86ebdaa083daf63)
+[INFO] 07-12-2025 10:39:53 [ForkJoinPool-2-worker-11] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (87532ccb5c2514408a3adf5e9a011b5e)
+[INFO] 07-12-2025 10:39:53 [ForkJoinPool-2-worker-11] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (87532ccb5c2514408a3adf5e9a011b5e)
+[INFO] 07-12-2025 10:40:45 [ForkJoinPool-2-worker-14] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (d5c6ce077c8712e6ac0e600e243040cc)
+[INFO] 07-12-2025 10:40:45 [ForkJoinPool-2-worker-14] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (d5c6ce077c8712e6ac0e600e243040cc)
+[INFO] 07-12-2025 10:40:49 [ForkJoinPool-2-worker-12] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (55498c398ac8643ae5cc3c7d6bffba97)
+[INFO] 07-12-2025 10:40:49 [ForkJoinPool-2-worker-12] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (55498c398ac8643ae5cc3c7d6bffba97)
+[INFO] 07-12-2025 10:41:12 [ForkJoinPool-2-worker-16] [com.hooks.TearDown] - Scénario terminé avec succès : Erreurs de format images lors de la création d une actualité
+[DEBUG] 07-12-2025 10:41:12 [ForkJoinPool-2-worker-16] [com.hooks.TearDown] - ThreadContext nettoyé après exécution du scénario : Erreurs de format images lors de la création d une actualité
+[INFO] 07-12-2025 10:41:16 [ForkJoinPool-2-worker-20] [com.hooks.TearDown] - Scénario terminé avec succès : Attempt to reset password with unregistered email
+[DEBUG] 07-12-2025 10:41:16 [ForkJoinPool-2-worker-20] [com.hooks.TearDown] - ThreadContext nettoyé après exécution du scénario : Attempt to reset password with unregistered email
+[INFO] 07-12-2025 10:41:20 [ForkJoinPool-2-worker-15] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (46c434032317fdae84226964e63972fe)
+[INFO] 07-12-2025 10:41:25 [ForkJoinPool-2-worker-15] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (46c434032317fdae84226964e63972fe)
+[INFO] 07-12-2025 10:41:34 [ForkJoinPool-2-worker-13] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (4ee82a97a7e9bd9bb0aa2eaca44a7a62)
+[INFO] 07-12-2025 10:41:34 [ForkJoinPool-2-worker-13] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (4ee82a97a7e9bd9bb0aa2eaca44a7a62)
+[INFO] 07-12-2025 10:41:40 [ForkJoinPool-2-worker-19] [com.hooks.TearDown] - Scénario terminé avec succès : URL inconnue sans authentification (utilisateur non authentifié)
+[DEBUG] 07-12-2025 10:41:41 [ForkJoinPool-2-worker-19] [com.hooks.TearDown] - ThreadContext nettoyé après exécution du scénario : URL inconnue sans authentification (utilisateur non authentifié)
+[DEBUG] 07-12-2025 10:41:51 [ForkJoinPool-2-worker-3] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 07-12-2025 10:41:54 [ForkJoinPool-2-worker-9] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[ERROR] 07-12-2025 10:42:06 [ForkJoinPool-2-worker-9] [com.actions.ElementActions] - Échec du click sur WebElement : Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='text-center mt-3']//a//span[contains(text(), 'Mot de passe oublié')]' (tried for 10 second(s) with 500 milliseconds interval)
+[DEBUG] 07-12-2025 10:42:06 [ForkJoinPool-2-worker-9] [com.actions.ElementActions] - Attente de 20 secondes...
+[ERROR] 07-12-2025 10:42:10 [ForkJoinPool-2-worker-3] [com.actions.ElementActions] - Échec du click sur WebElement : Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //ul[@class='site-menu main-menu js-clone-nav d-flex list-unstyled m-0']/li[3]/a[@class='nav-link']' (tried for 10 second(s) with 500 milliseconds interval)
+[INFO] 07-12-2025 10:42:16 [ForkJoinPool-2-worker-6] [com.actions.BrowserActions] - Navigated to URL: http://localhost:4200/home
+[DEBUG] 07-12-2025 10:42:16 [ForkJoinPool-2-worker-6] [com.actions.ElementActions] - Attente de 5 secondes...
+[ERROR] 07-12-2025 10:42:18 [ForkJoinPool-2-worker-8] [com.hooks.TearDown] - Le scénario a échoué : Déconnexion valide
+[INFO] 07-12-2025 10:42:21 [ForkJoinPool-2-worker-7] [com.actions.BrowserActions] - Navigated to URL: http://localhost:4200/home
+[DEBUG] 07-12-2025 10:42:23 [ForkJoinPool-2-worker-7] [com.actions.ElementActions] - Attente de 5 secondes...
+[INFO] 07-12-2025 10:42:50 [ForkJoinPool-2-worker-8] [com.hooks.TearDown] - Driver fermé correctement pour le scénario : Déconnexion valide
+[DEBUG] 07-12-2025 10:42:57 [ForkJoinPool-2-worker-8] [com.hooks.TearDown] - ThreadContext nettoyé après exécution du scénario : Déconnexion valide
+[DEBUG] 07-12-2025 10:42:58 [ForkJoinPool-2-worker-9] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 07-12-2025 10:43:11 [ForkJoinPool-2-worker-11] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[ERROR] 07-12-2025 10:43:13 [ForkJoinPool-2-worker-5] [com.hooks.TearDown] - Le scénario a échoué : Désactivation en première et dernière page
+[INFO] 07-12-2025 10:43:13 [ForkJoinPool-2-worker-24] [com.hooks.TearDown] - Scénario terminé avec succès : Champ obligatoire vide lors de la création
+[DEBUG] 07-12-2025 10:43:13 [ForkJoinPool-2-worker-24] [com.hooks.TearDown] - ThreadContext nettoyé après exécution du scénario : Champ obligatoire vide lors de la création
+[INFO] 07-12-2025 10:43:13 [ForkJoinPool-2-worker-23] [com.hooks.TearDown] - Scénario terminé avec succès : URL inconnue sans authentification (utilisateur non authentifié)
+[DEBUG] 07-12-2025 10:43:13 [ForkJoinPool-2-worker-23] [com.hooks.TearDown] - ThreadContext nettoyé après exécution du scénario : URL inconnue sans authentification (utilisateur non authentifié)
+[ERROR] 07-12-2025 10:43:14 [ForkJoinPool-2-worker-10] [com.hooks.TearDown] - Le scénario a échoué : Création une nouvelle actualité avec succès
+[ERROR] 07-12-2025 10:43:14 [ForkJoinPool-2-worker-4] [com.hooks.TearDown] - Le scénario a échoué : Déconnexion valide
+[ERROR] 07-12-2025 10:43:14 [ForkJoinPool-2-worker-1] [com.hooks.TearDown] - Le scénario a échoué : Annulation de la modification (retour à la liste)
+[ERROR] 07-12-2025 10:43:14 [ForkJoinPool-2-worker-3] [com.hooks.TearDown] - Le scénario a échoué : Connexion échouée — cas d’erreur variés
+[ERROR] 07-12-2025 10:43:14 [ForkJoinPool-2-worker-2] [com.hooks.TearDown] - Le scénario a échoué : URL inconnue avec authentification (utilisateur authentifié)
+[ERROR] 07-12-2025 10:43:15 [ForkJoinPool-2-worker-14] [com.hooks.TearDown] - Le scénario a échoué : Contrôles d’autorisation par rôle
+[INFO] 07-12-2025 10:43:18 [ForkJoinPool-2-worker-20] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (6d593cbdc2db9ee2a830682e2973e267)
+[INFO] 07-12-2025 10:43:20 [ForkJoinPool-2-worker-20] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (6d593cbdc2db9ee2a830682e2973e267)
+[INFO] 07-12-2025 10:43:26 [ForkJoinPool-2-worker-22] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (442ae4494b2f0451589aca6e51122bf3)
+[INFO] 07-12-2025 10:43:26 [ForkJoinPool-2-worker-22] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (442ae4494b2f0451589aca6e51122bf3)
+[ERROR] 07-12-2025 10:43:27 [ForkJoinPool-2-worker-9] [com.actions.ElementActions] - Erreur lors de la saisie sur WebElement : Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.id: email' (tried for 10 second(s) with 500 milliseconds interval)
+[ERROR] 07-12-2025 10:43:29 [ForkJoinPool-2-worker-11] [com.actions.ElementActions] - Échec du click sur WebElement : Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on windows (87532ccb5c2514408a3adf5e9a011b5e)] -> xpath: //div[@class='text-center mt-3']//a//span[contains(text(), 'Mot de passe oublié')]] (tried for 10 second(s) with 500 milliseconds interval)
+[DEBUG] 07-12-2025 10:43:29 [ForkJoinPool-2-worker-11] [com.actions.ElementActions] - Attente de 20 secondes...
+[DEBUG] 07-12-2025 10:43:29 [ForkJoinPool-2-worker-9] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[INFO] 07-12-2025 10:43:39 [ForkJoinPool-2-worker-18] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (6db13ee7999818bbcd5c523d87ec5759)
+[INFO] 07-12-2025 10:43:40 [ForkJoinPool-2-worker-19] [com.hooks.TearDown] - Scénario terminé avec succès : URL inconnue sans authentification (utilisateur non authentifié)
+[DEBUG] 07-12-2025 10:43:40 [ForkJoinPool-2-worker-19] [com.hooks.TearDown] - ThreadContext nettoyé après exécution du scénario : URL inconnue sans authentification (utilisateur non authentifié)
+[INFO] 07-12-2025 10:43:40 [ForkJoinPool-2-worker-18] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (6db13ee7999818bbcd5c523d87ec5759)
+[ERROR] 07-12-2025 10:43:44 [ForkJoinPool-2-worker-9] [com.actions.ElementActions] - Échec du click sur WebElement : Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: .btn.btn-lg.btn-cta' (tried for 10 second(s) with 500 milliseconds interval)
+[DEBUG] 07-12-2025 10:43:44 [ForkJoinPool-2-worker-9] [com.actions.ElementActions] - Attente de 50 secondes...
+[INFO] 07-12-2025 10:43:46 [ForkJoinPool-2-worker-5] [com.hooks.TearDown] - Driver fermé correctement pour le scénario : Désactivation en première et dernière page
+[DEBUG] 07-12-2025 10:43:46 [ForkJoinPool-2-worker-5] [com.hooks.TearDown] - ThreadContext nettoyé après exécution du scénario : Désactivation en première et dernière page
+[INFO] 07-12-2025 10:43:47 [ForkJoinPool-2-worker-4] [com.hooks.TearDown] - Driver fermé correctement pour le scénario : Déconnexion valide
+[DEBUG] 07-12-2025 10:43:47 [ForkJoinPool-2-worker-4] [com.hooks.TearDown] - ThreadContext nettoyé après exécution du scénario : Déconnexion valide
+[INFO] 07-12-2025 10:43:47 [ForkJoinPool-2-worker-3] [com.hooks.TearDown] - Driver fermé correctement pour le scénario : Connexion échouée — cas d’erreur variés
+[DEBUG] 07-12-2025 10:43:47 [ForkJoinPool-2-worker-3] [com.hooks.TearDown] - ThreadContext nettoyé après exécution du scénario : Connexion échouée — cas d’erreur variés
+[INFO] 07-12-2025 10:43:48 [ForkJoinPool-2-worker-1] [com.hooks.TearDown] - Driver fermé correctement pour le scénario : Annulation de la modification (retour à la liste)
+[INFO] 07-12-2025 10:43:48 [ForkJoinPool-2-worker-10] [com.hooks.TearDown] - Driver fermé correctement pour le scénario : Création une nouvelle actualité avec succès
+[DEBUG] 07-12-2025 10:43:48 [ForkJoinPool-2-worker-1] [com.hooks.TearDown] - ThreadContext nettoyé après exécution du scénario : Annulation de la modification (retour à la liste)
+[INFO] 07-12-2025 10:43:48 [ForkJoinPool-2-worker-2] [com.hooks.TearDown] - Driver fermé correctement pour le scénario : URL inconnue avec authentification (utilisateur authentifié)
+[INFO] 07-12-2025 10:43:48 [ForkJoinPool-2-worker-14] [com.hooks.TearDown] - Driver fermé correctement pour le scénario : Contrôles d’autorisation par rôle
+[DEBUG] 07-12-2025 10:43:48 [ForkJoinPool-2-worker-14] [com.hooks.TearDown] - ThreadContext nettoyé après exécution du scénario : Contrôles d’autorisation par rôle
+[DEBUG] 07-12-2025 10:43:48 [ForkJoinPool-2-worker-10] [com.hooks.TearDown] - ThreadContext nettoyé après exécution du scénario : Création une nouvelle actualité avec succès
+[DEBUG] 07-12-2025 10:43:48 [ForkJoinPool-2-worker-2] [com.hooks.TearDown] - ThreadContext nettoyé après exécution du scénario : URL inconnue avec authentification (utilisateur authentifié)
+[INFO] 07-12-2025 10:43:48 [ForkJoinPool-2-worker-16] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (2cd288e1ab2692c86348e30d7f25e474)
+[INFO] 07-12-2025 10:43:48 [ForkJoinPool-2-worker-16] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (2cd288e1ab2692c86348e30d7f25e474)
+[DEBUG] 07-12-2025 10:43:49 [ForkJoinPool-2-worker-11] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[ERROR] 07-12-2025 10:44:01 [ForkJoinPool-2-worker-11] [com.actions.ElementActions] - Erreur lors de la saisie sur WebElement : Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.id: email' (tried for 10 second(s) with 500 milliseconds interval)
+[DEBUG] 07-12-2025 10:44:01 [ForkJoinPool-2-worker-11] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[INFO] 07-12-2025 10:44:06 [ForkJoinPool-2-worker-6] [com.actions.BrowserActions] - Navigated to URL: http://localhost:4200/memeber/listProjet
+[INFO] 07-12-2025 10:44:08 [ForkJoinPool-2-worker-7] [com.actions.BrowserActions] - Navigated to URL: http://localhost:4200/backoffice/tableauBoard
+[DEBUG] 07-12-2025 10:44:08 [ForkJoinPool-2-worker-7] [com.actions.ElementActions] - Attente de 5 secondes...
+[ERROR] 07-12-2025 10:44:12 [ForkJoinPool-2-worker-12] [com.hooks.TearDown] - Le scénario a échoué : Contrôles d’autorisation par rôle
+[ERROR] 07-12-2025 10:44:16 [ForkJoinPool-2-worker-11] [com.actions.ElementActions] - Échec du click sur WebElement : Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: .btn.btn-lg.btn-cta' (tried for 10 second(s) with 500 milliseconds interval)
+[DEBUG] 07-12-2025 10:44:16 [ForkJoinPool-2-worker-11] [com.actions.ElementActions] - Attente de 50 secondes...
+[INFO] 07-12-2025 10:44:19 [ForkJoinPool-2-worker-23] [com.hooks.TearDown] - Scénario terminé avec succès : URL inconnue sans authentification (utilisateur non authentifié)
+[DEBUG] 07-12-2025 10:44:19 [ForkJoinPool-2-worker-23] [com.hooks.TearDown] - ThreadContext nettoyé après exécution du scénario : URL inconnue sans authentification (utilisateur non authentifié)
+[INFO] 07-12-2025 10:44:29 [ForkJoinPool-2-worker-19] [com.hooks.TearDown] - Scénario terminé avec succès : Connexion réussie avec des identifiants valides selon le rôle de l’utilisateur
+[DEBUG] 07-12-2025 10:44:29 [ForkJoinPool-2-worker-19] [com.hooks.TearDown] - ThreadContext nettoyé après exécution du scénario : Connexion réussie avec des identifiants valides selon le rôle de l’utilisateur
+[DEBUG] 07-12-2025 10:44:32 [ForkJoinPool-2-worker-8] [com.hooks.TearDown] - Aucun log navigateur récupéré (OK pour Firefox ou drivers non Chromium): Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, getLog {type=browser}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 143.0.7499.40, chrome: {chromedriverVersion: 143.0.7499.40 (c23ff452476d..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64381}, goog:processID: 38484, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64381/devtoo..., se:cdpVersion: 143.0.7499.40, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+[WARN] 07-12-2025 10:44:42 [ForkJoinPool-2-worker-8] [com.hooks.TearDown] - Impossible de prendre une capture : Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, screenshot {}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 143.0.7499.40, chrome: {chromedriverVersion: 143.0.7499.40 (c23ff452476d..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64381}, goog:processID: 38484, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64381/devtoo..., se:cdpVersion: 143.0.7499.40, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+[INFO] 07-12-2025 10:44:42 [ForkJoinPool-2-worker-8] [com.hooks.TearDown] - Driver fermé correctement pour le scénario : Déconnexion valide
+[DEBUG] 07-12-2025 10:44:42 [ForkJoinPool-2-worker-8] [com.hooks.TearDown] - ThreadContext nettoyé après exécution du scénario : Déconnexion valide
+[INFO] 07-12-2025 10:44:46 [ForkJoinPool-2-worker-12] [com.hooks.TearDown] - Driver fermé correctement pour le scénario : Contrôles d’autorisation par rôle
+[DEBUG] 07-12-2025 10:44:49 [ForkJoinPool-2-worker-12] [com.hooks.TearDown] - ThreadContext nettoyé après exécution du scénario : Contrôles d’autorisation par rôle
+[DEBUG] 07-12-2025 10:44:55 [ForkJoinPool-2-worker-14] [com.hooks.TearDown] - Aucun log navigateur récupéré (OK pour Firefox ou drivers non Chromium): Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, getLog {type=browser}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 143.0.7499.40, chrome: {chromedriverVersion: 143.0.7499.40 (c23ff452476d..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59931}, goog:processID: 37560, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59931/devtoo..., se:cdpVersion: 143.0.7499.40, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+[WARN] 07-12-2025 10:44:56 [ForkJoinPool-2-worker-14] [com.hooks.TearDown] - Impossible de prendre une capture : Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, screenshot {}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 143.0.7499.40, chrome: {chromedriverVersion: 143.0.7499.40 (c23ff452476d..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59931}, goog:processID: 37560, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59931/devtoo..., se:cdpVersion: 143.0.7499.40, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+[INFO] 07-12-2025 10:44:56 [ForkJoinPool-2-worker-17] [com.hooks.TearDown] - Scénario terminé avec succès : URL inconnue sans authentification (utilisateur non authentifié)
+[INFO] 07-12-2025 10:45:08 [ForkJoinPool-2-worker-14] [com.hooks.TearDown] - Driver fermé correctement pour le scénario : Contrôles d’autorisation par rôle
+[DEBUG] 07-12-2025 10:45:08 [ForkJoinPool-2-worker-14] [com.hooks.TearDown] - ThreadContext nettoyé après exécution du scénario : Contrôles d’autorisation par rôle
+[DEBUG] 07-12-2025 10:45:08 [ForkJoinPool-2-worker-5] [com.hooks.TearDown] - Aucun log navigateur récupéré (OK pour Firefox ou drivers non Chromium): Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, getLog {type=browser}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 143.0.7499.40, chrome: {chromedriverVersion: 143.0.7499.40 (c23ff452476d..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64774}, goog:processID: 40672, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64774/devtoo..., se:cdpVersion: 143.0.7499.40, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+[DEBUG] 07-12-2025 10:45:08 [ForkJoinPool-2-worker-17] [com.hooks.TearDown] - ThreadContext nettoyé après exécution du scénario : URL inconnue sans authentification (utilisateur non authentifié)
+[ERROR] 07-12-2025 10:45:09 [ForkJoinPool-2-worker-13] [com.hooks.TearDown] - Le scénario a échoué : URL inconnue sans authentification (utilisateur non authentifié)
+[WARN] 07-12-2025 10:45:13 [ForkJoinPool-2-worker-5] [com.hooks.TearDown] - Impossible de prendre une capture : Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, screenshot {}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 143.0.7499.40, chrome: {chromedriverVersion: 143.0.7499.40 (c23ff452476d..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64774}, goog:processID: 40672, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64774/devtoo..., se:cdpVersion: 143.0.7499.40, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+[INFO] 07-12-2025 10:45:13 [ForkJoinPool-2-worker-5] [com.hooks.TearDown] - Driver fermé correctement pour le scénario : Navigation Suivant / Précédent
+[DEBUG] 07-12-2025 10:45:13 [ForkJoinPool-2-worker-5] [com.hooks.TearDown] - ThreadContext nettoyé après exécution du scénario : Navigation Suivant / Précédent
+[INFO] 07-12-2025 10:45:13 [ForkJoinPool-2-worker-21] [com.hooks.TearDown] - Scénario terminé avec succès : Le champ matricule est non modifiable
+[DEBUG] 07-12-2025 10:45:21 [ForkJoinPool-2-worker-21] [com.hooks.TearDown] - ThreadContext nettoyé après exécution du scénario : Le champ matricule est non modifiable
+[ERROR] 07-12-2025 10:45:22 [ForkJoinPool-2-worker-15] [com.hooks.TearDown] - Le scénario a échoué : Erreurs de format images lors de la création d une actualité
+[DEBUG] 07-12-2025 10:45:29 [ForkJoinPool-2-worker-2] [com.hooks.TearDown] - Aucun log navigateur récupéré (OK pour Firefox ou drivers non Chromium): Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, getLog {type=browser}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 143.0.7499.40, chrome: {chromedriverVersion: 143.0.7499.40 (c23ff452476d..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64777}, goog:processID: 872, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64777/devtoo..., se:cdpVersion: 143.0.7499.40, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+[DEBUG] 07-12-2025 10:45:32 [ForkJoinPool-2-worker-1] [com.hooks.TearDown] - Aucun log navigateur récupéré (OK pour Firefox ou drivers non Chromium): Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, getLog {type=browser}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 143.0.7499.40, chrome: {chromedriverVersion: 143.0.7499.40 (c23ff452476d..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64775}, goog:processID: 3484, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64775/devtoo..., se:cdpVersion: 143.0.7499.40, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+[WARN] 07-12-2025 10:45:32 [ForkJoinPool-2-worker-2] [com.hooks.TearDown] - Impossible de prendre une capture : Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, screenshot {}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 143.0.7499.40, chrome: {chromedriverVersion: 143.0.7499.40 (c23ff452476d..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64777}, goog:processID: 872, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64777/devtoo..., se:cdpVersion: 143.0.7499.40, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+[INFO] 07-12-2025 10:45:36 [ForkJoinPool-2-worker-2] [com.hooks.TearDown] - Driver fermé correctement pour le scénario : URL inconnue avec authentification (utilisateur authentifié)
+[DEBUG] 07-12-2025 10:45:36 [ForkJoinPool-2-worker-2] [com.hooks.TearDown] - ThreadContext nettoyé après exécution du scénario : URL inconnue avec authentification (utilisateur authentifié)
+[INFO] 07-12-2025 10:45:37 [ForkJoinPool-2-worker-24] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (eaa891269ac96ad716b541e7486c2da5)
+[WARN] 07-12-2025 10:45:37 [ForkJoinPool-2-worker-1] [com.hooks.TearDown] - Impossible de prendre une capture : Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, screenshot {}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 143.0.7499.40, chrome: {chromedriverVersion: 143.0.7499.40 (c23ff452476d..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64775}, goog:processID: 3484, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64775/devtoo..., se:cdpVersion: 143.0.7499.40, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+[INFO] 07-12-2025 10:45:40 [ForkJoinPool-2-worker-7] [com.actions.BrowserActions] - Navigated to URL: http://localhost:4200/home
+[DEBUG] 07-12-2025 10:45:42 [ForkJoinPool-2-worker-7] [com.actions.ElementActions] - Attente de 5 secondes...
+[INFO] 07-12-2025 10:45:42 [ForkJoinPool-2-worker-1] [com.hooks.TearDown] - Driver fermé correctement pour le scénario : Erreur de duplication d email lors de la modification
+[DEBUG] 07-12-2025 10:45:42 [ForkJoinPool-2-worker-1] [com.hooks.TearDown] - ThreadContext nettoyé après exécution du scénario : Erreur de duplication d email lors de la modification
+[ERROR] 07-12-2025 10:45:42 [ForkJoinPool-2-worker-11] [com.hooks.TearDown] - Le scénario a échoué : Réinitialisation réussie du mot de passe pour un utilisateur existant
+[INFO] 07-12-2025 10:45:42 [ForkJoinPool-2-worker-24] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (eaa891269ac96ad716b541e7486c2da5)
+[ERROR] 07-12-2025 10:45:42 [ForkJoinPool-2-worker-9] [com.hooks.TearDown] - Le scénario a échoué : Reset password link expired
+[INFO] 07-12-2025 10:45:44 [ForkJoinPool-2-worker-19] [com.hooks.TearDown] - Scénario terminé avec succès : Connexion réussie avec des identifiants valides selon le rôle de l’utilisateur
+[INFO] 07-12-2025 10:45:44 [ForkJoinPool-2-worker-25] [com.hooks.TearDown] - Scénario terminé avec succès : New password does not meet security requirements
+[DEBUG] 07-12-2025 10:45:44 [ForkJoinPool-2-worker-19] [com.hooks.TearDown] - ThreadContext nettoyé après exécution du scénario : Connexion réussie avec des identifiants valides selon le rôle de l’utilisateur
+[DEBUG] 07-12-2025 10:45:46 [ForkJoinPool-2-worker-25] [com.hooks.TearDown] - ThreadContext nettoyé après exécution du scénario : New password does not meet security requirements
+[INFO] 07-12-2025 10:45:48 [ForkJoinPool-2-worker-13] [com.hooks.TearDown] - Driver fermé correctement pour le scénario : URL inconnue sans authentification (utilisateur non authentifié)
+[DEBUG] 07-12-2025 10:45:48 [ForkJoinPool-2-worker-13] [com.hooks.TearDown] - ThreadContext nettoyé après exécution du scénario : URL inconnue sans authentification (utilisateur non authentifié)
+[INFO] 07-12-2025 10:45:49 [ForkJoinPool-2-worker-6] [com.actions.BrowserActions] - Navigated to URL: http://localhost:4200/home
+[DEBUG] 07-12-2025 10:45:49 [ForkJoinPool-2-worker-6] [com.actions.ElementActions] - Attente de 5 secondes...
+[INFO] 07-12-2025 10:45:50 [ForkJoinPool-2-worker-7] [com.hooks.TearDown] - Scénario terminé avec succès : Accès direct à une page protégée sans authentification
+[INFO] 07-12-2025 10:45:56 [ForkJoinPool-2-worker-6] [com.hooks.TearDown] - Scénario terminé avec succès : Accès direct à une page protégée sans authentification
+[INFO] 07-12-2025 10:45:56 [ForkJoinPool-2-worker-23] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (83ab0560724a586e9398a2185664311a)
+[INFO] 07-12-2025 10:45:56 [ForkJoinPool-2-worker-23] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (83ab0560724a586e9398a2185664311a)
+[ERROR] 07-12-2025 10:45:56 [ForkJoinPool-2-worker-16] [com.hooks.TearDown] - Le scénario a échoué : Contrôles d’autorisation par rôle
+[INFO] 07-12-2025 10:45:56 [ForkJoinPool-2-worker-3] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (4164a9d8749ba5fa7db58697bf319a53)
+[ERROR] 07-12-2025 10:45:58 [ForkJoinPool-2-worker-22] [com.hooks.TearDown] - Le scénario a échoué : URL inconnue avec authentification (utilisateur authentifié)
+[INFO] 07-12-2025 10:46:05 [ForkJoinPool-2-worker-10] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (bd16399c91e55f6322bdd5b67d6a2fd9)
+[INFO] 07-12-2025 10:46:05 [ForkJoinPool-2-worker-18] [com.actions.BrowserActions] - Navigated to URL: http://localhost:4200/home
+[DEBUG] 07-12-2025 10:46:05 [ForkJoinPool-2-worker-18] [com.actions.ElementActions] - Attente de 5 secondes...
+[INFO] 07-12-2025 10:46:05 [ForkJoinPool-2-worker-10] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (bd16399c91e55f6322bdd5b67d6a2fd9)
+[INFO] 07-12-2025 10:46:06 [ForkJoinPool-2-worker-15] [com.hooks.TearDown] - Driver fermé correctement pour le scénario : Erreurs de format images lors de la création d une actualité
+[DEBUG] 07-12-2025 10:46:06 [ForkJoinPool-2-worker-15] [com.hooks.TearDown] - ThreadContext nettoyé après exécution du scénario : Erreurs de format images lors de la création d une actualité
+[DEBUG] 07-12-2025 10:46:06 [ForkJoinPool-2-worker-20] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[INFO] 07-12-2025 10:46:09 [ForkJoinPool-2-worker-14] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (31ca7797b875ed37b770472434da0502)
+[INFO] 07-12-2025 10:46:09 [ForkJoinPool-2-worker-14] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (31ca7797b875ed37b770472434da0502)
+[INFO] 07-12-2025 10:46:15 [ForkJoinPool-2-worker-11] [com.hooks.TearDown] - Driver fermé correctement pour le scénario : Réinitialisation réussie du mot de passe pour un utilisateur existant
+[DEBUG] 07-12-2025 10:46:15 [ForkJoinPool-2-worker-11] [com.hooks.TearDown] - ThreadContext nettoyé après exécution du scénario : Réinitialisation réussie du mot de passe pour un utilisateur existant
+[INFO] 07-12-2025 10:46:16 [ForkJoinPool-2-worker-9] [com.hooks.TearDown] - Driver fermé correctement pour le scénario : Reset password link expired
+[DEBUG] 07-12-2025 10:46:16 [ForkJoinPool-2-worker-9] [com.hooks.TearDown] - ThreadContext nettoyé après exécution du scénario : Reset password link expired
+[INFO] 07-12-2025 10:46:23 [ForkJoinPool-2-worker-7] [com.hooks.TearDown] - Driver fermé correctement pour le scénario : Accès direct à une page protégée sans authentification
+[DEBUG] 07-12-2025 10:46:23 [ForkJoinPool-2-worker-7] [com.hooks.TearDown] - ThreadContext nettoyé après exécution du scénario : Accès direct à une page protégée sans authentification
+[INFO] 07-12-2025 10:46:29 [ForkJoinPool-2-worker-19] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (83219e7e896bf9e78c5c439408603b9b)
+[INFO] 07-12-2025 10:46:30 [ForkJoinPool-2-worker-6] [com.hooks.TearDown] - Driver fermé correctement pour le scénario : Accès direct à une page protégée sans authentification
+[DEBUG] 07-12-2025 10:46:30 [ForkJoinPool-2-worker-6] [com.hooks.TearDown] - ThreadContext nettoyé après exécution du scénario : Accès direct à une page protégée sans authentification
+[INFO] 07-12-2025 10:46:31 [ForkJoinPool-2-worker-16] [com.hooks.TearDown] - Driver fermé correctement pour le scénario : Contrôles d’autorisation par rôle
+[DEBUG] 07-12-2025 10:46:31 [ForkJoinPool-2-worker-16] [com.hooks.TearDown] - ThreadContext nettoyé après exécution du scénario : Contrôles d’autorisation par rôle
+[INFO] 07-12-2025 10:46:31 [ForkJoinPool-2-worker-22] [com.hooks.TearDown] - Driver fermé correctement pour le scénario : URL inconnue avec authentification (utilisateur authentifié)
+[DEBUG] 07-12-2025 10:46:31 [ForkJoinPool-2-worker-22] [com.hooks.TearDown] - ThreadContext nettoyé après exécution du scénario : URL inconnue avec authentification (utilisateur authentifié)
+[INFO] 07-12-2025 10:46:42 [ForkJoinPool-2-worker-8] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (f3fc83157be49646e8b2f72705f216f9)
+[INFO] 07-12-2025 10:46:42 [ForkJoinPool-2-worker-13] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (95d05e19a906e2125cb6cc409a76663d)
+[INFO] 07-12-2025 10:46:42 [ForkJoinPool-2-worker-8] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (f3fc83157be49646e8b2f72705f216f9)
+[INFO] 07-12-2025 10:46:42 [ForkJoinPool-2-worker-4] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (2fe033b196d35bd752787728264f72ce)
+[INFO] 07-12-2025 10:46:42 [ForkJoinPool-2-worker-4] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (2fe033b196d35bd752787728264f72ce)
+[INFO] 07-12-2025 10:46:43 [ForkJoinPool-2-worker-13] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (95d05e19a906e2125cb6cc409a76663d)
+[INFO] 07-12-2025 10:46:53 [ForkJoinPool-2-worker-27] [com.hooks.TearDown] - Scénario terminé avec succès : Création d un nouveau projet avec succès
+[DEBUG] 07-12-2025 10:46:53 [ForkJoinPool-2-worker-27] [com.hooks.TearDown] - ThreadContext nettoyé après exécution du scénario : Création d un nouveau projet avec succès
+[DEBUG] 07-12-2025 10:47:01 [ForkJoinPool-2-worker-3] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 07-12-2025 10:47:02 [ForkJoinPool-2-worker-15] [com.hooks.TearDown] - Aucun log navigateur récupéré (OK pour Firefox ou drivers non Chromium): Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, getLog {type=browser}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 143.0.7499.40, chrome: {chromedriverVersion: 143.0.7499.40 (c23ff452476d..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57678}, goog:processID: 42172, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57678/devtoo..., se:cdpVersion: 143.0.7499.40, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+[INFO] 07-12-2025 10:47:12 [ForkJoinPool-2-worker-21] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (36aef97894bc910edff4604df2c9dee5)
+[WARN] 07-12-2025 10:47:12 [ForkJoinPool-2-worker-15] [com.hooks.TearDown] - Impossible de prendre une capture : Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, screenshot {}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 143.0.7499.40, chrome: {chromedriverVersion: 143.0.7499.40 (c23ff452476d..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57678}, goog:processID: 42172, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57678/devtoo..., se:cdpVersion: 143.0.7499.40, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+[INFO] 07-12-2025 10:47:13 [ForkJoinPool-2-worker-17] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (869941aa2986127e0b1dc90b008934b3)
+[INFO] 07-12-2025 10:47:13 [ForkJoinPool-2-worker-1] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (0b3832d2ee94a2f0feec04a572838c0b)
+[INFO] 07-12-2025 10:47:14 [ForkJoinPool-2-worker-25] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (425cf9fe6a2b0908c9377cc1cafce75d)
+[ERROR] 07-12-2025 10:47:14 [ForkJoinPool-2-worker-3] [com.actions.ElementActions] - Échec du click sur WebElement : Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //ul[@class='site-menu main-menu js-clone-nav d-flex list-unstyled m-0']/li[3]/a[@class='nav-link']' (tried for 10 second(s) with 500 milliseconds interval)
+[INFO] 07-12-2025 10:47:16 [ForkJoinPool-2-worker-18] [com.actions.BrowserActions] - Navigated to URL: http://localhost:4200/manager/tableauBoard
+[INFO] 07-12-2025 10:47:17 [ForkJoinPool-2-worker-20] [com.actions.ElementActions] - Click réussi sur l'élément : <unreadable>
+[DEBUG] 07-12-2025 10:47:18 [ForkJoinPool-2-worker-20] [com.actions.ElementActions] - Attente de 20 secondes...
+[INFO] 07-12-2025 10:47:18 [ForkJoinPool-2-worker-21] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (36aef97894bc910edff4604df2c9dee5)
+[INFO] 07-12-2025 10:47:19 [ForkJoinPool-2-worker-1] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (0b3832d2ee94a2f0feec04a572838c0b)
+[INFO] 07-12-2025 10:47:19 [ForkJoinPool-2-worker-25] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (425cf9fe6a2b0908c9377cc1cafce75d)
+[DEBUG] 07-12-2025 10:47:23 [ForkJoinPool-2-worker-23] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[INFO] 07-12-2025 10:47:30 [ForkJoinPool-2-worker-15] [com.hooks.TearDown] - Driver fermé correctement pour le scénario : Modification sans changement sans retour a la liste des actualites
+[DEBUG] 07-12-2025 10:47:30 [ForkJoinPool-2-worker-15] [com.hooks.TearDown] - ThreadContext nettoyé après exécution du scénario : Modification sans changement sans retour a la liste des actualites
+[DEBUG] 07-12-2025 10:47:30 [ForkJoinPool-2-worker-19] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[INFO] 07-12-2025 10:47:31 [ForkJoinPool-2-worker-5] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (b613ba814650ed85898d9d847f078e0a)
+[INFO] 07-12-2025 10:47:31 [ForkJoinPool-2-worker-12] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (8f93215da6d9b5de7ece0495fc465a90)
+[DEBUG] 07-12-2025 10:47:31 [ForkJoinPool-2-worker-8] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[INFO] 07-12-2025 10:47:32 [ForkJoinPool-2-worker-5] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (b613ba814650ed85898d9d847f078e0a)
+[INFO] 07-12-2025 10:47:32 [ForkJoinPool-2-worker-17] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (869941aa2986127e0b1dc90b008934b3)
+[INFO] 07-12-2025 10:47:32 [ForkJoinPool-2-worker-12] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (8f93215da6d9b5de7ece0495fc465a90)
+[ERROR] 07-12-2025 10:47:33 [ForkJoinPool-2-worker-24] [com.hooks.TearDown] - Le scénario a échoué : Champ obligatoire vide lors de la création
+[ERROR] 07-12-2025 10:47:37 [ForkJoinPool-2-worker-10] [com.hooks.TearDown] - Le scénario a échoué : Modification complète d une actualite
+[ERROR] 07-12-2025 10:47:37 [ForkJoinPool-2-worker-4] [com.hooks.TearDown] - Le scénario a échoué : annuler l archivage d un projet avec succees
+[ERROR] 07-12-2025 10:47:37 [ForkJoinPool-2-worker-14] [com.hooks.TearDown] - Le scénario a échoué : champs obligatoires lors de la creation
+[ERROR] 07-12-2025 10:47:37 [ForkJoinPool-2-worker-13] [com.hooks.TearDown] - Le scénario a échoué : Modification sans changement avec retour a la liste des actualités
+[DEBUG] 07-12-2025 10:47:44 [ForkJoinPool-2-worker-23] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 07-12-2025 10:47:53 [ForkJoinPool-2-worker-8] [com.actions.ElementActions] - Click réussi sur l'élément : <unreadable>
+[INFO] 07-12-2025 10:47:54 [ForkJoinPool-2-worker-19] [com.actions.ElementActions] - Click réussi sur l'élément : <unreadable>
+[INFO] 07-12-2025 10:47:57 [ForkJoinPool-2-worker-18] [com.actions.BrowserActions] - Navigated to URL: http://localhost:4200/home
+[DEBUG] 07-12-2025 10:47:58 [ForkJoinPool-2-worker-21] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 07-12-2025 10:48:00 [ForkJoinPool-2-worker-18] [com.actions.ElementActions] - Attente de 5 secondes...
+[DEBUG] 07-12-2025 10:48:00 [ForkJoinPool-2-worker-20] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 07-12-2025 10:48:00 [ForkJoinPool-2-worker-8] [com.actions.ElementActions] - Attente de 20 secondes...
+[DEBUG] 07-12-2025 10:48:02 [ForkJoinPool-2-worker-5] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 07-12-2025 10:48:03 [ForkJoinPool-2-worker-1] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 07-12-2025 10:48:03 [ForkJoinPool-2-worker-7] [com.hooks.TearDown] - Aucun log navigateur récupéré (OK pour Firefox ou drivers non Chromium): Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, getLog {type=browser}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 143.0.7499.40, chrome: {chromedriverVersion: 143.0.7499.40 (c23ff452476d..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64219}, goog:processID: 41688, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64219/devtoo..., se:cdpVersion: 143.0.7499.40, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+[INFO] 07-12-2025 10:48:04 [ForkJoinPool-2-worker-23] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[DEBUG] 07-12-2025 10:48:04 [ForkJoinPool-2-worker-23] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[WARN] 07-12-2025 10:48:04 [ForkJoinPool-2-worker-7] [com.hooks.TearDown] - Impossible de prendre une capture : Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, screenshot {}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 143.0.7499.40, chrome: {chromedriverVersion: 143.0.7499.40 (c23ff452476d..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64219}, goog:processID: 41688, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64219/devtoo..., se:cdpVersion: 143.0.7499.40, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+[INFO] 07-12-2025 10:48:04 [ForkJoinPool-2-worker-7] [com.hooks.TearDown] - Driver fermé correctement pour le scénario : archiver un projet en succées
+[DEBUG] 07-12-2025 10:48:04 [ForkJoinPool-2-worker-7] [com.hooks.TearDown] - ThreadContext nettoyé après exécution du scénario : archiver un projet en succées
+[DEBUG] 07-12-2025 10:48:04 [ForkJoinPool-2-worker-11] [com.hooks.TearDown] - Aucun log navigateur récupéré (OK pour Firefox ou drivers non Chromium): Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, getLog {type=browser}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 143.0.7499.40, chrome: {chromedriverVersion: 143.0.7499.40 (c23ff452476d..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58456}, goog:processID: 49624, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58456/devtoo..., se:cdpVersion: 143.0.7499.40, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+[WARN] 07-12-2025 10:48:04 [ForkJoinPool-2-worker-11] [com.hooks.TearDown] - Impossible de prendre une capture : Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, screenshot {}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 143.0.7499.40, chrome: {chromedriverVersion: 143.0.7499.40 (c23ff452476d..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58456}, goog:processID: 49624, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58456/devtoo..., se:cdpVersion: 143.0.7499.40, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+[DEBUG] 07-12-2025 10:48:05 [ForkJoinPool-2-worker-21] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 07-12-2025 10:48:05 [ForkJoinPool-2-worker-24] [com.hooks.TearDown] - Driver fermé correctement pour le scénario : Champ obligatoire vide lors de la création
+[DEBUG] 07-12-2025 10:48:06 [ForkJoinPool-2-worker-5] [com.actions.ElementActions] - Champ effacé : 
+[DEBUG] 07-12-2025 10:48:07 [ForkJoinPool-2-worker-1] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 07-12-2025 10:48:07 [ForkJoinPool-2-worker-11] [com.hooks.TearDown] - Driver fermé correctement pour le scénario : Rejeter une date de fin antérieure à date de debut
+[DEBUG] 07-12-2025 10:48:07 [ForkJoinPool-2-worker-11] [com.hooks.TearDown] - ThreadContext nettoyé après exécution du scénario : Rejeter une date de fin antérieure à date de debut
+[DEBUG] 07-12-2025 10:48:07 [ForkJoinPool-2-worker-24] [com.hooks.TearDown] - ThreadContext nettoyé après exécution du scénario : Champ obligatoire vide lors de la création
+[INFO] 07-12-2025 10:48:07 [ForkJoinPool-2-worker-28] [com.hooks.TearDown] - Scénario terminé avec succès : Rejeter une date de début antérieure à aujourd’hui
+[DEBUG] 07-12-2025 10:48:07 [ForkJoinPool-2-worker-28] [com.hooks.TearDown] - ThreadContext nettoyé après exécution du scénario : Rejeter une date de début antérieure à aujourd’hui
+[DEBUG] 07-12-2025 10:48:08 [ForkJoinPool-2-worker-19] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 07-12-2025 10:48:08 [ForkJoinPool-2-worker-10] [com.hooks.TearDown] - Driver fermé correctement pour le scénario : Modification complète d une actualite
+[INFO] 07-12-2025 10:48:08 [ForkJoinPool-2-worker-4] [com.hooks.TearDown] - Driver fermé correctement pour le scénario : annuler l archivage d un projet avec succees
+[INFO] 07-12-2025 10:48:08 [ForkJoinPool-2-worker-14] [com.hooks.TearDown] - Driver fermé correctement pour le scénario : champs obligatoires lors de la creation
+[DEBUG] 07-12-2025 10:48:09 [ForkJoinPool-2-worker-23] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 07-12-2025 10:48:09 [ForkJoinPool-2-worker-20] [com.actions.ElementActions] - Click réussi sur l'élément : Envoyer le lien
+[INFO] 07-12-2025 10:48:09 [ForkJoinPool-2-worker-13] [com.hooks.TearDown] - Driver fermé correctement pour le scénario : Modification sans changement avec retour a la liste des actualités
+[INFO] 07-12-2025 10:48:10 [ForkJoinPool-2-worker-5] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[INFO] 07-12-2025 10:48:10 [ForkJoinPool-2-worker-21] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[INFO] 07-12-2025 10:48:10 [ForkJoinPool-2-worker-1] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[DEBUG] 07-12-2025 10:48:10 [ForkJoinPool-2-worker-19] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 07-12-2025 10:48:10 [ForkJoinPool-2-worker-5] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 07-12-2025 10:48:10 [ForkJoinPool-2-worker-21] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 07-12-2025 10:48:10 [ForkJoinPool-2-worker-20] [com.actions.ElementActions] - Attente de 50 secondes...
+[DEBUG] 07-12-2025 10:48:10 [ForkJoinPool-2-worker-13] [com.hooks.TearDown] - ThreadContext nettoyé après exécution du scénario : Modification sans changement avec retour a la liste des actualités
+[DEBUG] 07-12-2025 10:48:10 [ForkJoinPool-2-worker-14] [com.hooks.TearDown] - ThreadContext nettoyé après exécution du scénario : champs obligatoires lors de la creation
+[DEBUG] 07-12-2025 10:48:10 [ForkJoinPool-2-worker-4] [com.hooks.TearDown] - ThreadContext nettoyé après exécution du scénario : annuler l archivage d un projet avec succees
+[DEBUG] 07-12-2025 10:48:10 [ForkJoinPool-2-worker-1] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 07-12-2025 10:48:10 [ForkJoinPool-2-worker-10] [com.hooks.TearDown] - ThreadContext nettoyé après exécution du scénario : Modification complète d une actualite
+[ERROR] 07-12-2025 10:48:10 [ForkJoinPool-2-worker-25] [com.hooks.TearDown] - Le scénario a échoué : Modification partielle
+[ERROR] 07-12-2025 10:48:10 [ForkJoinPool-2-worker-3] [com.hooks.TearDown] - Le scénario a échoué : Connexion échouée — cas d’erreur variés
+[INFO] 07-12-2025 10:48:10 [ForkJoinPool-2-worker-18] [com.hooks.TearDown] - Scénario terminé avec succès : Accès direct à une page protégée sans authentification
+[INFO] 07-12-2025 10:48:15 [ForkJoinPool-2-worker-23] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[DEBUG] 07-12-2025 10:48:15 [ForkJoinPool-2-worker-21] [com.actions.ElementActions] - Champ effacé : 
+[DEBUG] 07-12-2025 10:48:15 [ForkJoinPool-2-worker-1] [com.actions.ElementActions] - Champ effacé : 
+[DEBUG] 07-12-2025 10:48:15 [ForkJoinPool-2-worker-19] [com.actions.ElementActions] - Champ effacé : 
+[DEBUG] 07-12-2025 10:48:15 [ForkJoinPool-2-worker-5] [com.actions.ElementActions] - Champ effacé : 
+[DEBUG] 07-12-2025 10:48:16 [ForkJoinPool-2-worker-23] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[INFO] 07-12-2025 10:48:22 [ForkJoinPool-2-worker-19] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[INFO] 07-12-2025 10:48:22 [ForkJoinPool-2-worker-1] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[DEBUG] 07-12-2025 10:48:22 [ForkJoinPool-2-worker-1] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[INFO] 07-12-2025 10:48:22 [ForkJoinPool-2-worker-5] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[DEBUG] 07-12-2025 10:48:22 [ForkJoinPool-2-worker-5] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[INFO] 07-12-2025 10:48:22 [ForkJoinPool-2-worker-21] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[DEBUG] 07-12-2025 10:48:22 [ForkJoinPool-2-worker-21] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 07-12-2025 10:48:23 [ForkJoinPool-2-worker-8] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[INFO] 07-12-2025 10:48:25 [ForkJoinPool-2-worker-23] [com.actions.ElementActions] - Click réussi sur l'élément : Se connecter
+[DEBUG] 07-12-2025 10:48:25 [ForkJoinPool-2-worker-19] [com.actions.ElementActions] - Champ effacé : 
+[DEBUG] 07-12-2025 10:48:25 [ForkJoinPool-2-worker-19] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[DEBUG] 07-12-2025 10:48:26 [ForkJoinPool-2-worker-8] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 07-12-2025 10:48:27 [ForkJoinPool-2-worker-1] [com.actions.ElementActions] - Click réussi sur l'élément : Se connecter
+[INFO] 07-12-2025 10:48:27 [ForkJoinPool-2-worker-21] [com.actions.ElementActions] - Click réussi sur l'élément : Se connecter
+[INFO] 07-12-2025 10:48:27 [ForkJoinPool-2-worker-5] [com.actions.ElementActions] - Click réussi sur l'élément : Se connecter
+[DEBUG] 07-12-2025 10:48:27 [ForkJoinPool-2-worker-19] [com.actions.ElementActions] - Champ effacé : 
+[INFO] 07-12-2025 10:48:28 [ForkJoinPool-2-worker-8] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[DEBUG] 07-12-2025 10:48:28 [ForkJoinPool-2-worker-8] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[INFO] 07-12-2025 10:48:30 [ForkJoinPool-2-worker-19] [com.actions.ElementActions] - Texte saisi sur WebElement : 
+[DEBUG] 07-12-2025 10:48:30 [ForkJoinPool-2-worker-19] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
+[INFO] 07-12-2025 10:48:31 [ForkJoinPool-2-worker-8] [com.actions.ElementActions] - Click réussi sur l'élément : Envoyer le lien
+[DEBUG] 07-12-2025 10:48:31 [ForkJoinPool-2-worker-8] [com.actions.ElementActions] - Attente de 50 secondes...
+[INFO] 07-12-2025 10:48:39 [ForkJoinPool-2-worker-19] [com.actions.ElementActions] - Click réussi sur l'élément : Se connecter
+[INFO] 07-12-2025 10:48:41 [ForkJoinPool-2-worker-25] [com.hooks.TearDown] - Driver fermé correctement pour le scénario : Modification partielle
+[DEBUG] 07-12-2025 10:48:41 [ForkJoinPool-2-worker-25] [com.hooks.TearDown] - ThreadContext nettoyé après exécution du scénario : Modification partielle
+[INFO] 07-12-2025 10:48:41 [ForkJoinPool-2-worker-3] [com.hooks.TearDown] - Driver fermé correctement pour le scénario : Connexion échouée — cas d’erreur variés
+[DEBUG] 07-12-2025 10:48:42 [ForkJoinPool-2-worker-3] [com.hooks.TearDown] - ThreadContext nettoyé après exécution du scénario : Connexion échouée — cas d’erreur variés
+[INFO] 07-12-2025 10:48:42 [ForkJoinPool-2-worker-18] [com.hooks.TearDown] - Driver fermé correctement pour le scénario : Accès direct à une page protégée sans authentification
+[DEBUG] 07-12-2025 10:48:42 [ForkJoinPool-2-worker-18] [com.hooks.TearDown] - ThreadContext nettoyé après exécution du scénario : Accès direct à une page protégée sans authentification
+[DEBUG] 07-12-2025 10:48:57 [ForkJoinPool-2-worker-16] [com.hooks.TearDown] - Aucun log navigateur récupéré (OK pour Firefox ou drivers non Chromium): Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, getLog {type=browser}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 143.0.7499.40, chrome: {chromedriverVersion: 143.0.7499.40 (c23ff452476d..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61476}, goog:processID: 46492, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61476/devtoo..., se:cdpVersion: 143.0.7499.40, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+[WARN] 07-12-2025 10:49:05 [ForkJoinPool-2-worker-16] [com.hooks.TearDown] - Impossible de prendre une capture : Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, screenshot {}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 143.0.7499.40, chrome: {chromedriverVersion: 143.0.7499.40 (c23ff452476d..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61476}, goog:processID: 46492, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61476/devtoo..., se:cdpVersion: 143.0.7499.40, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+[INFO] 07-12-2025 10:49:11 [ForkJoinPool-2-worker-16] [com.hooks.TearDown] - Driver fermé correctement pour le scénario : Modification complète de mes données personelles
+[DEBUG] 07-12-2025 10:49:11 [ForkJoinPool-2-worker-16] [com.hooks.TearDown] - ThreadContext nettoyé après exécution du scénario : Modification complète de mes données personelles
+[ERROR] 07-12-2025 10:49:17 [ForkJoinPool-2-worker-5] [com.hooks.TearDown] - Le scénario a échoué : pagination_5_per_page
+[ERROR] 07-12-2025 10:49:17 [ForkJoinPool-2-worker-23] [com.hooks.TearDown] - Le scénario a échoué : Contrôles d’autorisation par rôle
+[ERROR] 07-12-2025 10:49:17 [ForkJoinPool-2-worker-19] [com.hooks.TearDown] - Le scénario a échoué : Connexion réussie avec des identifiants valides selon le rôle de l’utilisateur
+[ERROR] 07-12-2025 10:49:17 [ForkJoinPool-2-worker-21] [com.hooks.TearDown] - Le scénario a échoué : Le champ matricule est non modifiable
+[ERROR] 07-12-2025 10:49:17 [ForkJoinPool-2-worker-1] [com.hooks.TearDown] - Le scénario a échoué : Le champ matricule est non modifiable
+[INFO] 07-12-2025 10:49:18 [ForkJoinPool-2-worker-20] [com.hooks.TearDown] - Scénario terminé avec succès : Submit forgot password form with empty email field
+[WARN] 07-12-2025 10:49:25 [ForkJoinPool-2-worker-8] [com.hooks.TearDown] - [BROWSER LOG] SEVERE http://localhost:8080/users/forgot-password?email=test_reset@mailsac.com - Failed to load resource: the server responded with a status of 400 ()
+[ERROR] 07-12-2025 10:49:27 [ForkJoinPool-2-worker-8] [com.hooks.TearDown] - Le scénario a échoué : New password and confirmation do not match

@@ -1,0 +1,115 @@
+<div class="container my-5">
+  <h1 class="text-center text-primary fw-bold mb-4">Créer un nouvel utilisateur</h1>
+
+  <div class="card border-box-style shadow-sm">
+    <div class="card-body p-4">
+      <h3 class="text-center mb-3 text-secondary">
+        <i class="fas fa-user-plus me-2"></i>Veuillez remplir les informations ci-dessous
+      </h3>
+
+      <form #formUser="ngForm" (ngSubmit)="onSubmit()" enctype="multipart/form-data" autocomplete="off">
+        
+        <div class="row g-3">
+          <!-- Matricule -->
+          <div class="col-md-6">
+            <label class="form-label">Matricule :</label>
+            <div class="input-group">
+              <span class="input-group-text"><i class="fas fa-id-card"></i></span>
+              <input type="text" class="form-control" name="matricule" [(ngModel)]="user.matricule" required autocomplete="new-matricule"/>
+            </div>
+          </div>
+
+          <!-- Nom -->
+          <div class="col-md-6">
+            <label class="form-label">Nom :</label>
+            <div class="input-group">
+              <span class="input-group-text"><i class="fas fa-user"></i></span>
+              <input type="text" class="form-control" name="nom" [(ngModel)]="user.nom" required />
+            </div>
+          </div>
+
+          <!-- Prénom -->
+          <div class="col-md-6">
+            <label class="form-label">Prénom :</label>
+            <div class="input-group">
+              <span class="input-group-text"><i class="fas fa-user"></i></span>
+              <input type="text" class="form-control" name="prenom" [(ngModel)]="user.prenom" required />
+            </div>
+          </div>
+
+          <!-- Email -->
+          <div class="col-md-6">
+            <label class="form-label">Email :</label>
+            <div class="input-group">
+              <span class="input-group-text"><i class="fas fa-envelope"></i></span>
+              <input type="email" class="form-control" name="email" [(ngModel)]="user.email" required />
+            </div>
+          </div>
+
+          <!-- Mot de passe -->
+          <div class="col-md-6">
+            <label class="form-label">Mot de passe :</label>
+            <div class="input-group">
+              <span class="input-group-text"><i class="fas fa-lock"></i></span>
+              <input 
+               [type]="showPassword ? 'text' : 'password'" 
+               class="form-control" 
+               name="motDePasse" 
+               [(ngModel)]="user.motDePasse" required autocomplete="new-password"
+               style="padding-right: 40px;"/>
+
+                <i 
+    class="fa"
+    [ngClass]="showPassword ? 'fa-eye-slash' : 'fa-eye'"
+    (click)="showPassword = !showPassword"
+    style="
+      position: absolute;
+      right: 12px;
+      top: 50%;
+      transform: translateY(-50%);
+      cursor: pointer;
+      color: #6c757d;
+      font-size: 18px;
+      opacity: 0.8;
+    ">
+  </i>
+            </div>
+          </div>
+
+          
+
+ 
+
+          <!-- Rôle -->
+          <div class="col-md-6">
+            <label class="form-label">Rôle :</label>
+            <div class="input-group">
+              <span class="input-group-text"><i class="fas fa-user-tag"></i></span>
+              <select class="form-control" name="role" [(ngModel)]="user.role" required>
+                <option value="" disabled selected>-- Sélectionnez un rôle --</option>
+                <option *ngFor="let r of roles" [value]="r">{{ r }}</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- Image -->
+          <div class="col-md-6">
+            <label class="form-label">Image :</label>
+            <div class="input-group">
+              <span class="input-group-text"><i class="fas fa-image"></i></span>
+              <input type="file" class="form-control" name="image" (change)="onFileChanged($event)" accept="image/*" required />
+            </div>
+          </div>
+        </div>
+
+        <!-- Bouton -->
+        <div class="mt-4">
+          <button type="submit" class="btn btn-primary w-100" [disabled]="!formUser.form.valid || !selectedFile">
+            <i class="fas fa-plus-circle me-2"></i>Créer Utilisateur
+          </button>
+        </div>
+
+      </form>
+    </div>
+  </div>
+</div>
