@@ -1,9 +1,0 @@
-[INFO] 06-12-2025 20:45:35 [main] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : RemoteWebDriver: chrome on Windows 11 (931a078083d1141f14e2d71037339115)
-[INFO] 06-12-2025 20:45:36 [main] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : RemoteWebDriver: chrome on Windows 11 (931a078083d1141f14e2d71037339115)
-[DEBUG] 06-12-2025 20:45:43 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
-[DEBUG] 06-12-2025 20:45:45 [main] [com.actions.ElementActions] - Champ effacé : 
-[INFO] 06-12-2025 20:45:47 [main] [com.actions.ElementActions] - Texte saisi sur WebElement : 
-[DEBUG] 06-12-2025 20:45:47 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
-[DEBUG] 06-12-2025 20:45:50 [main] [com.actions.ElementActions] - Champ effacé : 
-[INFO] 06-12-2025 20:45:50 [main] [com.actions.ElementActions] - Texte saisi sur WebElement : 
-[DEBUG] 06-12-2025 20:45:50 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...

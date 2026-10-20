@@ -1,4 +1,0 @@
-[INFO] 06-12-2025 20:34:44 [main] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (91b0396f3c226b54db70dd9134c7ba43)
-[INFO] 06-12-2025 20:34:44 [main] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (91b0396f3c226b54db70dd9134c7ba43)
-[DEBUG] 06-12-2025 20:35:00 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...
-[DEBUG] 06-12-2025 20:35:05 [main] [com.actions.ElementActions] - Champ effacé : 

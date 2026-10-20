@@ -1,4 +1,0 @@
-[INFO] 15-11-2025 14:10:01 [main] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (8816bfb6be625be6bc8b1ace87274854)
-[INFO] 15-11-2025 14:10:01 [main] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (8816bfb6be625be6bc8b1ace87274854)
-[INFO] 15-11-2025 14:10:03 [main] [com.actions.BrowserActions] - Navigated to URL: http://localhost:4200/home
-[DEBUG] 15-11-2025 14:10:03 [main] [com.actions.ElementActions] - Attente de 5 secondes...

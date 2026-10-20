@@ -1,6 +1,0 @@
-[INFO] 07-12-2025 10:26:41 [main] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : RemoteWebDriver: chrome on Windows 11 (4a8a440360ae4a8c3c585be2ce2a758c)
-[INFO] 07-12-2025 10:26:41 [main] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : RemoteWebDriver: chrome on Windows 11 (4a8a440360ae4a8c3c585be2ce2a758c)
-[INFO] 07-12-2025 10:26:45 [main] [com.actions.BrowserActions] - Navigated to URL: http://localhost:4200/home
-[DEBUG] 07-12-2025 10:26:45 [main] [com.actions.ElementActions] - Attente de 5 secondes...
-[INFO] 07-12-2025 10:26:51 [main] [com.actions.BrowserActions] - Navigated to URL: http://localhost:4200/backoffice/tableauBoard
-[DEBUG] 07-12-2025 10:26:51 [main] [com.actions.ElementActions] - Attente de 5 secondes...

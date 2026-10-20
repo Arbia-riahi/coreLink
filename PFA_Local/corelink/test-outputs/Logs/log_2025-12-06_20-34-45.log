@@ -1,3 +1,0 @@
-[INFO] 06-12-2025 20:34:45 [main] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (f9f343584324ed1f9783a5b1120f161a)
-[INFO] 06-12-2025 20:34:46 [main] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : ChromeDriver: chrome on windows (f9f343584324ed1f9783a5b1120f161a)
-[DEBUG] 06-12-2025 20:35:01 [main] [com.actions.ElementActions] - Attente de clic possible pour WebElement...

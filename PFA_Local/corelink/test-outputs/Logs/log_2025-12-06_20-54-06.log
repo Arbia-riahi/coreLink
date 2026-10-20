@@ -1,3 +1,0 @@
-[INFO] 06-12-2025 20:54:07 [main] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : RemoteWebDriver: MicrosoftEdge on Windows 11 (22ba77bceff1e8cd2c548b7225e66554)
-[INFO] 06-12-2025 20:54:07 [main] [com.actions.ElementActions] - SeleniumUtils initialisée avec le driver : RemoteWebDriver: MicrosoftEdge on Windows 11 (22ba77bceff1e8cd2c548b7225e66554)
-[ERROR] 06-12-2025 20:54:20 [main] [com.hooks.TearDown] - Le scénario a échoué : Modification complète d une actualite
