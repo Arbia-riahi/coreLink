@@ -1,3 +1,0 @@
-questions a revenir (chatgbt):
-1) piurquoi on utilise xampp avec mysql ? w chnya hwa slan xampp 
-2) pouruoi on n'utilise pas @lombok dans lesgrand societe? 

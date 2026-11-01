@@ -1,9 +1,0 @@
-use_case;action;matricule;nom;prenom;email;password;role;image;expected_type;expected_title;expected_message
-ajout_creation_success;create;ahmed;nebli;ahmed;ahmed@gmail.com;Tekup123*;MANAGER;image 1.jpeg;success;Succès;Utilisateur créé avec succès
-ajout_error_format_email;create;john;dupon;john;john@;Tekup123*;MANAGER;image 1.jpeg;error;Erreur                          Veuillez entrer un email valide;Veuillez entrer un email valide.
-ajout_error_format_password;create;john;dupon;john;john@gmail.com;123;MANAGER;image 1.jpeg;error;Erreur                          Veuillez entrer un email valide;"Le mot de passe doit contenir au moins 8 caractères, une majuscule, une minuscule, un chiffre et un caractère spécial."
-ajout_error_format_image;create;john;dupon;john;john@gmail.com;Tekup123*;MANAGER;cas_de_tests.xlsx;error;Erreur                          Veuillez entrer un email valide;"Veuillez sélectionner une image valide (jpg, png, etc.)."
-ajout_duplicate_matricule;create;ahmed;trabelsi;samira;samira@gmail.com;Tekup123*;MANAGER;image 1.jpeg;error;Erreur                          Veuillez entrer un email valide;Le matricule existe déjà
-ajout_duplicate_email;create;mohamed;tlili;chaima;ahmed@gmail.com;Tekup123*;MANAGER;image 1.jpeg;error;Erreur                          Veuillez entrer un email valide;Erreur : Email déjà utilisé !
-ajout_required;create;;ahlem;mourad;test@gmail.com;Tekup123*;MEMBER;image 2.jpeg;;;
-ajout_required;create;fahmi;ahlem;mourad;;;;image 2.jpeg;;;
