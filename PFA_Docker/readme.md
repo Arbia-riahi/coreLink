@@ -415,9 +415,8 @@ The pipeline **fails automatically** if a quality gate is not met: failing tests
 **Arbia Riahi**
 QA Automation Engineer
 
-- LinkedIn: `<your-linkedin-url>`
-- GitHub: `<your-github-url>`
-- Email: `<your-email>`
+- LinkedIn: `www.linkedin.com/in/riahi-arbia`
+- Email: `riahiarbia840@gmail.com`
 
 ---
 
