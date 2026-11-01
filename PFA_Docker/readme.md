@@ -25,9 +25,8 @@
 8. [Quality Assurance](#quality-assurance)
 9. [CI/CD Pipeline](#cicd-pipeline)
 10. [Security](#security)
-11. [Roadmap](#roadmap)
-12. [Project Context](#project-context)
-13. [Author](#author)
+11. [Project Context](#project-context)
+12. [Author](#author)
 
 ---
 
@@ -52,12 +51,20 @@ Think of CoreLink as **the control tower of your projects**: you see every fligh
 | Feature | What it gives you |
 |---|---|
 | **Project Management** | Create projects, organize tasks, assign members, track progress |
+| **Kanban and Gantt Views** | See your work as a board or as a timeline, whichever fits your team |
 | **Secure Authentication** | Protected access to your data, with controlled permissions |
 | **Gmail Integration** | Email and project work connected, no more copy-paste between tools |
+| **Google Calendar Integration** | Deadlines and milestones visible in the calendar you already use |
 | **Dashboards** | Clear, visual indicators on project status and team activity |
+| **Exportable Reports (PDF / Excel)** | Share project status with stakeholders in one click |
 | **Smart Alert System (CRON Jobs)** | Automatic reminders and warnings, without manual follow-up |
 | **Internal Messaging (WebSockets)** | Instant, real-time team conversations inside the platform |
+| **Comments and @mentions** | Discuss directly on tasks and notify the right person instantly |
+| **File Sharing and Attachments** | Keep documents next to the tasks they belong to |
 | **Real-Time Notifications** | Instant alerts for messages, assignments, and updates |
+| **Custom Notification Preferences** | Each user chooses what they are notified about, and how |
+| **Mobile-Friendly Interface** | Check and update your projects from any device |
+| **Dark Mode** | A comfortable interface, day and night |
 | **MySQL Persistence** | Reliable, structured, and consistent data storage |
 
 ---
@@ -135,6 +142,58 @@ A team chat built right into your projects.
 - Data integrity through constraints and relationships
 - Easy to back up, query, and scale
 
+### 9. Kanban Board and Gantt Chart Views
+
+One project, two ways to look at it.
+
+- **Kanban board**: drag and drop tasks across columns (To Do, In Progress, Done) to update their status instantly
+- **Gantt chart**: see tasks on a timeline, with start dates, due dates, and durations
+- Spot bottlenecks and overlapping workloads early
+- Switch between views without losing context
+
+### 10. File Sharing and Attachments on Tasks
+
+- Attach documents, images, and files directly to a task
+- Everyone working on the task sees the same, up-to-date files
+- No more searching through emails and chats for the right document
+
+### 11. Comments and @mentions on Tasks
+
+- Comment directly on a task to keep every discussion in context
+- Mention a teammate with **@name** to get their attention immediately
+- Mentioned users receive an instant notification
+- Full history of decisions stays attached to the task
+
+### 12. Google Calendar Integration
+
+- Sync task deadlines and project milestones with Google Calendar
+- See your project schedule next to your meetings
+- Works together with the Gmail integration for a connected Google workflow
+
+### 13. Exportable Reports (PDF / Excel)
+
+- Export project status, task lists, and progress summaries
+- **PDF** for clean, shareable reports
+- **Excel** for further analysis and custom reporting
+- Perfect for client updates, steering meetings, and archives
+
+### 14. Custom Notification Preferences
+
+- Each user chooses which events trigger a notification (messages, mentions, assignments, deadlines)
+- Choose the channel: in-app, email, or both
+- Less noise, more focus, and fewer ignored alerts
+
+### 15. Mobile-Friendly Interface
+
+- Responsive design that adapts to phones, tablets, and desktops
+- Check tasks, read messages, and react to alerts on the go
+
+### 16. Dark Mode
+
+- Switch between light and dark themes
+- Reduces eye strain in low-light environments
+- Modern look that users expect
+
 ---
 
 ## Architecture
@@ -150,16 +209,17 @@ A team chat built right into your projects.
 │                  CoreLink Back End (Spring Boot)         │
 │                                                          │
 │  Auth & Security │ Projects & Tasks │ Dashboard Services │
-│  Messaging (WS)  │ Alert Engine     │ Gmail Integration  │
+│  Messaging (WS)  │ Alert Engine     │ Google Integration │
+│  Comments / Files│ Reports (PDF/XLS)│ Notification Prefs │
 │                      ▲                                   │
 │                      │ scheduled by                      │
 │                 CRON Jobs (Scheduler)                    │
 └───────────────┬──────────────────────────┬───────────────┘
-                │ JDBC                     │ Gmail API
+                │ JDBC                     │ Google APIs
                 ▼                          ▼
-        ┌───────────────┐          ┌───────────────┐
-        │     MySQL     │          │     Gmail     │
-        └───────────────┘          └───────────────┘
+        ┌───────────────┐          ┌───────────────────────┐
+        │     MySQL     │          │ Gmail, Google Calendar│
+        └───────────────┘          └───────────────────────┘
 ```
 
 ---
@@ -172,7 +232,8 @@ A team chat built right into your projects.
 | Database | MySQL |
 | Real-time communication | WebSockets |
 | Scheduling | CRON jobs (Spring scheduler) |
-| Email integration | Gmail |
+| Google integrations | Gmail, Google Calendar |
+| Reporting / export | PDF and Excel export |
 | Containerization | Docker, Docker Compose |
 | CI/CD | Jenkins |
 | Code quality | SonarQube |
@@ -293,6 +354,13 @@ newman run api-tests/corelink.postman_collection.json \
 | Alert system (CRON) | ✔ | ✔ | |
 | Internal messaging (WebSockets) | ✔ | | ✔ |
 | Gmail integration | ✔ | ✔ | |
+| Kanban and Gantt views | | | ✔ |
+| Comments and @mentions | ✔ | ✔ | ✔ |
+| File attachments | ✔ | ✔ | ✔ |
+| Google Calendar integration | ✔ | ✔ | |
+| Report export (PDF / Excel) | ✔ | ✔ | |
+| Notification preferences | ✔ | ✔ | ✔ |
+| Mobile-friendly UI and dark mode | | | ✔ |
 
 > Update this table to reflect your real coverage.
 
@@ -328,23 +396,6 @@ The pipeline **fails automatically** if a quality gate is not met: failing tests
 - Secrets managed through environment variables and Jenkins credentials
 - Automatic dependency vulnerability scanning with **Snyk**
 - Static code analysis with **SonarQube**
-
----
-
-## Roadmap
-
-Ideas to make CoreLink even more valuable for teams:
-
-- [ ] Kanban board and Gantt chart views
-- [ ] File sharing and attachments on tasks
-- [ ] Comments and @mentions on tasks
-- [ ] Google Calendar integration
-- [ ] Exportable reports (PDF / Excel)
-- [ ] Activity log and audit trail
-- [ ] Custom notification preferences per user
-- [ ] Multi-language interface
-- [ ] Mobile-friendly interface
-- [ ] Dark mode
 
 ---
 
